@@ -6,6 +6,7 @@
             [reagent.core :as r]
             [re-frame.core :as rf]
             [kamituel.ngm-toc.db :as db]
+            [kamituel.ngm-toc.model :as model]
             [kamituel.ngm-toc.ui :as ui]))
 
 ;;  TODO: do not print in prod.
@@ -22,7 +23,17 @@
     ;; Current search query.
     :query ""
     ;; True if articles with no coordinates should be included in search results.
-    :include-articles-with-no-coordinates false}))
+    :include-articles-with-no-coordinates false
+    ;; Map can be shown only after Google Maps API is loaded.
+    :show-map false}))
+
+(aset js/window "initMap" (fn [] (rf/dispatch [:google-maps-api-ready])))
+
+(rf/reg-event-db
+ :google-maps-api-ready
+ (fn [db _]
+   (prn "Showing a map")
+   (assoc db :show-map true)))
 
 (rf/reg-event-db
  :query-update
@@ -42,41 +53,14 @@
  (fn [db [_ include]]
    (assoc db :include-articles-with-no-coordinates include)))
 
-
-(defn ngm-issues->articles
-  "Converts a database of NGM issues into a flat collection where each item represents a single
-  article."
-  [ngm-issues]
-  (mapcat (fn [ngm-issue]
-            (map (fn [article]
-                   (merge article (select-keys ngm-issue [:year :month :vol])))
-                 (:articles ngm-issue)))
-          ngm-issues))
-
-(defn article-matches?
-  "Returns true if an article matches a search query."
-  [article query]
-  (or (str/includes? (str/lower-case (:title article)) query)
-      (str/includes? (str/lower-case (:description article)) query)
-      (str/includes? (str/lower-case (str/join " " (:country article))) query)
-      (str/includes? (str/lower-case (str/join " " (:city article))) query)
-      (str/includes? (str/lower-case (str/join " " (:region article))) query)))
-
-(defn has-required-coordinates?
-  "Returns true if an article has coordinates, or if coordinates aren't required for an article."
-  [article include-articles-with-no-coordinates]
-  (if include-articles-with-no-coordinates
-    true
-    (some? (:coords article))))
-
 (rf/reg-sub
  :filtered-articles
  (fn [db _]
    (let [{:keys [ngm-issues query peeked-article include-articles-with-no-coordinates]} db
          query (str/lower-case query)]
-     (->> (ngm-issues->articles ngm-issues)
-          (filter #(article-matches? % query))
-          (filter #(has-required-coordinates? % include-articles-with-no-coordinates))))))
+     (->> (model/ngm-issues->articles ngm-issues)
+          (filter #(model/article-matches? % query))
+          (filter #(model/has-required-coordinates? % include-articles-with-no-coordinates))))))
 
 (rf/reg-sub
  :peeked-article
@@ -87,10 +71,11 @@
  :map-points
  :<- [:filtered-articles]
  (fn [filtered-articles _]
-   (let [articles-with-coords (filter :coords filtered-articles)]
+   (let [articles-with-coords (filter model/has-coords? filtered-articles)]
      (mapcat (fn [article]
-               (map (fn [coord]
-                      {:coord coord :article article}) (:coords article)))
+               (map (fn [place]
+                      {:coords (:coords place) :article article})
+                    (filter #(some? (:coords %)) (:places article))))
              articles-with-coords))))
 
 (rf/reg-sub
@@ -98,13 +83,19 @@
  (fn [db _]
    (:include-articles-with-no-coordinates db)))
 
+(rf/reg-sub
+ :show-map
+ (fn [db _]
+   (:show-map db)))
+
 (defn run
   []
   (rf/dispatch-sync [:initialize])
   (r/render [ui/ui {:articles (rf/subscribe [:filtered-articles])
                     :peeked-article (rf/subscribe [:peeked-article])
                     :points (rf/subscribe [:map-points])
-                    :include-articles-with-no-coordinates (rf/subscribe [:include-articles-with-no-coordinates])}]
+                    :include-articles-with-no-coordinates (rf/subscribe [:include-articles-with-no-coordinates])
+                    :show-map (rf/subscribe [:show-map])}]
             (js/document.getElementById "app")))
 
 (run)

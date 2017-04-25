@@ -43,3 +43,8 @@
 
     ;; Else: element is visible. Do nothing.
     ))
+
+(defn debouncer
+  ""
+  [ms f & args]
+  )

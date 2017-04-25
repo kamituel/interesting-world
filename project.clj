@@ -8,7 +8,7 @@
                  [reagent  "0.6.1" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [re-frame "0.9.2" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [cljsjs/material-ui "0.17.4-0"]
-                 [cljsjs/google-map-react "0.22.0-0" :exclusions [cljsjs/react cljsjs/react-dom]]]
+                 #_[cljsjs/google-map-react "0.22.0-0" :exclusions [cljsjs/react cljsjs/react-dom]]]
   :hooks [leiningen.cljsbuild]
   :clean-targets ^{:protect false} ["resources/public/js"]
   :plugins [[lein-cljsbuild "1.1.5" :exclusions [org.clojure/clojure]]

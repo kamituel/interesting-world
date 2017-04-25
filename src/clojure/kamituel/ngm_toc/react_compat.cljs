@@ -1,6 +1,5 @@
 (ns kamituel.ngm-toc.react-compat
-  (:require [cljsjs.google-map-react]
-            [cljsjs.material-ui]
+  (:require [cljsjs.material-ui]
             [reagent.core :as r]))
 
 ;; Material UI.
@@ -17,6 +16,3 @@
 (def avatar             (r/adapt-react-class (aget js/window "MaterialUI" "Avatar")))
 (def text-field         (r/adapt-react-class (aget js/window "MaterialUI" "TextField")))
 (def checkbox           (r/adapt-react-class (aget js/window "MaterialUI" "Checkbox")))
-
-;; Others.
-(def google-map         (r/adapt-react-class (aget js/window "GoogleMapReact")))

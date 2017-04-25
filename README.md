@@ -27,6 +27,7 @@ Then open `resources/public/index.html` in your web browser.
 ## TODO / Bugs
 
 - Only articles from 2016 and 2017 issues of NGM are included.
+- When two points have the same GPS coordinates, only one is visible on a map.
 
 ## Tests
 

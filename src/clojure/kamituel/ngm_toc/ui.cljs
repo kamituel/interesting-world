@@ -11,12 +11,12 @@
 
 
 (defn ui
-  [{:keys [articles points peeked-article include-articles-with-no-coordinates]}]
+  [{:keys [show-map articles points peeked-article include-articles-with-no-coordinates]}]
   (let [args {:articles @articles
               :points @points
               :peeked-article @peeked-article
               :include-articles-with-no-coordinates @include-articles-with-no-coordinates}]
     [rc/mui-theme-provider
      [:div
-      (map/google-map args)
+      (when @show-map [map/google-map args])
       [panel/sidebar args]]]))

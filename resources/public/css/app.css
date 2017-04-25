@@ -7,7 +7,13 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  border: 35px solid #FFCE00;
+  border: 25px solid #FFCE00;
+}
+
+@media all and (max-width: 1024px) {
+  body {
+    border-width: 5px;
+  }
 }
 
 #app {
@@ -34,6 +40,12 @@ body {
   height: calc(100% - 2 * 30px);
   display: flex;
   flex-flow: column;
+}
+
+@media all and (orientation: portrait) {
+  #sidebar {
+    height: calc(40% - 2 * 30px);
+  }
 }
 
 #sidebar #search-box {

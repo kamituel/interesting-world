@@ -6,10 +6,45 @@
             [kamituel.ngm-toc.react-compat :as rc]
             [kamituel.ngm-toc.ui.utils :as ui-utils]))
 
+(defn place
+  "Given a place spec, returns a [:span] with a human readable description of that place. Each
+  element of the description, like a country or a city, is a clickable link to the corresponding
+  Wikipedia article (with no guarantee such article will be found, though)."
+  [{:keys [country city region]}]
+  (let [wiki-link (fn [thing]
+                    [:a {:target "_blank"
+                         :href (str "https://pl.wikipedia.org/wiki/Special:Search/" thing)} thing])
+        a-country (wiki-link country)
+        a-city (wiki-link city)
+        a-region (wiki-link region)]
+    (cond
+      (and country (not city) (not region))
+      [:span a-country]
+
+      (and country city (not region))
+      [:span a-city " (" a-country ")"]
+
+      (and country city region)
+      [:span a-city " (" a-region ", " a-country ")"]
+
+      (and country (not city) region)
+      [:span a-region " (" a-country ")"]
+
+      (and (not country) city (not region))
+      [:span a-city]
+
+      (and (not country) city region)
+      [:span a-city " (" a-region ")"]
+
+      (and (not country) (not city) region)
+      [:span a-region]
+
+      :else
+      [:span])))
 
 (defn list-of-articles
   [articles peeked-article]
-  (for [{:keys [title description vol month year country city region] :as article} articles]
+  (for [{:keys [title description vol month year] :as article} articles]
     [rc/list-item {:onMouseEnter #(dispatch [:peek-article :result-list article])
                    :onClick #(dispatch [:peek-article :result-list article])
                    :onMouseLeave #(dispatch [:peek-article nil nil])
@@ -21,12 +56,7 @@
      [:h2 title]
      [:div.description description]
      [:div.issue "Numer: " vol " (" month "/" year ")"]
-     ;; TODO: Wiki links for cities and regions too.
-     (when country (into [:div.location "Kraj: "] (mapcat (fn [country-name]
-                                                  [[:a {:target "_blank"
-                                                       :href (str "https://pl.wikipedia.org/wiki/Special:Search/" country-name)} country-name] ", "]) country)))
-     (when city [:div.location "Miasto: " (or (str/join ", " city) "-")])
-     (when region [:div.location "Region: " (or (str/join ", " region) "-")])]))
+     (into [:div.location] (interpose ", " (map place (:places article))))]))
 
 (defn sidebar-view
   "Includes a search box and a list of articles (that matched a search query)."
@@ -48,7 +78,7 @@
                        :onCheck (fn [_evt toggled]
                                   (dispatch [:include-articles-with-no-coordinates (not toggled)]))
                        :iconStyle {:height "18px"
-                                   :marginRight "4px"}
+                                   :marginRight "2px"}
                        :labelStyle {:fontSize "12px"
                                     :lineHeight "20px"}
                        :style {:marginLeft "34px"}}]
@@ -58,11 +88,13 @@
 
 (defn component-did-update
   [this]
-  (let [props (r/props this)
+  (let [{:keys [peeked-article]} (r/props this)
         result-list (.querySelector (r/dom-node this) ".result-list")
         highlighted (.querySelector (r/dom-node this) ".highlighted")]
-
-    (when highlighted
+    ;; Scroll only when an article is selected and it is selected via a map. When user hovers over /
+    ;; / clicks an article on a result list, do not scroll - user can scroll him/herself.
+    (when (and highlighted
+               (= :map (:source peeked-article)))
       (let [highlighted-list-item (aget highlighted "parentElement")]
         (ui-utils/scroll-element-into-view result-list highlighted-list-item)))))
 
