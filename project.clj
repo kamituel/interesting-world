@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0-alpha15"]
                  [org.clojure/clojurescript "1.9.518"]
+                 [org.clojure/core.async "0.3.442"]
                  [reagent  "0.6.1" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [re-frame "0.9.2" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [cljsjs/material-ui "0.17.4-0"]

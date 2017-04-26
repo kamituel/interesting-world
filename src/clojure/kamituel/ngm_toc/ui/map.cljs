@@ -3,7 +3,8 @@
   (:require [clojure.set :as sett]
             [re-frame.core :refer [dispatch]]
             [kamituel.ngm-toc.model :as model]
-            [kamituel.ngm-toc.ui.utils :as utils]
+            [kamituel.ngm-toc.ui.utils :as ui-utils]
+            [kamituel.ngm-toc.utils.debounce :refer [debounce]]
             [reagent.core :as r]))
 
 (defn coordinates-pixel-offset
@@ -24,7 +25,7 @@
 
 (defn adjusted-center
   [map-container map lat-lng]
-  (let [{:keys [width]} (utils/bounding-client-rect map-container)]
+  (let [{:keys [width]} (ui-utils/bounding-client-rect map-container)]
     ;; Shift map by around 1/4th of the screen width should be enough to account for sidebar panel
     ;; width.
     (coordinates-pixel-offset map lat-lng {:x (/ width 4) :y 0})))
@@ -69,8 +70,10 @@
               :map g-map}
         marker (js/google.maps.Marker. (clj->js spec))]
     (doto marker
-          (.addListener "mouseover" #(dispatch [:peek-article :map (:article point)]))
-          (.addListener "mouseout" #(dispatch [:peek-article nil nil]))
+          ;; Delay (debounce) effect of those actions in order to avoid rapid flickering when
+          ;; cursor moves over a map.
+          (.addListener "mouseover" #(debounce 100 [:peek-article :map (:article point)]))
+          (.addListener "mouseout" #(debounce 100 [:peek-article nil nil]))
           (.addListener "click" #(dispatch [:peek-article :map (:article point)])))))
 
 (defn set-marker-icon
