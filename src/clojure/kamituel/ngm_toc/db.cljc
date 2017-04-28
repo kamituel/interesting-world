@@ -6,7 +6,24 @@
 ;; TODO: jak są dziwne znaki, np. Ciuárez, to wyszukiwać po polskim "a".
 
 (def ngm
-  [{:year 2017 :month 4 :vol 211
+  [{:year 2017 :month 5 :vol 212
+    :articles [{:title "Geniusz"
+                :description "Co decyduje o ponadprzeciętnych zdolnościach? Jakie czynniki mają na to wpływ? Jednoznacznych odpowiedzi brak, ale badania trwają i pewne tropy już mamy."}
+               {:title "Płonące serce Afryki"
+                :description "Republika Środkowoafrykańska - jak na Afrykę mało ludna i potencjalnie zamożna - pogrąża się w chaosie religijnych waśni. Dlaczego tak się dzieje?"
+                :places [{:country "Republika Środkowoafrykańska" :coords [6.551769 20.487064]}]}
+               {:title "Drzewa"
+                :description "Trudno wyobrazić sobie świat bez drzew. Zbyt ważne są dla naszej kultury i wyobraźni."}
+               {:title "Wrzosowiska bogaczy"
+                :description "Słynne szkockie wrzosowiska to na ogół gigantyczne myśliwskie latyfundia. Klasowy charakter tego stanu rzeczy jest dziś trudny do utrzymania. Wiele wskazuje na to, że ikoniczny krajobraz Szkocji czekają poważne zmiany."
+                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [57.510291 -4.697443]}]}
+               {:title "Topnienie"
+                :description "Znikający lód na Alasce odkrywa doskonale zachowane artefakty plemion sprzed wieków."
+                :places [{:country "USA" :region "Alaska" :coords [59.742208 -161.894099]}]}
+               {:title "Pelikany"
+                :description "Mimo swych imponujących rozmiarów pelikany wielkich emocji nie budzą. A chyba powinny, czego postaramy się dowieść."
+                :places [{:country "Grecja" :region "Jezioro Kerkini" :coords [41.209750 23.129979]}]}]}
+   {:year 2017 :month 4 :vol 211
    :articles [{:title "Rewolucja w DNA"
                :description "Władzę nad światem natury, dzięki metodzie szybkiego wprowadzania zaprojektowanych zmian w genomie do całej populacji gatunku, mamy na wyciągnięcie ręki. Rzecz w tym, że prób niebywałego postępu w leczeniu chorób może też przynieść skutki, których nawet nie jesteśmy w stanie przewidzieć."}
               {:title "Zmiany klimatu"
@@ -381,4 +398,97 @@
                 :places [{:country "Uzbekistan" :coords [45 59.5]}
                          {:country "Kazahstan"}]}
                {:title "Makrooczy"
-                :description "Nawet za pomocą mikroskopu niełatwo spojrzeć owadowi w oczy, zwłaszcza że niektóre mogą ich mieć, powiedzmy, ośmioro. Ale zdecydowanie warto im się przyjrzeć, bo są to prawdziwe cuda ewolucji."}]}])
+                :description "Nawet za pomocą mikroskopu niełatwo spojrzeć owadowi w oczy, zwłaszcza że niektóre mogą ich mieć, powiedzmy, ośmioro. Ale zdecydowanie warto im się przyjrzeć, bo są to prawdziwe cuda ewolucji."}]}
+   {:year 2015 :month 5 :vol 188
+    :articles [{:title "Cena albinosa"
+                :description "Magiczny specyfik z ciała albinosa? Tak, w Tanzanii wciąż poluje się na ludzi i brutalnie ich okalecza, żeby zdobyć rzekome źródło mocy wykorzystywane w rytuałach czarnej magii."
+                :places [{:country "Tanzania" :coords [-3.452611 33.602641]}]}
+               {:title "Język delfinów"
+                :description "Niewiele chyba zwierząt na świecie cieszy się taką sympatią ludzi jak delfiny. Ich inteligencja fascynuje nas, dlatego tak frustrujący jest brak możliwości „wymiany myśli”. Istnieją jednak naukowcy, którzy wierzą w możliwość rozmowy z delfinami."}
+               {:title "Upadłe Detroit"
+                :description "Miasto symbol amerykańskiego przemysłu samochodowego przeżyło spektakularny upadek. Jego bogate i ludne niegdyś dzielnice zamieniły się w hektary „miejskiej prerii” pełnej opuszczonych domów. Ale że na rozłożonych szczątkach zawsze coś wyrasta, w Detroit też widać kiełkowanie nowego."
+                :places [{:country "USA" :city "Detroit" :coords [42.330268 -83.045927]}]}
+               {:title "Pszczoły"
+                :description "Owadzie pracusie przynoszą nam nieocenione korzyści. I wcale nie miód jest tu najważniejszy, tylko zapylanie mnóstwa roślin, które żywią ludzkość. Tymczasem stres, jakiemu pszczoły podlegają, jest coraz większy. Co się stanie, gdy ich zabraknie?"}
+               {:title "Ujarzmianie Mekongu"
+                :description "Dzika rzeka karmi miliony ludzi w Azji Południowo-Wschodniej. Ale mogłaby też zapewnić im prąd. Wybór: ryby czy zapory dokonywany jest na naszych oczach. Na razie wygrywa beton."
+                :places [{:country "Wietnam" :coords [10.009 105.824]}
+                         {:country "Kambodża"}
+                         {:country "Tajlandia"}
+                         {:country "Laos"}
+                         {:country "Birma"}
+                         {:country "Chiny"}]}
+               {:title "Pielgrzymka"
+                :description "Marsz Drogą św. Jakuba równie często jak chrześcijanie podejmują ludzie niereligijni. I dla jednych, i dla drugich jest to doznanie duchowe."
+                :places [{:country "Hiszpania" :coords [42.880602 -8.544377]}]}]}
+   {:year 2015 :month 4 :vol 187
+    :articles [{:title "Pogromca oceanu"
+                :description "Emerytura pana Aleksandra wygląda niekonwencjonalnie. Jej stałym elementem wydaje się kajak oceaniczny wykorzystywany do... samotnych podróży przez Atlantyk."
+                :tags ["Aleksander Doba"]}
+               {:title "Kolumna Trajana"
+                :description "Rozrzeźbiony niemal 40-metrowy monument wznosi się nad Rzymem od 19 wieków, świadcząc o triumfie legionów nad Dakami. Co możemy wyczytać z tego starożytnego komiksu wyrytego w marmurze?"
+                :places [{:country "Włochy" :city "Rzym" :coords [41.895833 12.484167]}]}
+               {:title "10 hitów Hubble'a"
+                :description "Był pierwszym tego typu urządzeniem wyniesionym na orbitę, co dało ludzkości zupełnie nową perspektywę. Zrobił mnóstwo zdjęć niedostępnych wcześniej naszym oczom najdalszych zakątków wszechświata. Niektóre z tych obrazów zachwycają pięknem."}
+               {:title "Chińskie fortece"
+                :description "Południowe Chiny mogą się pochwalić niezwykłymi budowlami – wielorodzinnymi klanowymi budynkami mieszkalnymi i wiejskimi fortecami zarazem. Tak oryginalne konstrukcje, do niedawna szerzej nieznane, musiały trafić na listę dziedzictwa UNESCO."
+                :places [{:country "Chiny" :coords [24.483586 117.137875]}]}
+               {:title "Pociąg Lincolna"
+                :description "Ciało zastrzelonego przez zamachowca prezydenta Stanów Zjednoczonych przez wiele dni jechało pociągiem przez Amerykę. Hołd oddawały mu miliony ludzi – także czarnych, którym dał wolność. Co zostało z tych czasów do dziś?"
+                :places [{:country "USA"}]}
+               {:title "Malowanie słonie"
+                :description "Zwierzęta te w kulturze Indii grają rolę szczególną, co widać np. w czasie festiwalu słoni w Dźajpurze."
+                :places [{:country "Indie" :region "Radżastan" :city "Dźajpur" :coords [26.922317 75.825531]}]}]}
+   {:year 2015 :month 3 :vol 186
+    :articles [{:title "Tajemnice Bałtyku"
+                :description "W XVI w. Mars był największym okrętem, jaki pływał po wodach tego morza. Potężnie uzbrojony galeon został jednak zatopiony w bitwie u brzegów Olandii. Po latach poszukiwań badacze namierzyli jego doskonale zachowany wrak."
+                :places [{:region "Morze Bałtyckie" :coords [57.217192 17.256970]}]}
+               {:title "Dwa oblicza Europy"
+                :description "Ateny i Berlin stały się symbolami północy i południa Europy, czyli regionu prosperity i strefy kryzysu. Skąd się wzięła taka różnica położenia w jednym gospodarczym organizmie? Powodów było wiele, lecz najwyraźniej przesądziły o tym kwestie kulturowe."
+                :places [{:country "Grecja" :city "Ateny" :coords [38 23.716667]}
+                         {:country "Niemcy" :city "Berlin" :coords [52.51 13.38]}]}
+               {:title "Naukowe niedowiarki"
+                :description "Mimo że kształt współczesnemu społeczeństwu nadały osiągnięcia nauki, dziś są one często odrzucane jako fałszywe. Dlaczego ludzie kwestionują np. wartość szczepionek czy realność procesów ewolucji i globalnego ocieplenia? Paradoksalnie wpływ na to ma łatwość komunikowania się i dostępu do informacji."}
+               {:title "Pieszo przez świat"
+                :description "W swej pieszej wędrówce śladami pierwszych ludzi kolonizujących naszą planetę Paul Salopek trafił do Turcji. Mimowolnie stał się towarzyszem milionów bezradnych wygnańców z Syrii, którzy tułają się po szlakach Anatolii – ziemi oglądającej takie obrazy od tysiącleci."
+                :places [{:country "Syria" :coords [36.54 37.26]}]}
+               {:title "Światło życia"
+                :description "Wydawać by się mogło, że zdolność emisji fal świetlnych nie przynależy do świata istot żywych. A jednak świecących stworzeń, przede wszystkim morskich, jest całkiem sporo. I pokaźny jest też zestaw celów i sposobów, w jaki wykorzystują one tę umiejętność."}]}
+   {:year 2015 :month 2 :vol 185
+    :articles [{:title "Hawaje"
+                :description "Ten archipelag jest znany z wulkanów, gigantycznych fal oraz... surfingu. Dla tubylców ślizganie się po falach oceanu stanowi coś więcej niż sport. Jest ważnym elementem tutejszej kultury."
+                :places [{:country "USA" :region "Hawaje" :coords [21.30 -157.85]}]}
+               {:title "Maski weteranów"
+                :description "Już weterani I wojny światowej, pozornie cali i zdrowi, cierpieli na dziwne przypadłości. Ale dopiero badania żołnierzy z Iraku i Afganistanu wykazały, że wybuchy dewastują mózg. W walce z jego dysfunkcjami pomaga... terapia artystyczna."}
+               {:title "Bonobo"
+                :description "Te małpy człekokształtne znane są z trybu życia przesyconego seksem. Swoje społeczne cele osiągają raczej na drodze cielesnych kontaktów niż przemocy. Dlaczego tak się dzieje, dlaczego różnią się tym od swych najbliższych kuzynów szympansów i czy badania nad nimi powiedzą coś o nas samych?"
+                :places [{:country "Demokratyczna Republika Konga" :coords [-0.25 21.76]}]}
+               {:title "Bretonki"
+                :description "Fantazyjne nakrycia głowy, którymi szczyciły się mieszkanki bretońskich wsi, kilka dekad temu zaczęły uchodzić za żenujące. Dziś stają się symbolem tożsamości."
+                :places [{:country "Francja" :region "Bretania" :coords [48.17 -2.92]}]}
+               {:title "Gran Paradiso"
+                :description "Ten alpejski park narodowy był wcześniej łowieckim rezerwatem króla Włoch. Dziś jest ostoją koziorożców, skrawkiem dzikiej przyrody w ludnym i zurbanizowanym kraju."
+                :places [{:country "Włochy" :coords [45.502 7.31]}]}
+               {:title "Roztocze"
+                :description "Te drapieżniki wyposażone w cały arsenał tnących i kłujących broni są mikroskopijne. Żyją w niszach najdziwniejszych miejsc na ciałach większych od nich żywych stworzeń. I wciąż znamy tylko wycinek bogactwa ich gatunków."}]}
+   {:year 2015 :month 1 :vol 184
+    :articles [{:title "Pierwsi artyści"
+                :description "Licząca dziesiątki tysięcy lat sztuka odnajdowana na ścianach jaskiń pokazuje moment przełomu, w którym zaczęliśmy wymykać się ze świata zwierząt."}
+               {:title "Pierwszy rok życia"
+                :description "Niemowlęcy mózg gwałtownie się w tym czasie rozwija i uczy komunikować ze światem. Okazuje się, że kluczowa dla jego architektury jest... miłość."}
+               {:title "Lagos"
+                :description "Wciąż jeszcze biedna, ale kipiąca przedsiębiorczością największa metropolia Afryki. MiIiony jej mieszkańców napędzają boom, jakiego kontynent nie widział."
+                ;; TODO: Lagos appears two times with exact same location.
+                :places [{:country "Nigeria" :city "Lagos" :coords [6.45 3.38]}]}
+               {:title "Spojrzenie na wszechświat"
+                :description "Kosmos, który możemy zobaczyć, to ledwie część jego masy. Jest jeszcze niewidzialna ciemna materia, która ma nań przemożny wpływ."}
+               {:title "Sekretarz nr 1"
+                :description "Towarzysz Edward Gierek budzi ambiwalentne uczucia. Komunistyczny aparatczyk, który dał Polakom namiastkę konsumpcyjnego stylu życia. Dlaczego jego rządy skończyły się katastrofą?"
+                :places [{:country "Polska"}]}
+               {:title "Pierwszy ptak RP i USA"
+                :description "To oczywiście orzeł. Na godła trafił zapewne z powodu swoich imponujących rozmiarów oraz pewności siebie widocznej w konstrukcji gniazd."
+                :places [{:country "Polska"}
+                         {:country "USA"}]}
+               {:title "Pierwsi Amerykanie"
+                :description "Przyszli z Azji czy przypłynęli? A jeśli tak, to kiedy? I dlaczego dzisiejsi rdzenni mieszkańcy kontynentu tak się różnią od „pierwszego desantu”? Ten temat kryje wiele zagadek. "
+                :places [{:region "Ameryka"}]}]}])
