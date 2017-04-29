@@ -30,6 +30,23 @@
     ;; width.
     (coordinates-pixel-offset map lat-lng {:x (/ width 4) :y 0})))
 
+(def map-style
+  "Adapted from: https://snazzymaps.com/style/151/ultra-light-with-labels"
+  [{:featureType "water" :elementType "geometry" :stylers [{:color "#D3DEEA"} {:lightness 17}]}
+   {:featureType "landscape" :elementType "geometry" :stylers [{:color "#f5f5f5"} {:lightness 20}]}
+   {:featureType "road.highway" :elementType "geometry.fill" :stylers [{:color "#ffffff"} {:lightness 17}]}
+   {:featureType "road.highway" :elementType "geometry.stroke" :stylers [{:color "#ffffff"} {:lightness 29} {:weight 0.2}]}
+   {:featureType "road.arterial" :elementType "geometry" :stylers [{:color "#ffffff"} {:lightness 18}]}
+   {:featureType "road.local" :elementType "geometry" :stylers [{:color "#ffffff"} {:lightness 16}]}
+   {:featureType "poi" :elementType "geometry" :stylers [{:color "#f5f5f5"} {:lightness 21}]}
+   {:featureType "poi.park" :elementType "geometry" :stylers [{:color "#dedede"} {:lightness 21}]}
+   {:elementType "labels.text.stroke" :stylers [{:visibility "on"} {:color "#ffffff"} {:lightness 16}]}
+   {:elementType "labels.text.fill" :stylers [{:saturation 36} {:color "#333333"} {:lightness 40}]}
+   {:elementType "labels.icon" :stylers [{:visibility "off"}]}
+   {:featureType "transit" :elementType "geometry" :stylers [{:color "#f2f2f2"} {:lightness 19}]}
+   {:featureType "administrative" :elementType "geometry.fill" :stylers [{:color "#fefefe"} {:lightness 20}]}
+   {:featureType "administrative" :elementType "geometry.stroke" :stylers [{:color "#dddddd"} {:lightness 17} {:weight 1.2}]}])
+
 (defn default-map-options
   "It has to be a function to force it to evaluate only once Google Maps API is loaded."
   []
@@ -45,12 +62,13 @@
    :panControl false
    :rotateControl false
    :scaleControl true
-   :streetViewControl false})
+   :streetViewControl false
+   :styles map-style})
 
 (defn marker-icon
   [mode]
   {:path "M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0"
-   :fillColor (if (= :peeked mode) "#FF0000" "#000000") ; Red or black.
+   :fillColor (if (= :peeked mode) "#FF0000" "#FFCE00") ; Red or NGM color.
    :fillOpacity (if (= :not-peeked mode) 0.3 1)
    :strokeWeight 10
    :strokeOpacity 0 ; Larger stroke makes it easy to point an icon on a map.
