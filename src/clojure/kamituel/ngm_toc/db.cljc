@@ -80,7 +80,7 @@
                 :description "Trwająca blisko cztery lata 'rodzinna podróż Tony'ego Halika przez obie Ameryki przyniosła mu rozgłos i uznanie podróżników. Dziś takich wypraw już nie ma."}
                {:title "Śmierć ojca"
                 :description "Panujący przez 70 lat król Tajlandii był dla mieszkańców tego kraju 'odwieczny'. Śmierć chodzącej doskonałości, władcy o boskim statusie, rodzi jednak problemy, bo jak może go zastąpić zwykły śmiertelnik?"
-                :places [{:country "Tajlandia" :coords [-1.516472 -74.038972]}]}
+                :places [{:country "Tajlandia" :coords [15 101]}]}
                {:title "Batalia o Wirungę"
                 :description "Wirunga to prawdziwa perła natury Czarnego Lądu. Ale ochrona dzikiej przyrody w chaosie aftykańskiego jądra ciemności jest zadaniem dla straceńców."
                 :places [{:country "Demokratyczna Republika Konga" :coords [-0.91667 29.16667]}]}]}
@@ -491,4 +491,260 @@
                          {:country "USA"}]}
                {:title "Pierwsi Amerykanie"
                 :description "Przyszli z Azji czy przypłynęli? A jeśli tak, to kiedy? I dlaczego dzisiejsi rdzenni mieszkańcy kontynentu tak się różnią od „pierwszego desantu”? Ten temat kryje wiele zagadek. "
-                :places [{:region "Ameryka"}]}]}])
+                :places [{:region "Ameryka"}]}]}
+   {:year 2014 :month 12 :vol 183
+    :articles [{:title "Dookoła świata"
+                :description "Paul Salopek zgodnie z planem obejścia globu przemierza tereny, na których człowiek porzucił koczowniczy tryb życia. Nasza miejska rzeczywistość narodziła się na Bliskim Wschodzie."}
+               {:title "Jerozolima"
+                :description "Miasto święte dla trzech abrahamowych religii. Dlaczego akurat tutaj doszło do wielkiego zapętlenia religijnych prawd i emocji, od których cały Bliski Wschód zdaje się kipieć?"
+                :places [{:country "Izrael" :city "Jerozolima" :coords [31.776667 35.234167]}]}
+               {:title "Patagonia"
+                :description "Dzikie pustkowia – to z powodu ich braku kowboje stracili rację bytu. Jest jednak takie miejsce, gdzie i bydło jest jeszcze dość dzikie, i bezludzia wystarczająco rozległe, by można było poczuć smak życia kowboja, czy raczej – gaucza."
+                :places [{:country "Argentyna" :region "Patagonia" :coords [-41.81015 -68.90627]}]}
+               {:title "Mandela"
+                :description "Jak stał się legendą, ikoną? Czy stworzyła go sytuacja, potrzeba wykreowania symbolu walki z apartheidem, czy też osobiste przymioty? Oto jest pytanie."
+                :places [{:country "RPA"}]}
+               {:title "Świat z 3D"
+                :description "Ile jest prawdy w przekonaniu, że drukarki 3D wydrukują naszą przyszłość? Możliwości wydają się nieograniczone, ale... "}
+               {:title "Radość jedzenia"
+                :description "Jedzenie daje nam energię, ale ma też funkcję społeczną: wspólny posiłek to coś więcej niż tylko „tankowanie kalorii”."}
+               {:title "Norwegia"
+                :description "Kraj z najbardziej zawiłą linią brzegową na świecie na krajobrazową monotonię narzekać nie może."
+                :places [{:country "Norwegia" :coords [61 8]}]}]}
+   {:year 2013 :month 11 :vol 182
+    :articles [{:title "Fotoreportaż"
+                :description "Polowanie na wieloryby sympatii nie budzi. Ale czasem bywa sposobem na przeżycie"}
+               {:title "Bogowie Indii"
+                :description "Hinduski panteon zasiedla armia bóstw, czasem szokujących. Jak szukać w nim porządku, jak odnajdują się w tym hindusi?"
+                :places [{:country "Indie"}]}
+               {:title "Afryka po chińsku"
+                :description "Czarny Ląd od dekolonizacji nie potrafił wyjść z biedy. Teraz może się to zmienić – m.in. za sprawą Chińczyków i telefonów."
+                :places [{:region "Afryka"}
+                         {:country "Chiny"}]}
+               {:title "Szerpowie"
+                :description "Trudno wyobrazić sobie bez nich wspinaczkę na Everest. Wielu stanęło na tym szczycie po wielokroć i wielu zginęło."
+                :places [{:country "Nepal" :coords [27.824 86.691]}]}
+               {:title "Zwierzęce zombi"
+                :description "Diaboliczne pasożyty. Jak przejmują kontrolę nad mózgami swoich ofiar, sprawiając, by im bezwolnie służyły?"}
+               {:title "Małpy z Maroka"
+                :description "Jedyne małpy żyjące w Afryce na północ od Sahary. I jedyne migrantki w Europie."
+                :places [{:country "Maroko" :coords [31.386486 -5.262048]}]}
+               {:title "Dylemat mięzożercy"
+                :description "Czy rezygnacja z wołowiny może pomóc planecie? Zdania są podzielone."}
+               {:title "Odzyskana przyroda Karoliny"
+                :description "Wojna secesyjna spustoszyła wielkie ryżowe farmy. A natura szybko uczyniła z nich swoje sanktuarium."
+                :places [{:country "USA" :region "Karolina Południowa" :coords [32.511709 -80.403627]}]}]}
+   {:year 2013 :month 10 :vol 181
+    :articles [{:title "Wielki Konkurs Fotograficzny"
+                :description "Jak typowało tegoroczne jury? Publikujemy wszystkie nagrodzone zdjęcia opatrzone komentarzami autorów."}
+               {:title "Król spinozaur"
+                :description "T. rex zdetronizowany. Zapraszamy na spotkanie z nowym królem – największym drapieżnym dinozaurem, jaki chodził po Ziemi. A może raczej pływał."}
+               {:title "Wyprawa do średniowiecza"
+                :description " Swanetia – pozbawiona dróg, gruzińska kraina odizolowana od świata przez wysokie szczyty Kaukazu – była niczym szkatułka, która przechowała społeczną rzeczywistość sprzed wieków."
+                :places [{:country "Gruzja" :region "Swanetia" :coords [43.114 42.377]}]}
+               {:title "Turystyka nuklearna"
+                :description "Czarnobyl – strefa zamknięta, miejsce największej w historii katastrofy atomowej – staje się turystyczną atrakcją. Przeraża i... zachwyca bujną przyrodą."
+                :places [{:country "Ukraina" :city "Czarnobyl" :coords [51.386663 30.095867]}]}
+               {:title "Malowidła z Faras"
+                :description "Umknęły przed potopem na pustyni – do Warszawy. Losy dzieł sztuki z Nubii przypominają fabułę przygodowego filmu."
+                :places [{:country "Sudan" :coords [22.2 31.466667]}]}
+               {:title "Druga zielona rewolucja"
+                :description "W XX w. jedna już się nam udała. Teraz musimy doprowadzić do drugiej. Inaczej czeka nas potężny żywnościowy kryzys."}
+               {:title "Kiedy śnieg zawodzi"
+                :description "Kalifornia odkrywa, że zamiana pustyń w kwitnące ogrody ma swoje ograniczenia. Przede wszystkim... śniegowe."
+                :places [{:country "USA" :region "Kalifornia" :coords [35.30 -118.33]}]}]}
+   {:year 2014 :month 9 :vol 180
+    :articles [{:title "Owadzia sesja"
+                :description "Niezwykłość form, kolorów i kształtów całej tej drobnicy fruwającej i bzykającej gdzieś w naszym otoczeniu umyka ludzkim oczom. Trzeba dopiero utalentowanego makrofotografa, żeby je przed nami odsłonić. "}
+               {:title "Neron"
+                :description "Potwór. Szalony kabotyn gotów do największych zbrodni – oto potoczna opinia o tym rzymskim cesarzu, który dla własnej fantazji podpalił ponoć Rzym. Cóż, wiele z wysuwanych przeciw niemu zarzutów jest prawdziwych. Ale z drugiej strony – sporo jest efektem czarnego piaru jego politycznych przeciwników. Czy zatem Neron wymaga rehabilitacji?"
+                :places [{:country "Włochy"}]}
+               {:title "Podwodny skarb"
+                :description "Rafa Mezoamerykańska jest wprawdzie mniejsza od Wielkiej Rafy Australijskiej, ale blisko 1000 km długości to przecież imponujący rozmiar. A że jest znacznie bliżej lądu, tworzy niepowtarzalny wodno-lądowy ekosystem. Rzecz w tym, że bliskość lądu oznacza też bliskość człowieka. I jak zwykle nie wiadomo, czy ten uszanuje arcydzieło natury."
+                :places [{:region "Ameryka" :coords [17.532 -86.302]}]}
+               {:title "Jak Taj z Tajem"
+                :description "Królestwo Tajów, które w ostatnich dekadach przeżyło gospodarczy boom i stało się turystycznym rajem, mogłoby się wydawać przykładem sukcesu. Jednak dla zbyt wielu obywateli sukces państwa nie okazał się ich własnym. Tajlandia wpadła w gigantyczny polityczny kryzys, który pachnie wojną domową."
+                ;; TODO: drugi punkt z Tajlandii.
+                :places [{:country "Tajlandia" :coords [15 101]}]}
+               {:title "Dieta jaskiniowa"
+                :description "Mówi się, że dieta współczesnych społeczeństw oparta na produktach wysokoprzetworzonych i równie wysoko kalorycznych odpowiada za epidemie chorób cywilizacyjnych. Czy zatem powrót do menu myśliwych-zbieraczy mógłby nam pomóc? A jeśli tak, to czy jesteście gotowi porzucić mąkę i nabiał, i dania gotowane? Pytań jest sporo, odpowiedzi wciąż kontrowersyjne, ale z pewnością wiele od nich zależy."}
+               {:title "Minnesota Keillora"
+                :description "Całe życie w jednym miejscu – w Ameryce rzecz to raczej rzadka. Spędzenie go wśród ludzi znanych od dzieciństwa, w stałych, bliskich relacjach przyjacielskich i rodzinnych, ale na tle zmieniającego się miasta i społeczeństwa, daje niezwykłą perspektywę. 70-letni dziennikarz Garrison Keillor spróbował pokazać ją w swoich wspomnieniach z Minneapolis."
+                :places [{:country "USA" :region "Minnesota" :coords [45.73 -94.57]}]}]}
+   {:year 2014 :month 8 :vol 179
+    :articles [{:title "Plemiona"
+                :description "Plemienne życie rdzennych ludów oznacza zupełnie inny niż nasz model istnienia. Jimmy Nelson w odległych zakątkach świata w niezwykły sposób sfotografował te społeczności, które wciąż jeszcze nie utraciły kontaktu z czasem sprzed tysięcy lat. Nasza cywilizacja stoi już jednak u ich progu."}
+               {:title "„Miasto” z neolitu"
+                :description "Czy 5 tys. lat temu niewielkie szkockie wyspy mogły być ludną, kwitnącą krainą promieniującą kulturowo na południe? Czy dokonania ich mieszkańców mogły się stać inspiracją dla budowniczych Stonehenge? Oczywiście. Na Orkadach wystarczy ruszyć łopatą, by znaleźć kamienne odpowiedzi na te pytania."
+                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [58.996762 -3.215115]}]}
+               {:title "Podziemia wojny"
+                :description "Okopy I wojny światowej czasem przebiegały... głęboko pod ziemią. Gdy nie dało się na powierzchni, próbowano dopaść wroga pod nią. Sieci tuneli stawały się, zależnie od okoliczności, schronami, sypialniami, śmiertelnymi pułapkami, korytarzami transportowymi dla minerów. I wreszcie – jedyną w swoim rodzaju galerią sztuki, gdzie żołnierze próbowali uporać się z frontowymi traumami."
+                :places [{:country "Francja"}]}
+               {:title "Głuptaki"
+                :description "Te morskie ptaki na swoją nazwę w żaden sposób nie zasłużyły. Są energiczne, znakomicie nurkują i potrafią walczyć o swoje, choć z człowiekiem, gdy ten postanowił przerabiać je na smar, oczywiście przegrywały. Na szczęście w porę przyszło opamiętanie i pozostawiona w spokoju populacja pięknie się odrodziła."
+                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [60.812202 -0.897722]}]}
+               {:title "Głodna Ameryka"
+                :description "Żyją w niedostatku i wiecznie martwią się o jutrzejszy obiad, a mimo to – tyją. Choć strojem przypominają przedstawicieli klasy średniej, nie przetrwaliby bez żywnościowych bonów z pomocy społecznej. I to mimo że mają oficjalną pełnoetatową pracę i żyją w USA, najbogatszym kraju świata. Amerykańska bieda jest paradoksalna, niepodobna do tej z krajów Trzeciego Świata, ale ogranicza tak samo."
+                :places [{:country "USA"}]}
+               {:title "Transylwania"
+                :description "Na wzgórzach Siedmiogrodu, gdzie od wieków prowadzono gospodarkę naturalną, kosząc trawę kosami i wypasając owce, ukształtował się niezwykły ekosystem łąk oszałamiających botanicznym kwiatowym bogactwem. Czas sianokosów jest tu prawdziwą orgią kolorów i zapachów. Metod nowoczesnego rolnictwa to bogactwo nie przetrwa."
+                :places [{:country "Rumunia" :region "Siedmiogród" :coords [46.766 23.583]}]}]}
+   {:year 2014 :month 7 :vol 178
+    :articles [{:title "Miedziane złoto"
+                :description "Kopalnie i huty to brudny ciężki przemysł. A jednak kadry z takich miejsc potrafią być naprawdę fascynujące, i to nie tylko wówczas, gdy w grę wchodzi srebro i złoto. Oto obrazy z KGHM."
+                :places [{:country "Polska"}]}
+               {:title "Cuda natury"
+                :description "Miejsca najbardziej zachwycające, dziewicze, z największą obfitością dzikiego życia. Jeśli przetrwały do naszych czasów, to w jakimś sensie dzięki XIX-wiecznej jeszcze idei parku narodowego. Podróż po najcenniejszych światowych parkach to litania zachwytów nad pięknem, jakie potrafi tworzyć przyroda."
+                :places [{:country "Uganda" :region "Park Narodowy Królowej Elżbiety" :coords [-0.2 29.9167]}
+                         {:country "USA" :region "Park Narodowy Kaloko-Honokohau" :coords [19.6787 -156.022]}
+                         {:country "Polska" :region "Biebrzański Park Narodowy" :coords [53.59 22.82]}
+                         {:country "Nambia" :region "Park Narodowy Namib-Naukluft" :coords [-24.54 15.32]}
+                         {:country "USA" :region "Park Narodowy Yellowstone" :coords [44.6 -110.5]}
+                         {:country "USA" :region "Park Narodowy Canyonlands" :coords [38.29 -109.93]}
+                         {:country "Argentyna" :region "Park Narodowy Los Glaciares" :coords [-50.40 -72.95]}
+                         {:country "Australia" :region "Park Narodowy Uluru-Kata Tjuta" :coords [-25.31 131.01]}]}
+               {:title "Żywy kosmos?"
+                :description "Czy życie podobne do ziemskiego istnieje gdzieś we wszechświecie? A może wcale nie jest ono jego jedyną możliwą formą? Poszukiwania – życia, a zarazem odpowiedzi na powyższe pytania – trwają. "}
+               {:title "Dookoła świata"
+                :description "Od studni do studni przez pustkowia saudyjskiego dziś Hidżazu, regionu pielgrzymkowych szlaków wiodących do świętych miejsc islamu. Kolejny etap pieszej wędrówki Paula Salopka śladami kolonizacji ziemi przez wyruszającego z Afryki Homo sapiens."}
+               {:title "Taaka ryba"
+                :description "Mieszkanka raf koralowych, ale wielka i głośna. Mimo to niegroźna. Co więcej – sama zagrożona. Granik itajara to domator, którego z pieleszy wyrwać może jedynie tarło. Ten miks imponującego wyglądu i łagodności charakteru gatunek może przypłacić swym istnieniem."
+                :places [{:country "USA" :region "Floryda" :coords [26.59 -82.98]}]}
+               {:title "Afryka obfitości"
+                :description "Choć kontynent kojarzy się z głodem i wielu jego mieszkańców permanentnie nie dojada, Afryka dysponuje wielkimi rezerwami produkcji rolnej. Międzynarodowe koncerny przed kilku laty zwietrzyły w tym interes, na naszych oczach zmieniając afrykańskie rolnictwo. Pytanie tylko, czy na pewno kierunek zmian jest właściwy."
+                :places [{:region "Afryka"}]}
+               {:title "Ludzie i konie"
+                :description "Indianie prerii osiągnęli w hippice taką biegłość, że zdawali się stanowić ze swymi wierzchowcami jedność. Konie, które przyniosły w ich społecznym życiu prawdziwą rewolucję, zawdzięczali białym. Zanim ich świat uległ zagładzie, przez kilka wieków preria była królestwem mustanga."
+                :places [{:country "USA"}]}]}
+   {:year 2014 :month 6 :vol 177
+    :articles [{:title "Fotoreportaż"
+                :description "Krokodyl nie jest miłym i wdzięcznym modelem dla fotografa, zwłaszcza podwodnego. Są jednak tacy, którzy zasadzają się na portret gada."}
+               {:title "Grobowiec Wari"
+                :description "Odkrycie niezrabowanego królewskiego grobowca zawierającego złote artefakty jest dziś prawie niemożliwe. Dlatego gdy polscy archeolodzy odnaleźli takowy w Andach, wywołali światową sensację."
+                :places [{:country "Peru" :coords [-10.062916 -78.125779]}]}
+               {:title "Wywiad"
+                :description "Miłosz Giersz, odkrywca grobowca królowych Wari, wyjawia sekrety tajemniczej kultury, która poprzedzała imperium Inków."}
+               {:title "Psy wojny"
+                :description " Amerykańska armia ma w swoich szeregach także czworonożnych zawodowców. A służba na froncie wyjątkowo cementuje saperski duet człowieka z psem."
+                :places {:country "USA"}}
+               {:title "Strażacki nos"
+                :description "Emocjonalna asceza na co dzień i akcja jako zabawa – oto sposób na wyszkolenie dla straży pożarnej psa umiejącego poszukiwać ludzi w gruzowiskach. "}
+               {:title "Rohingjowie"
+                :description "Bez przynależności państwowej, bez dokumentów, bez pracy. Wielu spośród nich oficjalnie nie istnieje. A jednak są. Dziesiątkami tysięcy zaludniają obozy dla uchodźców, wygnani przez dyskryminujące mniejszości władze Mjanmy."
+                :places [{:country "Birma" :coords [19.5 94]}
+                         {:country "Bangladesz" :coords [22.09 92.01]}]}
+               {:title "Maskonury"
+                :description "Te morskie ptaki na kilka miesięcy w roku po prostu znikają. Bytują gdzieś samotne wśród wokółbiegunowych mórz. Na ląd wychodzą tylko na czas godów. A obrazki z ich kolonii koją strapione dusze."}
+               {:title "Morza do uprawy"
+                :description "Wiele wskazuje na to, że jednym ze sposobów wykarmienia rosnącej populacji będzie akwakultura. Hodowla wodnych stworzeń może być bowiem wydajniejsza niż tuczenie zwierząt na lądzie. Nie wspominając już o zdrowotnej wyższości morskiej diety."}
+               {:title "Lekarze na torach"
+                :description "Syberia to gigantyczne przestrzenie, samotne osady i brak dróg. Jak zapewnić żyjącym tam ludziom pomoc medyczną? Skoro człowiek nie może dotrzeć do przychodni, ta musi dojechać do człowieka. Po szynach Bajkalsko-Amurskiej Magistrali."
+                :places [{:country "Rosja" :region "Sybiera" :coords [48.491663 135.109202]}]}]}
+   {:year 2014 :month 5 :vol 176
+    :articles [{:title "Fotoreportaż"
+                :description "Aby konkurować z trawlerami, rybacy z wybrzeża Ghany dysponujący jedynie drewnianymi łodziami muszą wykazać się fizyczną krzepą, optymizmem, a przede wszystkim – duchem współpracy."
+                :places [{:country "Ghana" :city "Elmina" :coords [5.091849 -1.341662]}]}
+               {:title "Plan dla 9 mld"
+                :description "Jest nas coraz więcej, chcemy jeść coraz lepiej, a wszystkich lądów zaorać nie możemy. Co zatem robić? Jak wykarmić ludzkość, nie doprowadzając przy tym planety do ruiny?"}
+               {:title "Co je świat"
+                :description "Od 12 tys. do 900 kcal dziennie – kaloryczność ludzkich posiłków wykazuje zdumiewające zróżnicowanie. I choć podstawowym czynnikiem decydującym o diecie jest zasobność portfela, to jednak liczy się także wiele innych względów."}
+               {:title "Raj dinozaurów"
+                :description "W czasach, kiedy w środku Ameryki szumiały morskie fale, dzisiejszy stan Utah był tropikalną, wilgotną ziemią obiecaną dla niezwykłego bogactwa gatunków dinozaurów."
+                :places [{:country "USA" :region "Utah" :coords [39.27 -111.50]}]}
+               {:title "Bangladesz"
+                :description "Jak wiadomo, surowce wtórne mogą być żyłą złota. Dotyczy to także wielkich statków rozbieranych przez brygady młodych ludzi gołymi rękami wprost na plażach Bangladeszu."
+                :places [{:country "Bangladesz" :city "Chittagong" :coords [22.390182 91.760569]}]}
+               {:title "Zagadki kosmosu"
+                :description "Gdzie jest kres naszego wszechświata? Jak długo będzie się rozszerzał? Co było przed Wielkim Wybuchem? Czy wszechświatów może być więcej? Jednoznacznych odpowiedzi brak."}
+               {:title "Na falach Sekwany"
+                :description "W środku światowej metropolii, ale też blisko natury. Mieszczańskie, ale podszyte duchem swobody. Wielkomiejskie paryskie życie, jak się okazuje, ma też swoją odmianę „marynarską”, czyli w domu na barce."
+                ;; TODO: second time Paryż is here.
+                :places [{:country "Francja" :city "Paryż" :coords [48.866667 2.35]}]}
+               {:title "Ostatni śpiew"
+                :description "Ptaki migrujące z Europy do Afryki muszą gdzieś odpoczywać. Dziś w miejscach ich tradycyjnych przelotów i popasów na Bałkanach i nad Morzem Śródziemnym czekają bezwzględni myśliwi. Rzeź dla mięsa, pieniędzy, zabawy trwa."}]}
+   {:year 2014 :month 4 :vol 175
+    :articles [{:title "Fotoreportaż"
+                :description "Zachody słońca są fotografowane powszechnie, robienie zdjęć wschodom wymaga jednak pewnej determinacji. Efekty mogą być jednak bardzo interesujące."}
+               {:title "Poczet przodków"
+                :description "Historia istot człowiekowatych ma miliony lat. Wprawdzie z rozmaitych skamieniałości paleontologom wiele udało się wyczytać, ale z naszym drzewem genealogicznym wciąż związanych jest mnóstwo fascynujących zagadek. No a grzebanie w rodowej historii zwykle przynosi niespodzianki."}
+               {:title "Planeta małp"
+                :description "Wystarczy popatrzeć na szympansa, by dostrzec oczywiste podobieństwo do naszego własnego gatunku. Co zatem nas łączy? Ile dzieli? I czy intelekt to tylko człowiecza właściwość?"}
+               {:title "Jaskinia Denisowa"
+                :description "W rozświetlanej słońcem grocie znaleziono dowody na pomieszkiwanie w niej Homo sapiens, neandertalczyków i całkiem nowego gatunku – denisowian. Wszystkie te formy człowieka współistniały i krzyżowały się. Dlaczego więc wcześniej nie znajdowano śladów denisowian?"
+                :places [{:country "Rosja" :region "Sybera" :coords [51.397581 84.676206]}]}
+               {:title "Węgiel"
+                :description "Choć od początku rewolucji przemysłowej spaliliśmy go już miliardy ton, wciąż pozostaje głównym paliwem ludzkości. Jest tani, ale też „brudny”, zanieczyszcza atmosferę. A że szybko porzucić go nie zdołamy, trzeba poszukać sposobu, by stał się czystszy."}
+               {:title "Sudan"
+                :description "Lata brutalnej wojny domowej przeorały społeczności Sudanu Południowego. Mieszanina myślenia magicznego, wiary we wszystkowidzących proroków oraz bezwzględnej walki o władzę przynosi wszystko, tylko nie pokój i stabilizację."
+                :places [{:country "Sudan" :coords [15.8 29.9]}]}
+               {:title "Łódź z Arles"
+                :description "Wyłoniła się z fal Rodanu, a raczej ze starożytnego śmietniska wprost na jego dnie. I przyniosła posąg Neptuna, popiersie Cezara, nie mówiąc już o pomniejszych skarbach. Nic dziwnego, że zasłużyła na całe skrzydło muzeum."
+                :places [{:country "Francja" :coords [43.440957 4.425362]}]}
+               {:title "Indiańskie ziemie"
+                :description "Rdzenne ludy Ameryki Północnej, prześladowane przez wieki, przetrwały w niewielkich populacjach. Dziś, aby zachować swoją tradycję i tożsamość, które nie istnieją bez związków z naturą, próbują odzyskiwać i oddawać dzikiej przyrodzie ostatnie skrawki ich plemiennych ziem."
+                :places [{:country "USA" :region "Wyoming" :coords [43.08 -109.15]}]}]}
+   {:year 2014 :month 3 :vol 174
+    :articles [{:title "Kambodża"
+                :description "Osada ludzi HIV-pozytywnych funkcją i trybem powstania przypomina dawne kolonie trędowatych. Nie mając wielkiego wyboru, jej mieszkańcy próbują jakoś układać się z życiem."
+                :places [{:country "Kambodża" :coords [11.5 104.7]}]}
+               {:title "Czarne dziury"
+                :description "Co kryje się w środku niewyobrażalnie ciężkich, wciąż tuczących się materią kosmicznych tworów, z których nawet światło nie może uciec? Osobliwości. Niewyobrażalnie małe. Być może... ziarenka nowych wszechświatów."}
+               {:title "Lista UNESCO"
+                :description "Pięknych miejsc na świecie jest wiele, ale jak zawsze istnieje też ekstraklasa. Jej rejestr pod egidą UNESCO to prawdziwa lista skarbów. Jest jak stempel jakości, co bywa i wyróżnieniem, i wyzwaniem zarazem."}
+               {:title "Damaszek"
+                :description "Przez wieki jeden z salonów kultury Bliskiego Wschodu, jej bogactwa i wyrafinowania, przeżywa czas wojny domowej. Mieszkańcy robią wszystko, aby ofiarą konfliktu nie padły zabytki i specyficzna tkanka społeczna miasta, które zawsze było pluralistyczne i wielokulturowe."
+                :places [{:country "Syria" :city "Damaszek" :coords [33.51 36.29]}]}
+               {:title "Wikingowie"
+                :description "Wiele wskazuje na to, że żeglarze ze Skandynawii dotarli do Ameryki na długo przed Kolumbem. Co ciekawe, ich motorem był raczej handel niż łupy. Bo też jakie bogactwa można było zabrać Indianom?"
+                :places [{:country "Kanada" :region "Nowa Funlandia i Labrador" :coords [51.595267 -55.531222]}]}
+               {:title "Dziki Europejczyk"
+                :description "Tradycje karnawałowych przebierańców korzeniami sięgają czasów pogańskich. Formy bywają różne, ale istota ta sama. Dziki Człowiek – postać znana jak Europa długa i szeroka – pokazuje wspólny kulturowy rdzeń kontynentu."
+                :places [{:region "Europa"}]}
+               {:title "Tuńczyk"
+                :description "Jedna ryba warta milion dolarów? Tak, i nie jest to cena za złotą rybkę, ale za tuńczyka błękitnopłetwego. Japończyk naprawdę jest w stanie dużo zapłacić za dobre sushi. Dla tuńczyków to fatalna wiadomość."}
+               {:title "Wyspa Wrangla"
+                :description "Jest niczym Galapagos Północy. Bezludny raj dla arktycznych zwierząt. W czasie ostatnich epok lodowcowych wyspa nie była pokryta w całości przez lód ani zalana, więc przechowała unikalny skrawek dziewiczej plejstoceńskiej tundry."
+                :places [{:country "Russia" :coords [71.2 -179.3]}]}]}
+   {:year 2014 :month 2 :vol 173
+    :articles [{:title "Góry Stołowe"
+                :description "Choć góry piękne są zawsze, nic nie robi im tak dobrze jak wilgotny oddech Królowej Śniegu. Szron zmienia je w zupełnie inną krainę."
+                :places [{:country "Polska" :coords [50.47 16.30]}]}
+               {:title "Birma"
+                :description "Kraj długo odizolowany przez juntę generałów teraz otwiera się na świat. Jego turystyczna świeżość sprawia, że niezwykłości architektury, pamiątki po historii buddyjskich imperiów, nie zdążyły jeszcze obrosnąć „przemysłem rozrywkowym”."
+                :places [{:country "Birma" :coords [21.7 95.9]}]}
+               {:title "Mózg"
+                :description "Ludzki mózg, niezwykła struktura, za pomocą której zdołaliśmy stworzyć cywilizację, ujarzmić planetę i polecieć w kosmos, sam wymyka się poznaniu. Mimo to badacze nie ustają w wysiłkach, by zrozumieć, jak działa biologiczny superkomputer."}
+               {:title "Oman na żywca"
+                :description "Czego szukają wspinacze? Wyzwań o dużej skali trudności. No i „pięknych okoliczności przyrody” oferujących dziewicze ściany, których nikt wcześniej nie pokonał. Na wybrzeżu Omanu znajdują i jedno, i drugie."
+                :places [{:country "Oman" :region "Półwysep Musandam" :coords [26.308 56.387]}]}
+               {:title "Morsy"
+                :description "O morsach trudno powiedzieć, że są piękne. Te żywe góry mięsa na lądzie są niezgrabne i bezradne, za to w wodzie zyskują wdzięk, wigor i moc. Nurkowanie z nimi przypomina trochę grę w rosyjską ruletkę – i dlatego jest tak rzadkie i tak fascynujące."}
+               {:title "Katedra"
+                :description " Rajcy Florencji postanowili zadziwić Włochy. Uznali, że najlepszą drogą do celu będzie katedralna kopuła, jakiej świat nie widział. Imponujący majstersztyk oparty na nowatorskich rozwiązaniach. Śmiałek, który podjął się zadania, zbił przy tym majątek i... rozpoczął epokę renesansu."
+                :places [{:country "Włochy" :city "Florencja" :region "Katedra Santa Maria del Fiore" :coords [43.773118 11.255959]}]}
+               {:title "Święto Dzbana"
+                :description "Czy wielomilionowe zgromadzenie religijne może nieść otuchę? Czy przebywanie w tłumie może poprawić zdrowie? Czy milionowa rzesza może emanować braterstwem? Tak – odpowiadają hindusi."
+                :places [{:country "Indie" :city "Allahabad" :region "Uttar Pradesh" :coords [25.44 81.86]}]}
+               {:title "Jukon"
+                :description "Ta ogromna bezludna kraina przed wiekiem przeżywała już gorączkę złota. Dziś znowu dotyka ją stan chorobowy, bo prócz złota jest tu mnóstwo innych minerałów. A ludzka chciwość urokom pięknej przyrody raczej nie ulega."
+                :places [{:country "Kanada" :coords [64 -135]}]}]}
+   {:year 2014 :month 1 :vol 172
+    :articles [{:title "Cuda żywej inżynierii"
+                :description "Świat przyrody to niewyczerpane źródło fotograficznych inspiracji i magnetycznych kadrów. Zaś rejestracja i pokazywanie tego piękna jest dla autora rodzajem hołdu dla maszynerii sił natury."}
+               {:title "Kayapo"
+                :description "Wśród wielu plemion Amazonii Kayapo są wyjątkowi. Żadne inne nie ma tak dobrego PR-u, a nawet kontaktów w świecie gwiazd. Przetrwali prześladowania, bo mieli liderów, dzięki którym obronili swoje tradycje, tożsamość i dumę, a przede wszystkim źródło tego wszystkiego – dziką puszczę. Całkiem nieźle jak na „lud pierwotny”."
+                :places [{:country "Brazylia" :coords [-8.11 -52.38]}]}
+               {:title "Chleb na pustyni"
+                :description "Przypominające pustynny miraż emiraty arabskie wręcz ociekają bogactwem. Ten luksus budowany jest rękami pozbawionej praw azjatyckiej siły roboczej, którą wabi perspektywa zarobku. Jednak poprawa statusu materialnego wiąże się z dramatycznymi kosztami w innych sferach."
+                :places [{:country "Zjednoczone Emiraty Arabskie" :coords [23.4 54.2]}]}
+               {:title "Smok z Komodo"
+                :description "Osiągający trzy metry długości, toczący z pyska ślinę z jadem waran z Komodo to jaszczur ze wszech miar spektakularny. Ale w dzisiejszym świecie duży zwierz ma gorzej – bo zwraca uwagę, bo potrzebuje większych siedlisk i większej ilości pożywienia. Jak zatem radzą sobie warany?"
+                :places [{:country "Indonezja" :region "Park Narodowy Komodo" :coords [-8.55 119.46]}]}
+               {:title "Soczi Putina"
+                :description "W organizacji olimpiad sportowe współzawodnictwo już dawno przestało być głównym celem. Liczą się promocja, prestiż i biznes. Nic nie ilustruje tego lepiej niż zimowa olimpiada w Soczi, która ma kosztować astronomiczne 50 mld dol."
+                :places [{:country "Rosja" :city "Soczi" :coords [43.58 39.72]}]}
+               {:title "Kolekcje"
+                :description "Kiedyś kolekcjonowanie okazów dzikiej przyrody – motyli, chrząszczy itd. – było powszechne. Dziś patrzymy na to trochę inaczej, ale zalegające w muzeach setki milionów osobników zebrane przez badaczy i odkrywców z poprzednich wieków są gigantyczną kopalnią wiedzy."}
+               {:title "Mount Erebus"
+                :description "W Antarktyce jest miejscem, w którym wrząca lawa sąsiaduje z wiecznym lodem. Na granicy tych dwóch światów istnieją skrawki ziemi, w których może utrzymać się życie. Skrawki są maleńkie, a życie ubogie, ale właśnie dlatego można je tam badać na granicy przetrwania."
+                :places [{:region "Antarktyda" :coords [-77.543127 167.180082]}]}]}])

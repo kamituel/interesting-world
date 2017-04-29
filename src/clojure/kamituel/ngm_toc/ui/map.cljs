@@ -50,11 +50,11 @@
 (defn marker-icon
   [mode]
   {:path "M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0"
-   :fillColor (if (= :peeked mode) "#FF0000" "#FFCE00") ; Red or NGM color.
+   :fillColor (if (= :peeked mode) "#FF0000" "#000000") ; Red or black.
    :fillOpacity (if (= :not-peeked mode) 0.3 1)
    :strokeWeight 10
    :strokeOpacity 0 ; Larger stroke makes it easy to point an icon on a map.
-   :scale (if (= :peeked mode) 0.3 0.2)})
+   :scale (if (= :peeked mode) 0.3 0.15)})
 
 (defn google-map-view
   []
