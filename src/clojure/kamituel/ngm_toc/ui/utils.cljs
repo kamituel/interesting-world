@@ -7,20 +7,20 @@
     (into {} (for [k ["width" "height" "top" "right" "bottom" "left"]]
                [(keyword k) (aget rect k)]))))
 
-(defn element-invisible-above?
+(defn ^:not-used element-invisible-above?
   "Returns true if element is not fully visible within a parent element, and it's above the fold
   (parent element is scrolled down and that has hidden element)."
   [parent element]
   (< (:top (bounding-client-rect element))
      (:top (bounding-client-rect parent))))
 
-(defn element-invisible-below?
+(defn ^:not-used element-invisible-below?
   "Returns true if element is not fully visible within a parent and it's below the fold."
   [parent element]
   (> (:bottom (bounding-client-rect element))
      (:bottom (bounding-client-rect parent))))
 
-(defn scroll-element-into-view
+(defn ^:not-used scroll-element-into-view
   "Scrolls an element into so it's visible within a parent."
   [parent element]
   (cond
@@ -43,8 +43,3 @@
 
     ;; Else: element is visible. Do nothing.
     ))
-
-(defn debouncer
-  ""
-  [ms f & args]
-  )

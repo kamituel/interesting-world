@@ -15,12 +15,13 @@
 (defn article-matches?
   "Returns true if an article matches a search query."
   [article query]
-  (or (str/includes? (str/lower-case (:title article)) query)
-      (str/includes? (str/lower-case (:description article)) query)
-      ;; TODO: test hose
-      (some #(str/includes? (or % "") query) (map :country (:places article)))
-      (some #(str/includes? (or % "") query) (map :city (:places article)))
-      (some #(str/includes? (or % "") query) (map :region (:places article)))))
+  (let [includes-query? #(str/includes? (str/lower-case (or % "")) (str/lower-case query))]
+    (or (includes-query? (:title article))
+        (includes-query? (:description article))
+        (some includes-query? (map :country (:places article)))
+        (some includes-query? (map :city (:places article)))
+        (some includes-query? (map :region (:places article)))
+        (some includes-query? (:tags article)))))
 
 (defn coords
   ""

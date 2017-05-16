@@ -2,9 +2,15 @@
   ""
   (:require [clojure.string :as str]
             [re-frame.core :refer [dispatch]]
+            [clairvoyant.core :refer-macros [trace-forms]]
+            [re-frame-tracer.core :refer [tracer]]
             [reagent.core :as r]
             [kamituel.ngm-toc.react-compat :as rc]
+            [kamituel.ngm-toc.ui.colors :refer [colors]]
             [kamituel.ngm-toc.ui.utils :as ui-utils]))
+
+
+;(trace-forms {:tracer (tracer :color "blue")}
 
 (defn place
   "Given a place spec, returns a [:span] with a human readable description of that place. Each
@@ -42,27 +48,45 @@
       :else
       [:span])))
 
-(defn list-of-articles
+(defn article-list
+  [articles]
+  (into [rc/list- {:className "result-list"}]
+    articles))
+
+(defn article-item
+  [{:keys [title description vol month year places]}]
+  [[:div.description description]
+   [:div.issue "Numer: " vol " (" month "/" year ")"]
+   (into [:div.location] (interpose ", " (map place places)))])
+
+(defn plain-list-of-articles
   [articles peeked-article]
-  (for [{:keys [title description vol month year] :as article} articles]
-    [rc/list-item {:onMouseEnter #(dispatch [:peek-article :result-list article])
-                   :onClick #(dispatch [:peek-article :result-list article])
-                   :onMouseLeave #(dispatch [:peek-article nil nil])
-                   :className (when (= article (:article peeked-article)) "highlighted")
-                   :innerDivStyle (when (and (:article peeked-article)
-                                             (not= article (:article peeked-article))
-                                             (= :map (:source peeked-article)))
-                                    {:opacity 0.1})}
-     [:h2 title]
-     [:div.description description]
-     [:div.issue "Numer: " vol " (" month "/" year ")"]
-     (into [:div.location] (interpose ", " (map place (:places article))))]))
+  (for [article articles]
+    (into [rc/list-item {:onMouseEnter #(dispatch [:peek :article article])
+                         :onClick #(dispatch [:peek-confirm :article article])
+                         :onMouseLeave #(dispatch [:peek-cancel nil nil])
+                         :className (when (= article (:article peeked-article)) "highlighted")
+                         :innerDivStyle (when (and (:article peeked-article)
+                                                   (not= article (:article peeked-article))
+                                                   (= :map (:source peeked-article)))
+                                          {:opacity 0.1})}
+           [:h2 (:title article)]]
+          (article-item article))))
+
+(defn distance-oriented-list-of-articles
+  [articles]
+  (for [article articles
+        :let [idx (:idx (meta article))]]
+    (into [rc/list-item
+           [:h2 [rc/avatar {:backgroundColor (get colors idx)}] (:title article)]]
+          (article-item article))))
 
 (defn sidebar-view
   "Includes a search box and a list of articles (that matched a search query)."
-  []
+  [& args]
   (let [this (r/current-component)
-        {:keys [articles peeked-article include-articles-with-no-coordinates]} (r/props this)]
+        {:keys [articles peeked-article peeked-point peeked-point-vicinity
+                include-articles-with-no-coordinates]} (r/props this)]
     [rc/paper {:id "sidebar"}
       [:div#search-box
        [:div
@@ -83,21 +107,19 @@
                                     :lineHeight "20px"}
                        :style {:marginLeft "34px"}}]
          [:div.result-count "Znaleziono: " (count articles) " artykuł(ów)"]]]
-     (into [rc/list- {:className "result-list"}]
-           (list-of-articles articles peeked-article))]))
+     (cond
+       peeked-point
+       (article-list (distance-oriented-list-of-articles peeked-point-vicinity))
 
-(defn component-did-update
-  [this]
-  (let [{:keys [peeked-article]} (r/props this)
-        result-list (.querySelector (r/dom-node this) ".result-list")
-        highlighted (.querySelector (r/dom-node this) ".highlighted")]
-    ;; Scroll only when an article is selected and it is selected via a map. When user hovers over /
-    ;; / clicks an article on a result list, do not scroll - user can scroll him/herself.
-    (when (and highlighted
-               (= :map (:source peeked-article)))
-      (let [highlighted-list-item (aget highlighted "parentElement")]
-        (ui-utils/scroll-element-into-view result-list highlighted-list-item)))))
+       (not (empty? articles))
+       (article-list (plain-list-of-articles articles peeked-article))
+
+       :else
+       [:div.no-results-found
+        [rc/font-icon {:className "material-icons"} "mood_bad"]
+        "Brak pasujących artykułów ..."])]))
 
 (def sidebar
-  (r/create-class {:reagent-render sidebar-view
-                   :component-did-update component-did-update}))
+  (r/create-class {:reagent-render sidebar-view}))
+
+;)

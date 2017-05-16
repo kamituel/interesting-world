@@ -2,6 +2,6 @@
 
 (defn trace
   [& args]
-  (let [arguments (concat args ["color: #aaa"])]
+  #_(let [arguments (concat args ["color: #aaa"])]
     #?(:cljs (apply js/console.log (clj->js arguments))
        :clj (apply prn args))))

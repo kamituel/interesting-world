@@ -11,10 +11,13 @@
 
 
 (defn ui
-  [{:keys [show-map articles points peeked-article include-articles-with-no-coordinates]}]
+  [{:keys [show-map articles points peeked-article peeked-point peeked-point-vicinity
+           include-articles-with-no-coordinates]}]
   (let [args {:articles @articles
               :points @points
               :peeked-article @peeked-article
+              :peeked-point @peeked-point
+              :peeked-point-vicinity @peeked-point-vicinity
               :include-articles-with-no-coordinates @include-articles-with-no-coordinates}]
     [rc/mui-theme-provider
      [:div

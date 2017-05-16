@@ -110,6 +110,12 @@ body {
   margin-bottom: 4px;
 }
 
+#sidebar .result-list h2 > div /* avatar */ {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 8px;
+}
+
 #sidebar .result-list .description {
   font-size: 12px;
 }
@@ -119,6 +125,23 @@ body {
   font-size: 10px;
   display: inline-block;
   margin-right: 8px;
+}
+
+#sidebar .no-results-found {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+#sidebar .no-results-found .material-icons {
+  font-size: 40px !important;
+  display: block !important;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  color: #aaa !important;
 }
 
 #map {
