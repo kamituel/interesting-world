@@ -1039,4 +1039,33 @@
                 :places [{:country "USA"}]}
                {:title "W nieznane"
                 :description "Australijsko-azjatycka wyprawa antarktyczna z początków XX w. obfitowała w epizody, które przywracają wiarę w człowieka, jego hart ducha oraz zdolność do braterstwa i poświęceń."
-                :places [{:region "Antarktyda" :coords [-68.0 147.4]}]}]}])
+                :places [{:region "Antarktyda" :coords [-68.0 147.4]}]}]}
+   {:year 2012 :month 12 :vol 159
+    :articles [{:title "Jedz z głową"
+                :description "Czym i jak przyprawiać? Warto się nad tym zastanowić, bo lista właściwości kuchennych przypraw jest długa i zaskakująca. "}
+               {:title "Fotoreportaż"
+                :description "Autorskie spojrzenie na mikrokosmos drobnych stworzeń, których światu zwykle nie mamy okazji się przyjrzeć."}
+               {:title "Wywiad"
+                :description "O tajemnicach mózgu – zapamiętywaniu, zapominaniu, gromadzeniu informacji i trosce o sprawność naszego biologicznego superkomputera."
+                :tags ["Anna Grabowska"]}
+               {:title "Koniec świata"
+                :description "Kres nadejdzie 21.12.2012 r. – wyliczyli przed wiekami Majowie. Nie ma rady – w tej sytuacji trzeba pilnie zweryfikować tajemnice ich kalendarza."
+                :tags ["majowie"]
+                :places [{:country "Honduras"}
+                         {:country "Gwatemala"}
+                         {:country "Meksyk"}]}
+               {:title "Metan"
+                :description "Gaz z łupków to dla stanu środowiska szansa czy zagrożenie? Czy kuchenny kran może zapłonąć? I co z ogromnymi pokładami metanu uwięzionego w wiecznej zmarzlinie?"}
+               {:title "Szamanizm"
+                :description "Najkrócej mówiąc, szaman to specjalista od kontaktów ze światem duchów. Kto i jak może nawiązać z nimi komunikację? I w jakim celu?"
+                :places [{:country "Mongolia" :city "Ułan Bator" :coords [47.90 106.90]}
+                         {:country "Rosja"}]}
+               {:title "Pingwiny"
+                :description "Ptaki te, na lądzie niezgrabne i niezdarne, w wodzie zyskują fenomenalną zwinność m.in. dzięki własnemu patentowi na bąbelkowe turbodoładowanie."
+                :places [{:region "Antarktyda"}]}
+               {:title "Doggerland"
+                :description "Na terenach, gdzie dziś przewalają się fale Morza Północnego, parę tysięcy lat temu istniał prawdziwy raj łowców-zbieraczy. Rybacy co jakiś czas wydobywają pamiątki tego niezwykłego świata."
+                :places [{:region "Morze Północne" :coords [54.0 2.1]}]}
+               {:title "Arizona"
+                :description "Klify Vermillion to prawdziwy cud amerykańskiej przyrody. Aż dziw, że tak zaskakująco mało znany."
+                :places [{:country "USA" :region "Arizona" :coords [36.907 -111.859]}]}]}])
