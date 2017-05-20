@@ -1,4 +1,4 @@
-(ns kamituel.ngm-toc.react-compat
+(ns kamituel.ngm-toc.ui.react-compat
   (:require [cljsjs.material-ui]
             [reagent.core :as r]))
 

@@ -4,6 +4,8 @@
 
 ;; TODO: gdzie jest miasto, dodać też kraj.
 ;; TODO: jak są dziwne znaki, np. Ciuárez, to wyszukiwać po polskim "a".
+;; TODO: kiedy jedno miejsce jest w dwóch krajach (np. K2), podać trzy mapy w :places: jedna z 1 krajem,
+;;       druga z 2-gim krajem, trzecia z lokalizacją.
 
 (def ngm
   [{:year 2017 :month 5 :vol 212
@@ -1089,6 +1091,7 @@
                 :description "Na pustyniach rządzi wiatr. Autor materiału latał nad wszystkimi pustyniami świata, by z powietrza fotografować to, czego wiatr może tam dokonać."}
                {:title "Chińskie zaświaty"
                 :description "Koncepcje zaświatów w historii Państwa Środka były zaskakująco materialistyczne, a nawet biurokratyczne. Stare tradycje w pędzącym naprzód kraju przechodzą jednak do historii."
+                :tags ["Terakotowa armia"]
                 :places [{:country "Chiny" :city "Wiosenna Dolina" :coords [40.9 115.8]}
                          {:country "Chiny" :city "Xi'an" :coords [34.383 109.278]}]}
                {:title "Marsylia"
@@ -1155,4 +1158,207 @@
                {:title "Podwodne góry"
                 :description "Morskie dno, tak jak wystające nad wodę kontynenty, usiane jest górami. Tyle że w wodzie, inaczej niż na lądzie, im wyżej, tym  bogatsze życie. W dodatku życie bardzo mało zbadane."}
                {:title "Portret błyskawicy"
-                :description "Aby sfotografować narodziny błyskawicy, trzeba mieć gigantyczną kamerę, wiele wytrwałości i jeszcze więcej szczęścia. Timowi Samarasowi tego ostatniego na razie brakuje, ale niczym błędny rycerz przemierza Wielkie Równiny, nie tracąc nadziei."}]}])
+                :description "Aby sfotografować narodziny błyskawicy, trzeba mieć gigantyczną kamerę, wiele wytrwałości i jeszcze więcej szczęścia. Timowi Samarasowi tego ostatniego na razie brakuje, ale niczym błędny rycerz przemierza Wielkie Równiny, nie tracąc nadziei."}]}
+   {:year 2012 :month 8 :vol 155
+    :articles [{:title "Afrodyzjaki"
+                :description "Ile w opowieściach o ich cudownych właściwościach naukowej prawdy, a ile mitów?"}
+               {:title "Wywiad z Bi Kidude"
+                :description "O kobietach z Zanzibaru i praktykowanym na wyspie rytuale, który przygotowuje dziewczęta do zamążpójścia, oraz muzyce taarab."
+                :places [{:country "Zanzibar"}]}
+               {:title "Rapa Nui"
+                :description "Według legendy posągi na Wyspie Wielkanocnej chodziły. Na pytanie „jak?” uczeni  i odkrywcy dawali różne odpowiedzi, podpierając swoje koncepcje eksperymentami."
+                :places [{:country "Chile" :region "Wyspa Wielkanocna" :coords [-27.125833 -109.276944]}]}
+               {:title "Londyn"
+                :description "Brytyjska metropolia przeżywa właśnie kolejne w swej historii igrzyska olimpijskie. Czym zaowocują one dla „gorszego”, Londynu, Londynu kategorii C?"
+                :places [{:country "Wielka Brytania" :city "Londyn" :coords [51.507222 -0.1275]}]}
+               {:title "Polskie Olimpiady"
+                :description "Sportowa rywalizacja na najwyższym poziomie to wielkie emocje, dramaty, szczęśliwe zbiegi okoliczności i zabawne anegdoty. Te pozostają w pamięci kibiców najdłużej."
+                :tags ["Polska"]}
+               {:title "Portret mistrza"
+                :description "Dawni olimpijczycy mówią o swojej drodze na szczyt, o chwilach triumfu. Co dzięki sportowi zyskali, co stracili, co jest w życiu ważne?"
+                :tags ["polska"]}
+               {:title "Ptasia intymność"
+                :description "Jak one to robią? Niby wszystkie tak samo, a jednak inaczej. Weźmy poczciwe kaczki – czy podejrzewalibyście je o skłonności do brutalnego seksu, a nawet gwałtów?"}
+               {:title "Yartsa gunbu"
+                :description "Niezwykle gąsienicowe grzybki z górskich łąk cieszą się opinią medycznego  panaceum. Nic dziwnego, że na Wyżynie Tybetańskiej wywołały prawdziwą  gorączkę złota."
+                :places [{:country "Chiny" :region "Tybet" :coords [31.1 92.7]}]}
+               {:title "Islandia"
+                :description "Między wulkanami a lodowcami rosły kiedyś brzozowe zagajniki. Aż przyszedł człowiek... I choć krajobraz wyspy stał się od tamtego czasu jeszcze bardziej posępny, wciąż pozostaje piękny."
+                :places [{:country "Islandia" :coords [64 -18]}]}]}
+   {:year 2012 :month 7 :vol 154
+    :articles [{:title "Wywiad z Bogdanem Gałązką"
+                :description "Co i jak jedzono  przed wiekami, czy da się odtworzyć ówczesne przepisy oraz dlaczego na zamku w Malborku raczono się bobrzymi ogonami i deserem z fiołków."}
+               {:title "Kipiące Słońce"
+                :description "Świat widział już ogromną słoneczną burzę, która w XIX w. uszkodziła sieć telegraficzną. Czy podobne wydarzenie dzisiaj „wyłączyłoby” naszą cywilizację? I czy można  je przewidzieć?"}
+               {:title "Ginące języki"
+                :description "Języki niewielkich plemion i grup etnicznych zamierają. Młodzi uczą się języków  dominujących, by osiągnąć sukces. Co tracimy wraz ze śmiercią małych języków?"
+                :tags ["język tuwiński" "język hrusyjski" "język seri"]
+                :places [{:country "Rosja" :region "Republika Tuwy" :coords [51.783333 94.75]}
+                         {:country "Indie" :region "Arunacal Prades" :coords [27.27 92.79]}
+                         {:country "Meksyk" :coords [29.497162 -112.384568]}]}
+               {:title "Katedry"
+                :description "Wznoszone przez pokolenia gigantyczne kamienne konstrukcje do dziś wywołują w ludziach stany duchowych przeżyć. Wielki budowlany wyścig do nieba ma swoich bohaterów i tajemnice."
+                :places [{:country "Francja" :city "Chartres" :coords [48.447608 1.487902]}
+                         {:country "Francja" :city "Rouen" :coords [49.440205 1.094928]}
+                         {:country "Francja" :city "Amiens" :coords [49.894553 2.302104]}
+                         {:country "Francja" :city "Paryż" :coords [48.852922 2.350295]}]}
+               {:title "Flamingi"
+                :description "Czym zachwycają najbardziej? Chyba kolorystyczną konsekwencją. Wielotysięczne stado jest niczym ogromny różowy organizm. Ale potrafiły również skonsternować  naukowców zagadką swego upodobania do stania na jednej nodze."
+                :places [{:country "Meksyk" :region "Jukatan" :coords [21.51 -87.89]}]}
+               {:title "Tornada"
+                :description "Rodzą się co roku na Wielkich Równinach Ameryki – superkomórki burzowe. Łowcy burz polują na tornada niczym na grubego zwierza. Dla niektórych trofeum jest fotografia tej grozy i mocy."
+                :places [{:country "USA"}]}
+               {:title "Dacza"
+                :description "Carski wynalazek twórczo rozwinięty przez władze komunistyczne był dla narodu źródłem aprowizacji, oazą wolności i intymności oraz sceną życia towarzyskiego.  Rosji bez daczy wyobrazić sobie nie sposób."
+                :places [{:country "Rosja" :region "Wałdaj" :coords [56.99 33.49]}]}
+               {:title "Wielkie zakole"
+                :description "Westernowa sceneria pustyni Chihuahua nad Rio Grande wciąż jest dzika. I może taką pozostanie, bo po obu stronach granicy meksykańsko-amerykańskiej powiększa się tereny objęte ochroną."
+                :places [{:country "USA" :region "Teksas" :coords [29.9 -103.5]}
+                         {:country "Meksyk" :region "Chihuahua" :coords [29.0 -104.0]}]}]}
+   {:year 2012 :month 6 :vol 153
+    :articles [{:title "Wywiad"
+                :description "Wywiad z Jarosławem Kulbatem o wpływie społecznym. Jak skłonić innych, by zachowywali się zgodnie z naszymi oczekiwaniami? I jak nie ulegać manipulacji?"}
+               {:title "Terakotowa armia"
+                :description "Pierwszy cesarz Chin tysiące wojowników z terakoty uzbroił w prawdziwą broń i ustawił w szyku w swym monstrualnym grobowcu. Przedarcie się przez ich szyki zajmie archeologom stulecie. Co ciekawe, armia na życie wieczne nie była okryta żałobą, ale mieniła się barwami."
+                :places [{:country "Chiny" :city "Xi'an" :coords [34.383 109.278]}]}
+               {:title "Hongkong"
+                :description "Las mieszkalnych wieżowców między górami a morzem długo był symbolem azjatyckiego kapitalizmu, ale też siedliskiem rozpusty, korupcji, mafii. Dziś Chiny, które przejęły enklawę, pozbyły się kompleksów ubogiego krewnego: to one gwarantują jej prosperity."
+                :places [{:country "Hongkong" :coords [22.3 114.2]}]}
+               {:title "Psy rasowe"
+                :description "Niezwykłą różnorodność psich ras człowiek stworzył w ciągu kilkuset lat. Zdumiewające, że odpowiada za nią garstka „genetycznych przełączników”. Jamnika od dobermana dzieli tylko kilka genów."}
+               {:title "Maroni"
+                :description "Nie wszyscy czarni niewolnicy pędzeni do pracy na brazylijskich plantacjach godzili się z losem. Wielu uciekało do puszczy, gdzie zakładali odcięte od cywilizacji osady i kształtowali krajobraz Amazonii, prowadząc  naturalną gospodarkę. Świat o nich zapomniał. Do czasu, gdy ujawnili się, walcząc o prawo do swoich ziem."
+                :places [{:country "Brazylia" :coords [-0.9 -49.1]}]}
+               {:title "Sokotra"
+                :description "Kadzidlana wyspa broniona przez mityczne węże, leżąca z dala od centrów cywilizacji, długo pozostawała na uboczu dziejów. Właśnie dlatego przetrwało na niej niezwykłe bogactwo endemitów – prawdziwych botanicznych dziwolągów."
+                :places [{:country "Jemen" :region "Sokotra" :coords [12.5 53.9]}]}
+               {:title "Morza Arabii"
+                :description "Świat arabski to nie tylko karawany wielbłądów, ale też wspaniałe tradycje morskie. Z pustyniami Arabii sąsiaduje bogate królestwo morskiego życia, którego wagę mieszkańcy tamtejszych krajów zaczynają doceniać."
+                :places [{:region "Morze Czerwone" :coords [20.2 38.5]}
+                         {:region "Morze Arabskie" :coords [13.5 62.7]}
+                         {:region "Zatoka Perska" :coords [26.6 51.6]}]}]}
+   {:year 2012 :month 5 :vol 152
+    :articles [{:title "Wywiad"
+                :description "Wywiad z Wiktorem Osiatyńskim – m.in. o tym, dlaczego globalizacja zagraża prawom człowieka i jak kwestia tortur sprowadza do właściwego wymiaru problem kulturowego relatywizmu."}
+               {:title "Maski"
+                :description "W afrykańskich kulturach maska ma potężną moc transformacji człowieka i przenoszenia go w inny wymiar. A przy tym jest materialnym dowodem jego niezwykłej kreatywności."
+                :places [{:country "Sierra Leone" :city "Freetown" :coords [8.47 -13.23]}
+                         {:country "Haiti" :coords [19 -72.416667]}
+                         {:country "Ghana" :city "Winneba" :coords [5.35 -0.63]}
+                         {:country "Benin" :city "Agonlia" :coords [8.7 2.2]}
+                         {:country "Nigeria" :region "Cross River" :coords [5.6 8.5]}]}
+               {:title "Lucha libre"
+                :description "Meksykańska odmiana wrestlingu sama też wykształciła mnóstwo odmian – walki kobiet, karłów,  homoseksualistów. Więcej w tym cyrku niż konfrontacji, ale też mnóstwo emocji i uwielbienia dla zawodników."
+                :places [{:country "Meksyk" :city "Chimalhuacan" :coords [19.40 -98.92]}]}
+               {:title "Wspólnota pięciu palców"
+                :description "Co ma wspólnego nasza ręka ze skrzydłem nietoperza i nogą słonia? W zasadzie... wszystko. Ogromne z pozoru różnice z pewnego punktu widzenia są bowiem absolutnie drugorzędne."}
+               {:title "Egipt po rewolucji"
+                :description "80 mln Egipcjan tłoczy się na wąskim pasie ziemi na brzegach Nilu. Podróż wzdłuż rzeki jest zatem wędrówką przez wszystkie klasy i grupy społeczne kraju, który jak ognia boi się destabilizacji."
+                :places [{:country "Egipt"}]}
+               {:title "Góra Gór"
+                :description "K2 – najtrudniejsza do zdobycia, okrutna góra tym razem nie zażądała ofiar. Dla Gerlinde Kaltenbrunner był to 14. ośmiotysięcznik, na który wspięła się bez tlenu!"
+                :places [{:country "Chiny" :coords [35.882098 76.512828]}
+                         {:country "Pakistan"}]}
+               {:title "Wirtuoz"
+                :description "Kusogorzyk jest uzdolniony jak żaden inny ptaszek w jego liczącej dziesiątki gatunków rodzinie. Tylko on bowiem potrafi śpiewać za pomocą... upierzenia."
+                :places [{:country "Ekwador"}
+                         {:country "Kolumbia"}]}
+               {:title "Wojna secesyjna"
+                :description "W czasie amerykańskiej wojny domowej fotografia jeszcze raczkowała. Ówczesnymi „fotoreporterami” byli rysownicy. Pokazujemy ich prace, a także zdjęcia rekonstrukcji bitew wykonane archaicznymi metodami."
+                :places [{:country "USA"}]}]}
+   {:year 2012 :month 4 :vol 151
+    :articles [{:title "Wywiad"
+                :description "Wywiad z fizykiem, prof. Lechem Mankiewiczem. Jakie są granice naszego poznania? Dlaczego trzeba obserwować planetoidy? Jak poczuć tchnienie wieczności?"}
+               {:title "Titanic"
+                :description "Wśród wielu morskich katastrof ta była najsłynniejsza i najbardziej spektakularna. Najnowsze badania dowodzą, że Titanic nie zniknął pod falami majestatycznie, ale pogrążał się w przerażających konwulsjach."
+                :places [{:coords [41.7325 -49.946944]}]}
+               {:title "Tsunami"
+                :description "Minął rok od chwili, gdy ocean chlusnął na Japonię ogromną falą, zmywając całe osady. Czy możemy przewidzieć, gdzie i kiedy wystąpi następny taki kataklizm? Czy pozostało?nam tylko wyczekiwanie kolejnej hekatomby?"
+                :places [{:country "Japonia"}]}
+               {:title "Atomowi uchodźcy"
+                :description "Awaria elektrowni atomowej w Fukushimie wygnała z domów dziesiątki tysięcy ludzi, a zwierzęta ze skażonej strefy skazała na śmierć. Nie wiadomo, jak długo zakazana strefa pozostanie martwa."
+                :places [{:country "Japonia" :city "Fukushima" :coords [37.423056 141.033056]}]}
+               {:title "Borneo"
+                :description "Niebotyczną tropikalną puszczę pełną latających stworzeń przeszywa jazgot pił i zasnuwają dymy pożarów. Na szczęście nie wszędzie pierwotną dzicz zastąpiły plantacje olejowców."
+                :places [{:country "Borneo" :coords [1 114]}]}
+               {:title "Miny"
+                :description "Kambodża długo była sparaliżowana przez miny. Dziś sytuacja się poprawia, ale jeszcze 10 lat trzeba, by oczyścić z nich cały kraj. Ofiary tej bezwzględnej broni będą jednak nosić swoje traumy do końca życia."
+                :places [{:country "Kambodża" :coords [12 105]}]}
+               {:title "Kwaśny ocean"
+                :description "Ślimaki bez skorupek, obumarłe rafy, karłowaciejące morskie stworzenia. Dwutlenek węgla pochłaniany przez oceany, choć odciąża atmosferę, może dramatycznie zmienić obraz morskiego życia."}]}
+   {:year 2012 :month 3 :vol 150
+    :articles [{:title "Wywiad"
+                :description "Wywiad z genetykiem prof. Tadeuszem Doboszem – „DNA, powiedz przecie”, czyli o ustalaniu ojcostwa, identyfikacji przestępców oraz sposobach odtwarzania dawno wymarłych gatunków."}
+               {:title "Podlasie"
+                :description "Co jest siłą regionu? To, że życie płynie tam wolniej. A słabością? To, że życie płynie tam wolniej. Uczciwy portret Podlasia musi być paradoksalny."
+                :places [{:country "Polska" :region "Podlasie" :coords [52.9 22.8]}]}
+               {:title "Bliźnięta"
+                :description "Dlaczego jednojajowe bliźnięta, mające identyczne DNA, jednak się różnią, fizycznie i charakterem? Mówiąc w skrócie, powodem jest tajemniczy „trzeci czynnik”."}
+               {:title "Afrykański ryft"
+                :description "Serce kontynentu przecinają buzujące wulkaniczną energią wielkie geologiczne rowy. Ludzkie społeczności żyjące w regionie, pod presją braku przestrzeni życiowej i zasobów, też co jakiś czas eksplodują morderczą furią."
+                :places [{:country "Demokratyczna Republika Konga"}
+                         {:country "Uganda"}
+                         {:country "Rwanda"}
+                         {:coords [-1.388094 29.592197]}]}
+               {:title "Apostołowie"
+                :description "Choć formalnie było ich 12, poczet apostołów, którzy ponieśli w świat chrześcijańskie przesłanie, jest liczniejszy. Za kwestionowanie zastanego społeczno- -kulturowego porządku niemal wszyscy zapłacili życiem."}
+               {:title "Hulmany"
+                :description "Święte dla hinduistów małpki, z ważną rolą w starożytnej mitologii, potrafią korzystać ze swojego statusu. Choćby wpadając na urządzane specjalnie dla nich bankiety."
+                :places [{:country "Indie"}]}
+               {:title "Głazy narzutowe"
+                :description "Lądolód oprócz piasku i kamyków potrafił też taszczyć głazy naprawdę imponujące. Niektóre stoją dziś w zupełnie zaskakujących miejscach."
+                :places [{:country "USA"}]}]}
+   {:year 2012 :month 2 :vol 149
+    :articles [{:title "Wywiad"
+                :description "Wywiad z prof. Jackiem Łuczakiem o bólu, umieraniu i eutanazji."}
+               {:title "Wikingowie"
+                :description "Doskonale wyszkoleni wojownicy z duszami obieżyświatów trafili też na polskie ziemie. Jaką rolę tu odegrali?"
+                :places [{:country "Polska" :city "Wolin" :coords [53.84 14.61]}
+                         {:country "Polska" :city "Truso" :coords [54.10699 19.48869]}]}
+               {:title "Kazachstan"
+                :description "Nowa stolica rozległego stepowego państwa rośnie w oczach, a jej budowle projektują światowej sławy architekci. Naftowo-gazowy napęd, autorytarne rządy oraz nowobogacka ekstrawagancja przynoszą zaskakujący efekt."
+                :places [{:country "Kazachstan" :city "Astana" :coords [51.1 71.4]}]}
+               {:title "Pieski patrol"
+                :description "Psi zaprzęg, dwóch ludzi i setki kilometrów lodowej grenlandzkiej pustki. Patrolowa służba w takich warunkach jest wyzwaniem, któremu sprostać mogą tylko najtwardsi."
+                :places [{:country "Grenlandia" :coords [74.3 -20.2]}]}
+               {:title "Złota Panama"
+                :description "Lektura starych kronik konkwistadorów bywa cenna nie tylko z naukowego punktu widzenia. Pomogła bowiem odnaleźć groby wodzów starych panamskich plemion. Dodajmy – groby pełne złotych artefaktów."
+                :places [{:country "Panama" :city "El Cano" :coords [8.442 -80.535]}]}
+               {:title "Dzicy Papuasi"
+                :description "Czy w dzisiejszym świecie można jeszcze znaleźć jaskiniowców? Okazuje się, że tak, ale to już naprawdę ostatni tacy ludzie na ziemi."
+                :places [{:country "Papua Nowa Gwinea" :coords [-3.7 143.8]}]}
+               {:title "Tygrysy"
+                :description "Największego z wielkich kotów w dżungli zobaczyć niemal nie sposób. Nie tylko dlatego, że nawet w wodzie porusza się bezgłośnie niczym duch. Po prostu jest piekielnie rzadki. Mimo to wciąż tli się nadzieja, że przetrwa."
+                :places [{:country "Indie" :region "Park Narodowy Ranthambhaur" :coords [26.04 76.42]}]}
+               {:title "Ansel Adams"
+                :description "Fotograf, któremu przed laty sławę przyniosły fotografie kalifornijskiej głuszy, nie przestaje fascynować Amerykanów. I nawet po dekadach chcą oglądać to, co on tam ujrzał, na jego sposób."
+                :places [{:country "USA" :region "Kalifornia" :coords [37.7 -119.20]}]}]}
+   {:year 2012 :month 1 :vol 148
+    :articles [{:title "Wywiad"
+                :description "Wywiad z szefem GIODO W.R. Wiewiórowskim o naszych danych osobowych: jak je chronić, kto i do czego może je wykorzystać, czego powinniśmy się obawiać."}
+               ;; TODO: pokrywa się z innym punktem. To to samo miejsce?
+               {:title "Malapa"
+                :description "Nie całkiem małpa, niezupełnie człowiek. W jaskiniowej pułapce w RPA paleontolodzy odnaleźli świetnie zachowane szczątki ludzkiego praszczura."
+                :places [{:country "RPA" :coords [-25.9249 27.7705]}]}
+               {:title "Odwrót macho"
+                :description "Fawele pełne dzieci to już przeszłość. Brazylijki mówią, że pozamykały swoje „zakłady reprodukcyjne”. Wskaźnik dzietności w kraju spadł poniżej poziomu gwarantującego wymienialność pokoleń! Jak do tego doszło?"
+                :places [{:country "Brazylia"}]}
+               {:title "Wyspy Feniks"
+                :description "„El Niño” mocno podgrzał wody wokół pacyficznych skrawków lądu, bieląc korale. Okazuje się jednak, że rafa odzyskuje siły, jeśli tylko przetrwają na niej ryby  pasące się na wodorostach."
+                :places [{:country "Kiribati" :region "Wyspy Feniks" :coords [-4.46 -171.25]}]}
+               {:title "Ziemia Afarów"
+                :description "Afrykańska Kotlina Danakilska jest miejscem skrajnie  nieprzyjaznym – najgorętszym na ziemi, wulkanicznym, pełnym soli z odparowanych niegdyś mórz. Afarowie kochają jednak jej zabójcze piękno."
+                :places [{:country "Etiopia"}
+                         {:country "Erytrea"}
+                         {:country "Dżibuti"}
+                         {:coords [12.7 42]}]}
+               {:title "Biblia króla Jakuba"
+                :description "Przekład zamówiony przed 400 laty wpłynął na anglosaską kulturę za pośrednictwem setek milionów egzemplarzy.  Trafił do kowbojów, purytanów, a nawet rastafarian."}
+               {:title "Arktyka"
+                :description "Arktyka się ogrzewa, co stawia niedźwiedzie polarne przed poważnym wyzwaniem. Jak z lodowych drapieżników mają się stać wodnymi?"
+                :places [{:region "Arktyka" :coords [76 -119]}]}
+               {:title "Kosmos"
+                :description "Obłoki Magellana od miliardów lat pozostają nieczułe na wdzięki Drogi Mlecznej. Czy w końcu im ulegną?"}
+               {:title "Montana"
+                :description "Ostatni kolonizowany przez farmerów obszar USA był, co nie dziwi, najbardziej jałowym. Aby się tu utrzymać, trzeba dziś mieć tysiące hektarów. Potomkowie osadników, którzy wytrwali, opowiadają ich fascynujące historie."
+                :places [{:country "USA" :region "Montana" :coords [48.6 -109.3]}]}]}])
