@@ -24,13 +24,21 @@ $ lein with-profile dev cljsbuild once
 
 Then open `resources/public/index.html` in your web browser.
 
+Devcards (partially supported):
+
+```bash
+$ lein with-profile dev figwheel devcards
+```
+
+Then open `resources/public/devcards.html` in your browser.
+
 ## TODO / Bugs
 
 - Only articles from 2013-2017 issues of NGM are included.
 - When two points have similar coordinates, they should be clustered (depending on the map zoom level).
-- Search by tags.
 - Let user star a place on a map. Or star any article (which would mean not using GMaps for that).
 - Unit/int tests
+- Support complex queries, such as "Tokyo Japonia" - it should be split by whitespace and each token should be matched against article separately.
 
 ## Tests
 

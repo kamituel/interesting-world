@@ -5,9 +5,10 @@
             [clairvoyant.core :refer-macros [trace-forms]]
             [re-frame-tracer.core :refer [tracer]]
             [reagent.core :as r]
-            [kamituel.ngm-toc.react-compat :as rc]
             [kamituel.ngm-toc.ui.colors :refer [colors]]
-            [kamituel.ngm-toc.ui.utils :as ui-utils]))
+            [kamituel.ngm-toc.ui.react-compat :as rc]
+            [kamituel.ngm-toc.ui.utils :as ui-utils]
+            [kamituel.ngm-toc.utils.debounce :refer [debounce]]))
 
 
 ;(trace-forms {:tracer (tracer :color "blue")}
@@ -86,8 +87,9 @@
   [& args]
   (let [this (r/current-component)
         {:keys [articles peeked-article peeked-point peeked-point-vicinity
-                include-articles-with-no-coordinates]} (r/props this)]
-    [rc/paper {:id "sidebar"}
+                include-articles-with-no-coordinates article-count too-many-articles]} (r/props this)]
+    [rc/paper {:id "sidebar"
+               :class (when too-many-articles "collapsed")}
       [:div#search-box
        [:div
        [rc/font-icon {:className "material-icons"} "search"]
@@ -95,7 +97,7 @@
                        :hintText "Japonia, jaskinia, puszcza ..."
                        :floatingLabelText "Co Cię interesuje?"
                        :fullWidth true
-                       :onChange (fn [_evt value] (dispatch [:query-update value]))}]]
+                       :onChange (fn [_evt value] (debounce 0 [:query-update value]))}]]
        [:div.search-tools
          [rc/checkbox {:label "Tylko z lokalizacją"
                        :defaultChecked (not include-articles-with-no-coordinates)
@@ -106,10 +108,14 @@
                        :labelStyle {:fontSize "12px"
                                     :lineHeight "20px"}
                        :style {:marginLeft "34px"}}]
-         [:div.result-count "Znaleziono: " (count articles) " artykuł(ów)"]]]
+        (when-not too-many-articles
+          [:div.result-count "Znaleziono: " article-count " artykuł(ów)"])]]
      (cond
        peeked-point
        (article-list (distance-oriented-list-of-articles peeked-point-vicinity))
+
+       too-many-articles
+       nil
 
        (not (empty? articles))
        (article-list (plain-list-of-articles articles peeked-article))

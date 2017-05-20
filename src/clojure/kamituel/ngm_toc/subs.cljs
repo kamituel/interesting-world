@@ -11,12 +11,30 @@
 
 (rf/reg-sub
  :filtered-articles
- (fn sub-filtered-articles [db x]
+ (fn sub-filtered-articles [db]
    (let [{:keys [ngm-issues query include-articles-with-no-coordinates]} db
          query (str/lower-case query)]
      (->> (model/ngm-issues->articles ngm-issues)
           (filter #(model/article-matches? % query))
           (filter #(model/has-required-coordinates? % include-articles-with-no-coordinates))))))
+
+(rf/reg-sub
+ :article-count
+ :<- [:filtered-articles]
+ (fn sub-article-count [filtered-articles]
+   (count filtered-articles)))
+
+(rf/reg-sub
+ :max-result-count
+ (fn sub-max-result-count [db]
+   (:max-result-count db)))
+
+(rf/reg-sub
+ :too-many-articles
+ :<- [:article-count]
+ :<- [:max-result-count]
+ (fn sub-too-many-articles [[article-count max-result-count]]
+   (> article-count max-result-count)))
 
 (rf/reg-sub
  :peeked-article

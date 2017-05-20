@@ -1068,4 +1068,91 @@
                 :places [{:region "Morze Północne" :coords [54.0 2.1]}]}
                {:title "Arizona"
                 :description "Klify Vermillion to prawdziwy cud amerykańskiej przyrody. Aż dziw, że tak zaskakująco mało znany."
-                :places [{:country "USA" :region "Arizona" :coords [36.907 -111.859]}]}]}])
+                :places [{:country "USA" :region "Arizona" :coords [36.907 -111.859]}]}]}
+   {:year 2012 :month 11 :vol 158
+    :articles [{:title "Jedz z głową"
+                :description " Czy mleko jest dla każdego? Lepiej pić tłuste czy chude? Ułatwia czy utrudnia odchudzanie?"}
+               {:title "Laureaci WKF"
+                :description "Ósma edycja Wielkiego Konkursu Fotograficznego NG rozstrzygnięta. Nagrodzone prace publikujemy na naszych łamach. "}
+               {:title "Wywiad"
+                :description "Analizowanie zwykłej pajęczej sieci może nas zaprowadzić do nowej ery w historii inżynierii – materiałów o właściwościach krojonych na miarę. - Z Markusem Buehlerem z MIT rozmawia Wojciech Mikołuszko."}
+               {:title "Da Vinci czy nie?"
+                :description "Wart 20 tys. czy 100 mln dol? Oto jest pytanie. Na rynku antykwarycznym pojawił  się portret, którego autorem może być wielki Leonardo."}
+               {:title "Sztuka ukradziona"
+                :description "Zaskakujące historie najcenniejszych zabytków z polskich zbiorów."}
+               {:title "Kuba"
+                :description "Po 50 latach w cieniu Fidela Castro przygnieceni kryzysem Kubańczycy zaczynają flirtować z kapitalizmem.  Planu na przyszłość najwyraźniej im jednak brakuje."
+                :places [{:country "Kuba" :coords [23.133333 -82.383333]}]}
+               {:title "Gepard"
+                :description "Wielka popularność w świecie popkultury nie przełożyła się na poprawę losu tego kota. Najszybszy ssak świata musi szybko uciekać przed zagładą."}
+               {:title "Wydmy"
+                :description "Na pustyniach rządzi wiatr. Autor materiału latał nad wszystkimi pustyniami świata, by z powietrza fotografować to, czego wiatr może tam dokonać."}
+               {:title "Chińskie zaświaty"
+                :description "Koncepcje zaświatów w historii Państwa Środka były zaskakująco materialistyczne, a nawet biurokratyczne. Stare tradycje w pędzącym naprzód kraju przechodzą jednak do historii."
+                :places [{:country "Chiny" :city "Wiosenna Dolina" :coords [40.9 115.8]}
+                         {:country "Chiny" :city "Xi'an" :coords [34.383 109.278]}]}
+               {:title "Marsylia"
+                :description "Gdy francuskimi miastami wstrząsały zamieszki, w Marsylii, zamieszkiwanej przez dziesiątki tysięcy  imigrantów, panował spokój. Skąd się wzięła ta sielanka i czy jest do utrzymania na dłuższą metę?"
+                :places [{:country "Francja" :region "Marsylia" :coords [43.3 5.4]}]}]}
+   {:year 2012 :month 10 :vol 157
+    :articles [{:title "Jedz z głową"
+                :description "Głodówki, drakońskie diety, odtruwania organizmu – wszystko dla zdrowia. Czy takie zabiegi mają sens?"}
+               {:title "Fotoreportaż"
+                :description "Mikołaj Nowacki pokazuje Odrę – rzekę, którą człowiek przekształcał bez ceregieli, a potem zlekceważył."
+                :places [{:country "Polska" :region "Odra"}]}
+               {:title "Wywiad"
+                :description "Poznanie przyszłości to wizja kusząca. Czy nauka może ją ziścić? I jakie są pułapki prognozowania?"
+                :tags ["Marek Niezgódka"]}
+               {:title "Dzika miłość"
+                :description "Czy ludy pierwotne były seksualnie rozpasane? Cóż, z instynktami nie walczyły. Ich seksualność była jednak nie tyle perwersyjna, ile raczej pragmatyczna."
+                :places [{:country "Papua Nowa Gwinea" :region "Dolina Wahgi" :coords [-5.8 144.2]}
+                         {:country "Mali" :city "Kolenzé" :coords [14.206 -4.628]}
+                         {:country "Etiopia" :region "Dolina Omo" :coords [4.80 35.96]}
+                         {:region "Amazonia"}]}
+               {:title "Krwawa kość"
+                :description "Wydawało się, że czasy słoniowych rzezi z lat 80. XX w. już nie wrócą. Tymczasem kłusownictwo i czarny rynek kości odżywają, a jedną z ich sił napędowych okazują się... kultowe obyczaje wielkich religii."
+                :tags ["słoń" "słonie"]
+                :places [{:region "Afryka"}]}
+               {:title "Rio"
+                :description "Fawele to od dawna stały element brazylijskich miast. Przed zbliżającymi się igrzyskami w Rio de Janeiro siedliska biedoty rządzone dotychczas przez narkotykowe gangi trafiły jednak pod okupację... policji. Czy fawele dadzą się ucywilizować?"
+                :places [{:country "Brazylia" :city "Rio de Janeiro" :coords [-22.90 -43.18]}]}
+               {:title "Dom dla zwierząt"
+                :description "Opuszczony dom na zapadłej fińskiej wsi został skolonizowany przez mniejsze i większe zwierzęta. Uchwycenie ich portretów we wnętrzach wymagało benedyktyńskiej wprost cierpliwości."
+                :places [{:country "Finlandia" :region "Suomusjärvi" :city "Salo" :coords [60.38 23.11]}]}
+               {:title "Z głębin czasu"
+                :description " Latimeria to głębinowa ryba, która okazała się odporniejsza niż dinozaury. Ta żywa skamieniałość potrafi jednak pływać z zaskakującym wdziękiem."}
+               {:title "Groty Mustangu"
+                :description "Przed wiekami mieszkańcy Królestwa Mustangu szukali bezpieczeństwa w grotach wykutych wysoko w skałach. Niektóre z nich, z ukrytymi wejściami, są niczym kapsuły czasu."
+                :places [{:country "Nepal" :region "Mustang" :coords [29.03 83.84]}]}]}
+   {:year 2012 :month 9 :vol 156
+    :articles [{:title "Koszer vs. Halal"
+                :description "Czy religijne nakazy i zakazy związane z jedzeniem mają swoje racjonalne uzasadnienie?"
+                :tags ["islam" "muzułmanie" "judaizm" "żydzi"]}
+               {:title "Fotoreportaż"
+                :description "Andrzej Wiktor portretuje współczesnych husarzy – ludzi, którzy żyją historią i wiernie ją rekonstruują."
+                :places [{:country "Polska"}]}
+               {:title "Archeologia zbrodni"
+                :description "Młoda dyscyplina badawcza pozwala odtworzyć ostatnie chwile ofiar masowych mordów."
+                :tags ["Jerzy Kawecki" "Krzysztof Szwagrzyk" "Maciej Trzciński"]}
+               {:title "Husaria"
+                :description "Formacja, która szarżą miażdżyła wroga, przez blisko dwa wieki nie miała sobie równych. Czemu zawdzięczała piekielną skuteczność?"
+                :places [{:country "Polska"}]}
+               {:title "Wenezuela"
+                :description "Polska wyprawa do zaginionego świata tepui – jednego z najmniej poznanych skrawków ziemi – przyniosła odkrycia nowych gatunków."
+                :places [{:country "Wenezuela" :region "Tramen Tepui" :coords [5.444 -61.059]}]}
+               {:title "Jemen"
+                :description "Przepędzenie dyktatora nie oznacza jeszcze końca kłopotów. Jemen wciąż trawi gorączka – kraj znieczula się czatem i ulega plemiennym buntom."
+                :places [{:country "Jemen" :coords [15.24 43.75]}]}
+               {:title "Arabskie rewolucje"
+                :description "Północna Afryka i Bliski Wschód po arabskiej wiośnie – jakie są prognozy dla regionu, który przykuwa dziś uwagę świata?"
+                :places [{:country "Tunezja"}
+                         {:country "Egipt"}
+                         {:country "Libia"}
+                         {:country "Syria"}]}
+               {:title "Koala"
+                :description "Zwierzątka o aparycji pluszowych przytulanek nie lubią przeprowadzek. Cóż więc robić, gdy obok ich eukaliptusa pewnego dnia wyrasta jednorodzinny dom?"
+                :places [{:country "Australia" :coords [-30.0 150.7]}]}
+               {:title "Podwodne góry"
+                :description "Morskie dno, tak jak wystające nad wodę kontynenty, usiane jest górami. Tyle że w wodzie, inaczej niż na lądzie, im wyżej, tym  bogatsze życie. W dodatku życie bardzo mało zbadane."}
+               {:title "Portret błyskawicy"
+                :description "Aby sfotografować narodziny błyskawicy, trzeba mieć gigantyczną kamerę, wiele wytrwałości i jeszcze więcej szczęścia. Timowi Samarasowi tego ostatniego na razie brakuje, ale niczym błędny rycerz przemierza Wielkie Równiny, nie tracąc nadziei."}]}])

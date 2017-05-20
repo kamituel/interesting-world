@@ -47,11 +47,14 @@
 ;; mount a map component safely.
 (s/def ::show-map boolean?)
 
+(s/def ::max-result-count pos?)
+
 (s/def ::db (s/keys :req-un [::ngm-issues ::peek ::query ::include-articles-with-no-coordinates ::show-map]))
 
 (def default-db
-  {:ngm-issues ngm/ngm
+  {:ngm-issues ngm/ngm #_(apply concat (repeat 10 ngm/ngm))
    :peek {:type nil :data nil :confirmed false}
    :query ""
    :include-articles-with-no-coordinates false
-   :show-map false})
+   :show-map false
+   :max-result-count 100})

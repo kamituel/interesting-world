@@ -18,7 +18,6 @@
         projection (.getProjection map)
         _ (assert projection "projection")
         lat-lng-obj (new (aget js/window "google" "maps" "LatLng") (:lat lat-lng) (:lng lat-lng))
-        _ (.log js/console lat-lng (.lat lat-lng-obj) (.lng lat-lng-obj))
         world-coordinate-center (.fromLatLngToPoint projection lat-lng-obj)
         pixel-offset (js/google.maps.Point. (/ (:x offset) scale)
                                             (/ (:y offset) scale))

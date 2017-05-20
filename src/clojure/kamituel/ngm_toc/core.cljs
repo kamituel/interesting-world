@@ -22,7 +22,9 @@
                     :peeked-point-vicinity (rf/subscribe [:peeked-point-vicinity])
                     :points (rf/subscribe [:map-points])
                     :include-articles-with-no-coordinates (rf/subscribe [:include-articles-with-no-coordinates])
-                    :show-map (rf/subscribe [:show-map])}]
+                    :show-map (rf/subscribe [:show-map])
+                    :article-count (rf/subscribe [:article-count])
+                    :too-many-articles (rf/subscribe [:too-many-articles])}]
             (js/document.getElementById "app")))
 
 (run)
