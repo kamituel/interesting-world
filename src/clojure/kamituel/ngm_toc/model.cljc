@@ -21,7 +21,8 @@
         (some includes-query? (map :country (:places article)))
         (some includes-query? (map :city (:places article)))
         (some includes-query? (map :region (:places article)))
-        (some includes-query? (:tags article)))))
+        (some includes-query? (:tags article))
+        (some includes-query? (mapcat :tags (:places article))))))
 
 (defn coords
   ""

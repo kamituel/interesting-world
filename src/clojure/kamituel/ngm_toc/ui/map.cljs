@@ -13,7 +13,7 @@
 
 (defn coordinates-pixel-offset
   [map lat-lng offset]
-  (assert map "map")
+  {:pre [(some? map)]}
   (let [scale (js/Math.pow 2 (.getZoom map))
         projection (.getProjection map)
         _ (assert projection "projection")

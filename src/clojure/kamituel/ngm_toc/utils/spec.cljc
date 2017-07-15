@@ -1,6 +1,6 @@
 (ns kamituel.ngm-toc.utils.spec
-  (:require #?(:cljs [cljs.spec :as s]
-               :clj [clojure.spec :as s])))
+  (:require #?(:cljs [cljs.spec.alpha :as s]
+               :clj [clojure.spec.alpha :as s])))
 
 
 (defn check-and-throw

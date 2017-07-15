@@ -32,7 +32,9 @@
  :peek
  interceptors
  (fn ev-peek [db [_ peek-type data]]
-   (assoc db :peek {:type peek-type :data data :confirmed false})))
+   (if-not (:confirmed (:peek db))
+     (assoc db :peek {:type peek-type :data data :confirmed false})
+     db)))
 
 (rf/reg-event-db
  :peek-confirm

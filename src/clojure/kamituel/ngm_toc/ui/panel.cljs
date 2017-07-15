@@ -88,8 +88,7 @@
   (let [this (r/current-component)
         {:keys [articles peeked-article peeked-point peeked-point-vicinity
                 include-articles-with-no-coordinates article-count too-many-articles]} (r/props this)]
-    [rc/paper {:id "sidebar"
-               :class (when too-many-articles "collapsed")}
+    [rc/paper {:id "sidebar"}
       [:div#search-box
        [:div
        [rc/font-icon {:className "material-icons"} "search"]

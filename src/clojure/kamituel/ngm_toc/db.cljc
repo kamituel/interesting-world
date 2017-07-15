@@ -1,6 +1,6 @@
 (ns kamituel.ngm-toc.db
-  (:require #?(:clj [clojure.spec :as s]
-               :cljs [cljs.spec :as s])
+  (:require #?(:clj [clojure.spec.alpha :as s]
+               :cljs [cljs.spec.alpha :as s])
             [kamituel.ngm-toc.data.ngm :as ngm]))
 
 (s/def ::coords (s/coll-of number? :kind vector? :count 2))
@@ -12,7 +12,7 @@
 (s/def :ngm-article/region string?)
 (s/def :ngm-article/city string?)
 (s/def :ngm-article/place (s/keys :opt-un [:ngm-article/country :ngm-article/region
-                                           :ngm-article/city ::coords]))
+                                           :ngm-article/city ::coords :ngm-article/tags]))
 (s/def :ngm-article/places (s/coll-of :ngm-article/place :kind vector? :min-count 1 :distinct true))
 (s/def ::ngm-article (s/keys :req-un [:ngm-article/title :ngm-article/description]
                              :opt-un [:ngm-article/places :ngm-article/tags]))

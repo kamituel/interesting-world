@@ -7,7 +7,7 @@
             [re-frame.core :as rf]
             [kamituel.ngm-toc.utils.log :as l]))
 
-(rf/reg-event-db :debounce
+(rf/reg-event-db ::debounce
  (fn debounce [db [_ ttl-ms payload]]
    (let [event (first payload)
          ch (get-in db [::debounce event])]
@@ -19,7 +19,7 @@
             (timeout ttl-ms) (do
                                (l/trace "Dispatching " event " with payload " p)
                                (rf/dispatch p)
-                               (rf/dispatch [:debounce-clear event]))
+                               (rf/dispatch [::debounce-clear event]))
             ch ([p-new _]
                 (l/trace "Another call happened  for " event ". Not dispatching just yet.")
                 (recur p-new))))
@@ -29,7 +29,7 @@
          db)))))
 
 (rf/reg-event-db
- :debounce-clear
+ ::debounce-clear
  (fn debounce-clear [db [_ event]]
    (let [ch (get-in db [::debounce event])]
      (when ch
@@ -38,4 +38,4 @@
 
 (defn debounce
   [ttl-ms payload]
-  (rf/dispatch [:debounce ttl-ms payload]))
+  (rf/dispatch [::debounce ttl-ms payload]))

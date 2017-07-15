@@ -1336,7 +1336,6 @@
    {:year 2012 :month 1 :vol 148
     :articles [{:title "Wywiad"
                 :description "Wywiad z szefem GIODO W.R. Wiewiórowskim o naszych danych osobowych: jak je chronić, kto i do czego może je wykorzystać, czego powinniśmy się obawiać."}
-               ;; TODO: pokrywa się z innym punktem. To to samo miejsce?
                {:title "Malapa"
                 :description "Nie całkiem małpa, niezupełnie człowiek. W jaskiniowej pułapce w RPA paleontolodzy odnaleźli świetnie zachowane szczątki ludzkiego praszczura."
                 :places [{:country "RPA" :coords [-25.9249 27.7705]}]}
@@ -1361,4 +1360,81 @@
                 :description "Obłoki Magellana od miliardów lat pozostają nieczułe na wdzięki Drogi Mlecznej. Czy w końcu im ulegną?"}
                {:title "Montana"
                 :description "Ostatni kolonizowany przez farmerów obszar USA był, co nie dziwi, najbardziej jałowym. Aby się tu utrzymać, trzeba dziś mieć tysiące hektarów. Potomkowie osadników, którzy wytrwali, opowiadają ich fascynujące historie."
-                :places [{:country "USA" :region "Montana" :coords [48.6 -109.3]}]}]}])
+                :places [{:country "USA" :region "Montana" :coords [48.6 -109.3]}]}]}
+   {:year 2011 :month 12 :vol 147
+    :articles [{:title "Wywiad"
+                :description "Wywiad z entomologiem Markiem W. Kozłowskim m.in. o tym, czym jest instynkt, czy owady mają emocje i czy w ich  społecznościach możliwa jest rewolucja."}
+               {:title "Laureaci WKE"
+                :description "Wielki Konkurs Fotograficzny NG cieszy się niesłabnącą popularnością. Jak co roku spośród dziesiątków tysięcy nadesłanych przez Czytelników zdjęć wybraliśmy najlepsze w czterech kategoriach. I oczywiście publikujemy je na naszych łamach."}
+               {:title "Siedem miliardów"
+                :description "Demografowie od początku istnienia swojej specjalności wieszczyli apokalipsę. Według prognoz sprzed 50 lat nasza dzisiejsza rzeczywistość miała być koszmarem. Ludzkość tymczasem radzi sobie nadspodziewanie dobrze. Ale żeby tak było dalej, musimy użyć całego geniuszu, na jaki nas stać."}
+               {:title "Antropocen"
+                :description "Czy wpływ człowieka na planetę Ziemia widoczny będzie w geologicznej skali czasu? I jaki ślad po sobie pozostawimy, gdy nasze miasta obrócą się w pył? "}
+               {:title "Roślinna arka"
+                :description "Co jemy? Najogólniej mówiąc – wszyscy prawie to samo. Choć człowiek przez wieki wypracował niebywałe bogactwo lokalnych odmian roślin uprawnych i zwierząt hodowlanych, przemysłowe rolnictwo opiera się na ledwie kilkudziesięciu. A te mogą paść ofiarą nowych chorób i szkodników."}
+               {:title "Miasta"
+                :description "Czy rozwój gigantycznych metropolii może służyć przyrodzie? W skali globu paradoksalnie tak. Statystycznie mieszczuch wywiera bowiem mniejszą presję na środowisko niż mieszkaniec wsi."}
+               {:title "Bangladesz"
+                :description "Płaski jak stół, zalewany przez powodzie i podnoszący się poziom morza, potwornie zatłoczony. Kraj ten jest niczym poligon doświadczalny dla ludzkości, której przyjdzie się zmierzyć z przeludnieniem i zmianami klimatu."
+                :places [{:country "Bangladesz"}]}]}
+   {:year 2011 :month 11 :vol 146
+    :articles [{:title "Wywiad"
+                :description "Wywiad z Krzysztofem Mroziewiczem – o Fidelu Castro i jego Kubie, na której parasolki mogłyby rodzić pomarańcze."
+                :places [{:country "Kuba"}]}
+               {:title "Skarb Sasów"
+                :description "Kto zakopał skarb złożony z dziwnie pogiętych złotych okuć mieczy? Epoka legendarnego króla Artura ma jeszcze wiele tajemnic."
+                :places [{:country "Wielka Brytania" :coords [52.655278 -1.906667]}]}
+               {:title "Tana Toradża"
+                :description "W tej społeczności zabalsamowany zmarły może czekać – w domu! – na pogrzeb miesiącami. A wszystko przez to, że na urządzenie pochówku trzeba małej fortuny."
+                :places [{:country "Indonezja" :city "Batu"}
+                         {:country "Indonezja" :city "Rantepao"}
+                         {:country "Indonezja" :city "Sangalla"}
+                         {:coords [-3 120.03]}]}
+               {:title "Obróceni w proch"
+                :description "W płomieniach, żołądkach sępów, a czasem innych ludzi... Wyprawa na tamten świat jest kluczowym zagadnieniem w każdej kulturze."
+                :places [{:country "Madagaskar"}
+                         {:country "Tybet" :region "Kajlas"}
+                         {:country "Indie"}]}
+               {:title "Ziemie rzadkie"
+                :description "Na tych metalach opierają się nowoczesne technologie. Ale nie dość, że jest ich mało, to jeszcze większość złóż kontrolują Chiny. Tymczasem potrzeby rosną..."}
+               {:title "Rekin wielorybi"
+                :description "Choć ogromne, żywią się morską drobnicą. A rybacy wcale nie drżą na myśl o spotkaniu z nimi. A nawet podkarmiają je, jak kaczki."
+                :places [{:country "Papua Nowa Gwinea" :region "Zatoka Cenderawasih" :coords [-2.28 135.20]}]}
+               {:title "Saamowie"
+                :description "W nowoczesnej Norwegii trudno być pasterzem i nomadą. A jednak wielu Saamów chce żyć tak jak ich wędrujący za reniferami przodkowie."
+                :places [{:country "Norwegia" :city "Kautokeino" :coords [69.01 23.04]}
+                         {:country "Szwecja" :city "Harrå" :coords [67.41 20.1]}]}
+               {:title "Ötzi"
+                :description "Choć zmarł ponad 5 tys. lat temu, wciąż trzyma się nieźle. A lekarze nie dają mu spokoju, próbując za pomocą najnowocześniejszych metod wydrzeć tajemnice jego i czasów, w których żył."
+                :places [{:coords [46.779389 10.840306]}
+                         {:country "Austra"}
+                         {:country "Włochy"}]}
+               {:title "Rzeki USA"
+                :description "Dzikie i malownicze – kiedyś takie były wszystkie. Dziś ostatnich ich fragmentów przed zabudową, tamami i mostami bronią zapaleńcy."
+                :places [{:country "USA" :region "Alaska" :tags ["Tinayguk"] :coords [67.568889 -151.041667]}
+                         {:country "USA" :region "Kalifornia" :tags ["Merced"] :coords [37.349167 -120.975556]}
+                         {:country "USA" :region "Idaho" :tags ["Owyhee"] :coords [43.812778 -117.025556]}
+                         {:country "USA" :tags ["Chattoga"] :coords [34.716137 -83.354589]}
+                         {:country "USA" :region "Oregon" :tags ["Rouge"] :coords [42.4225 -124.429167]}
+                         {:country "USA" :region "Wyoming" :tags ["Snake"]}
+                         {:country "USA" :region "Maine" :tags ["Allagash"]}]}]}
+   {:year 2011 :month 10 :vol 145
+    :articles [{:title "Wywiad"
+                :description "Wywiad z lekarzem i himalaistą Robertem Szymczakiem m.in. o etycznych wyzwaniach wspinaczy, o cierpieniach organizmu w wysokich górach i powodach, dla których nie dotyczy to Szerpów. "}
+               {:title "Yosemite"
+                :description "Zawisnąć na pionowej skale na czubkach palców setki metrów nad ziemią? W Yosemite to codzienność. Do mekki wspinaczy pielgrzymują bowiem ci, którzy ograniczeń ciała i psychiki nie przyjmują do wiadomości."
+                :places [{:country "USA" :region "Kalifornia" :tags ["El Capitan"] :coords [37.72 -119.636]}]}
+               {:title "Mózg nastolatka"
+                :description "Młody człowiek testuje świat – nadmiernie ryzykuje, szuka silnych wrażeń i nowości, robi rzeczy głupie, szalone. Ale nie znaczy to, że nie myśli. W ten sposób ewolucja przygotowuje go do walki o życiowy sukces."}
+               {:title "Przed lodowcem"
+                :description "Ziemia bez lodu – tropiki wokół biegunów, piekło na równiku, poziom morza 70 m wyżej niż dziś. Nasza planeta już to widziała. Czy zatem zaglądając w przeszłość, możemy zobaczyć naszą przyszłość?"}
+               {:title "Ułan Bator"
+                :description "Metropolia, której mieszkańcy jeszcze przed chwilą byli  stepowymi koczownikami, musi być jedyna w swoim rodzaju. I faktycznie – znane z innych stolic reguły zurbanizowanego życia tutaj nie obowiązują."
+                :places [{:country "Mongolia" :city "Ułan Bator" :coords [47.90 106.90]}]}
+               {:title "Żurawie"
+                :description "Choć krzykliwe z nazwy – znaleźć je trudno. I nic dziwnego, skoro zostało ich kilkaset. Migrować musi je uczyć człowiek – w ultralekkim samolociku."
+                :places [{:country "USA"}
+                         {:country "Kanada"}]}
+               {:title "Hebrydy"
+                :description "Wystawione na wściekłe ataki północnego Atlantyku postrzępione szkockie wyspy kolonizowali tylko najtwardsi, ale i oni w końcu dali za wygraną, wiele z nich zostawiając morskim ptakom. Bezludne, wietrzne, surowe – od wieków zachwycają romantycznym pięknem."
+                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [57.4 -6.3]}]}]}])

@@ -40,8 +40,3 @@
                 (sin (/ delta-lambda 2)) (sin (/ delta-lambda 2))))
         c (* 2 (atan2 (sqrt a) (sqrt (- 1 a))))]
     (* R c)))
-
-;; TODO: needed?
-#_(defn same-place?
-  [threshold-meters p1 p2]
-  (< (distance p1 p2) threshold-metres))

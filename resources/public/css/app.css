@@ -42,10 +42,6 @@ body {
   flex-flow: column;
 }
 
-#sidebar.collapsed {
-  height: auto;
-}
-
 @media all and (orientation: portrait) {
   #sidebar {
     height: calc(40% - 2 * 30px);
