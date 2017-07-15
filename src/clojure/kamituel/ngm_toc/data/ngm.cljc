@@ -1480,4 +1480,37 @@
                 :places [{:country "Pakistan" :region "Pendżab" :coords [31.3 73.0]}]}
                {:title "Pustynia Namib"
                 :description "Parki narodowe na blisko połowie powierzchni kraju? Tak, Namibia ma wielkie ambicje. Ale diamenty i inne minerały też kuszą."
-                :places [{:country "Namibia" :region "Pustynia Namib" :coords [-24 15]}]}]}])
+                :places [{:country "Namibia" :region "Pustynia Namib" :coords [-24 15]}]}]}
+   {:year 2011 :month 7 :vol 142
+    :articles [{:title "Medyczne koło"
+                :description "Rozmowa z Jerzym Woy-Wojciechowskim m.in. o znaczeniu przypadku w rozwoju medycyny. "}
+               {:title "Goryle"
+                :description "W kongijskiej puszczy buszują zbrojni rebelianci, żołnierze, uchodźcy, smolarze. Potężne małpy muszą przetrwać ten zalew ludzkich nieszczęść. Czasem padają od kul. "
+                :places [{:country "Rwanda"}
+                         {:country "Demokratyczna Republika Konga"}
+                         {:country "Uganda"}
+                         {:region "Park Narodowy Wirunga" :coords [-1.4 29.5]}]}
+               {:title "Narodziny religii"
+                :description "Czy cywilizację stworzyło rolnictwo? Imponujące kamienne sanktuarium wzniesione 12 tys. lat temu przez łowców-zbieraczy podważa tę teorię."
+                :places [{:country "Turcja" :region "Göbekli Tepe" :coords [37.223056 38.9225]}
+                         {:country "Turcja" :region "Nevalı Çori" :coords [37.518333 38.605556]}]}
+               {:title "Wodun"
+                :description "Mrożące krew w żyłach opowieści o czarach, które rzucają kapłani wodun, to wymysły popkultury. Dlaczego? Bo wedle ich przekonań złe moce są groźne także dla tych, którzy je stosują."
+                :places [{:country "Benin" :city "Aklampa" :coords [8.23 2.19]}]}
+               {:title "Dekonstrukcja"
+                :description "„Starchitekci” przynieśli rewolucję. Odrzucili porządek tradycyjnej architektury, stawiając na organiczność i chaos. Ale czy miasto może być zbiorem budowli-rzeźb?"
+                :places [{:country "Hiszpania" :city "Bilbao" :region "Muzeum Guggenheima" :coords [43.268531 -2.934054]}
+                         {:country "Czechy" :city "Praga" :region "Ginger i Fred" :coords [50.075504 14.414071]}
+                         {:country "Włochy" :city "Rzym" :region "Narodowe Muzeum Sztuki XXI w. MAXXI" :coords [41.928355 12.467011]}
+                         {:country "Niemcy" :city "Berlin" :region "Muzeum Żydowskie" :coords [52.502317 13.395411]}
+                         {:country "Wielka Brytania" :city "Manchester" :region "Imperial War Museum" :coords [53.469765 -2.298957]}
+                         {:country "Polsla" :city "Warszawa" :region "Złota 44" :coords [52.231130 21.002264]}]}
+               {:title "Bagdad"
+                :description "Raport z miasta przeoranego wojną. Świecka w czasach dyktatury metropolia po  amerykańskiej inwazji podzieliła się na religijne dzielnice-getta pogrodzone murami."
+                :places [{:country "Irak" :city "Bagdad" :coords [33.3 44.4]}]}
+               {:title "Strefa wpływów"
+                :description "W wąskim pasie lądu zalewanym przypływami oceanu bogactwo i konkurencja małych stworzeń przypominają stosunki panujące w dżungli."
+                :places [{:country "USA" :region "Rezerwat Morski Fitzgerald" :coords [37.5 -122.5]}]}
+               {:title "Zielone Chiny"
+                :description "Chiny zwracają się ku słońcu. Czy staną się liderem czystych technologii? Skala zmian jest imponująca, ale ilość spalanego węgla nadal poraża."
+                :places [{:country "Chiny"}]}]}])
