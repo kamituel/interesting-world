@@ -1437,4 +1437,47 @@
                          {:country "Kanada"}]}
                {:title "Hebrydy"
                 :description "Wystawione na wściekłe ataki północnego Atlantyku postrzępione szkockie wyspy kolonizowali tylko najtwardsi, ale i oni w końcu dali za wygraną, wiele z nich zostawiając morskim ptakom. Bezludne, wietrzne, surowe – od wieków zachwycają romantycznym pięknem."
-                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [57.4 -6.3]}]}]}])
+                :places [{:country "Wielka Brytania" :region "Szkocja" :coords [57.4 -6.3]}]}]}
+   {:year 2011 :month 9 :vol 144
+    :articles [{:title "Wywiad"
+                :description "Wywiad z prof. Franciszkiem Adamickim m.in. o tym, jak bardzo zestresowane są pomidory, gdzie się podziały złote renety i dlaczego czarna marchew jest tak rzadka."}
+               {:title "Władcy Sahary"
+                :description "Tuaregowie przez wieki rządzili pustynią. Znajdowali drogę, kierując się kolorem, fakturą i smakiem piasku. Dziś karawany odchodzą w przeszłość, a z nimi tradycja tego ludu."
+                :places [{:country "Niger" :region "Sahara" :coords [18.6 7.1]}]}
+               {:title "Słonie sieroty"
+                :description "Choć ogromne i gruboskórne, słonie są bardzo wrażliwe. Potrafią się wspierać, pocieszać i przeżywać żałobę. "
+                :places [{:country "Kenia"}]}
+               {:title "Kto nam da skrzydła?"
+                :description "Odrzutowy silnik na plecach jak z kart komiksów? Czemu nie, w końcu swobodne latanie to odwieczne marzenie ludzkości. I wydaje się, że „osobisty pojazd latający” jest już coraz bliżej."}
+               {:title "Birma"
+                :description "Nazywana „klejnotem Azji” i „krajem tysiąca pagód” Birma zachowała nieskażone nowoczesnością pejzaż i kulturę. Dziś otwiera się po dziesięcioleciach politycznej i gospodarczej izolacji."
+                :places [{:country "Birma" :coords [21.7 95.9]}]}
+               {:title "Amundsen"
+                :description "Amundsen kontra Scott, psy kontra kuce. Wyścig do bieguna był starciem ambicji, charakterów, narodowych mentalności, a także specyficznie rozumianej „polarnej technologii”."
+                :places [{:region "Antarktyda" :coords [-78.8 -164.9]}]}
+               {:title "Myśląca sieć"
+                :description "Pierwszą na świecie elektrownię zbudował Thomas Edison w 1882 r. w Nowym Jorku. Choć odtąd ilość prądożernego sprzętu rośnie lawinowo, światowa sieć energetyczna oparta jest na technice rodem z I poł. XX w. I jeśli ma nas nie zawieść, musimy jej przydać inteligencji."}]}
+   {:year 2011 :month 8 :vol 143
+    :articles [{:title "Wywiad"
+                :description "Wywiad z paleontologiem Stephenem Brusatte m.in. o przyczynach niebywałego ewolucyjnego sukcesu dinozaurów."}
+               {:title "Kleopatra"
+                :description "Błyskotliwa i odważna piękność. Kochanka wodzów Rzymu, pierwsza celebrytka świata, a zarazem ostatnia władczyni na tronie faraonów. Wiemy o niej zdumiewająco mało, ale archeolodzy próbują tę wiedzę poszerzyć."
+                :places [{:country "Egipt"}]}
+               {:title "Park na szynach"
+                :description "Nowy Jork zamienił starą linię kolejową na zieloną promenadę. Parkowy wąż na stalowych podporach przeskakuje ulice metropolii."
+                :places [{:country "USA" :city "Nowy Jork" :coords [40.747814 -74.004872]}]}
+               {:title "Misie duchy"
+                :description "Niedźwiedzie Kermode są białe, choć rodziców często mają czarnych.  W deszczowej puszczy przemykają jak duchy. I tak traktowali je Indianie."
+                :places [{:country "Kanada" :region "Kolumbia Brytyjska" :coords [52.9 -128.9]}]}
+               {:title "Androidy"
+                :description "Roboty łudząco podobne do człowieka to już rzeczywistość. Zapewne wkrótce znajdą się w naszym otoczeniu. Jak zmienią relacje między ludźmi? Jakie zadania będziemy skłonni im powierzyć? A przede wszystkim – jak odnieść do nich  kwestie moralności?"}
+               {:title "Balsa"
+                :description "Rośnie szybko, ostro, ryzykownie i w ogóle nie przejmuje się wagą. A jej kwiaty produkują nocą beczkę nektaru, który przyciąga licznych dwu-, cztero- i więcej- nożnych amatorów."
+                :places [{:region "Ameryka Południowa"}
+                         {:region "Ameryka Środkowa"}]}
+               {:title "Pendżab"
+                :description "Najbogatsza i najludniejsza prowincja Pakistanu chce korzystać z uroków doczesności i pozostaje pod wpływem roztańczonego sufizmu. A to nie podoba się talibom."
+                :places [{:country "Pakistan" :region "Pendżab" :coords [31.3 73.0]}]}
+               {:title "Pustynia Namib"
+                :description "Parki narodowe na blisko połowie powierzchni kraju? Tak, Namibia ma wielkie ambicje. Ale diamenty i inne minerały też kuszą."
+                :places [{:country "Namibia" :region "Pustynia Namib" :coords [-24 15]}]}]}])
