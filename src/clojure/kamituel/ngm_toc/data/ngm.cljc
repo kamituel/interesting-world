@@ -1513,4 +1513,42 @@
                 :places [{:country "USA" :region "Rezerwat Morski Fitzgerald" :coords [37.5 -122.5]}]}
                {:title "Zielone Chiny"
                 :description "Chiny zwracają się ku słońcu. Czy staną się liderem czystych technologii? Skala zmian jest imponująca, ale ilość spalanego węgla nadal poraża."
-                :places [{:country "Chiny"}]}]}])
+                :places [{:country "Chiny"}]}]}
+   {:year 2011 :month 6 :vol 141
+    :articles [{:title "Odpusty"
+                :description "Gdzie odpust, tam i rozpust, czyli Polska w obiektywie."}
+               {:title "Tabu"
+                :description "Wywiad z etnologiem Jerzym S. Wasilewskim."}
+               {:title "Skaryfikacje"
+                :description "Pokryta tatuażami i bliznami skóra była pierwszym dowodem tożsamości."}
+               {:title "Natura domowa"
+                :description "Czy lis może zastąpić psa kanapowca? I co to znaczy udomowić dzikie zwierzę?"}
+               {:title "Kilkuletnia żona"
+                :description "W wielu miejscach na świecie ślub przypomina handel żywym towarem."
+                :places [{:country "Jemen" :region "Hadżdża" :coords [16.1 43.2]}
+                         {:country "Nepal"}]}
+               {:title "Rafy ze stali"
+                :description "Statek, wagon metra, czołg. Wszystko to może stać się szkieletem kolorowej rafy."
+                :places [{:country "USA" :region "Floryda" :tags ["Wrak 'Duane'"] :coords [24.98967 -80.382]}
+                         {:country "USA" :region "Floryda" :tags ["Wrak 'General Hoyt S. Vandenberg'"] :coords [24.252688 -81.445622]}
+                         {:country "USA" :region "Alabama" :tags ["Czołgi M 60"] :coords [30.032816 -87.565823]}]}
+               {:title "Chińskie małpy"
+                :description "Czym zaskakują? Tym że żyją w mroźnych górach. I może dlatego są wąskonose."
+                :places [{:country "Chiny" :region "Rezerwat Zhouzhi" :coords [34.0 108.2]}]}
+               {:title "Tunel"
+                :description "Przez Alpy po trasie prostej jak stół? Już niedługo kolej pomknie 2 km pod górami."
+                :places [{:country "Szwajcaria" :tags ["Tunel Świętego Gotarda"] :coords [46.595556 8.595556]}]}
+               {:title "Trzecia płeć"
+                :description "Mężczyźni, którzy mają kobiece dusze, w Azji tworzą niezwykłe społeczności."
+                :places [{:country "Tajlandia"}
+                         {:country "Indie"}
+                         {:country "Pakistan"}
+                         {:country "Meksyk"}]}
+               {:title "Megadziura"
+                :description "Podziemne rzeki, pieczary mogące skryć kwartał wieżowców – oto niezwykłe podziemia Wietnamu."
+                :places [{:country "Wietnam" :region "Park Narodowy Phong Nha-Ke Bang" :coords [17.446042 106.292267]}]}
+               {:title "Camera Obscura"
+                :description "Niezwykły pejzaż na ścianie pokoju można namalować przez małą dziurkę."}
+               {:title "Superdrzewa"
+                :description "Sekwoje rozmiarów kosmicznych rakiet tworzą prawdziwą katedrę natury."
+                :places [{:country "USA" :region "Kalifornia" :coords [39.00 -123.65]}]}]}])
