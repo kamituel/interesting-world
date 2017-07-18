@@ -1551,4 +1551,47 @@
                 :description "Niezwykły pejzaż na ścianie pokoju można namalować przez małą dziurkę."}
                {:title "Superdrzewa"
                 :description "Sekwoje rozmiarów kosmicznych rakiet tworzą prawdziwą katedrę natury."
-                :places [{:country "USA" :region "Kalifornia" :coords [39.00 -123.65]}]}]}])
+                :places [{:country "USA" :region "Kalifornia" :coords [39.00 -123.65]}]}]}
+   {:year 2011 :month 5 :vol 140
+    :articles [{:title "Wywiad"
+                :description "Wywiad z dendrologiem Jackiem Oleksynem – o tym, jak drzewa ze sobą rozmawiają i dlaczego ekonomiczne teorie najlepiej testować na roślinach."}
+               {:title "Papiestwo"
+                :description "Święci i szubrawcy, asceci i hedoniści, mistycy i ludzie władzy. Galeria ludzkich typów wśród blisko trzech setek papieży jest wyjątkowo barwna, podobnie jak historia instytucji, której przewodzili. "}
+               {:title "Piękno destrukcji"
+                :description "Czy można zachwycić się wyrobiskiem, rzeką szlamu, hałdami odpadów? Okazuje się, że widziane z powietrza zyskują paradoksalnie estetyczny wymiar. "
+                :places [{:country "Polska" :city "Konin" :tags ["Odkrywka Gosławice"] :coords [52.28 18.26]}
+                         {:country "Polska" :city "Krokowa" :tags ["Bielawskie Błota"] :coords [54.80 18.22]}
+                         {:country "Polska" :city "Turawa" :tags ["Jezioro Turawskie"] :coords [50.72 18.12]}
+                         {:country "Polska" :city "Bełchatów" :coords [51.240108 19.256276]}
+                         {:country "Polska" :city "Police" :coords [53.575214 14.551096]}
+                         {:country "Polska" :city "Polkowice" :coords [51.513276 16.209036]}]}
+               {:title "Mrówki prządki"
+                :description "Uwierzycie, że wszystkie ziemskie mrówki ważą tyle co ludzie? Albo że organizują swoje społeczności, posługując się chemiczno-migowym „językiem”? Tak, mrówki potrafią dać do myślenia. "}
+               {:title "Jane Goodall"
+                :description "To ona odkryła, że szympansy nie są wegetarianami, ale organizują polowania. Że potrafią być okrutne  i podłe. Że przypominają nas dużo bardziej, niż moglibyśmy przypuszczać. Rewolucja w prymatologii to jej wyłączna zasługa. "
+                :places [{:country "Tanzania" :region "Park Narodowy Gombe" :coords [-4.67 29.63]}]}
+               {:title "Żywy towar"
+                :description "Pantery śnieżne, tygrysy, ginące ptaki i gady. Rzadkie okazy dzikich zwierząt mogą kosztować nawet 100 tys. dolarów. Nic dziwnego, że taka kryjąca się w lesie fortuna kusi."}
+               {:title "Wielka Rafa Koralowa"
+                :description "Australijski szelf zdobi gigantyczna, ciągnąca się przez 2300 km, oszałamiająca żywa konstrukcja. Zmiany klimatu sprawiły, że rafa walczy dziś o przetrwanie. I nie wystarczy kibicować. Musimy jej pomóc."
+                :places [{:country "Australia" :region "Wielka Rafa Koralowa" :coords [-19.34 148.63]}]}]}
+   {:year 2011 :month 4 :vol 139
+    :articles [{:title "Wywiad"
+                :description "Wywiad z etnologiem Robertem Andrzejem Dulem – o tym, jak chronić to, co ulotne, czyli niematerialne dziedzictwo człowieka z listy UNESCO."}
+               {:title "Inkowie"
+                :description "Ci Rzymianie Andów swoje górskie imperium stworzyli dzięki budowie dróg i geniuszowi organizacyjnemu. Mocarstwa, jakiego nie widział kontynent, nie byłoby jednak bez korzystnych zmian klimatu."
+                :places [{:country "Peru" :city "Cuzco" :coords [-13.53 -71.95]}]}
+               {:title "Polskie żaby"
+                :description "Wydają się stworzeniami najpospolitszymi z możliwych. Tymczasem niektóre ich cechy naprawdę potrafią zaskoczyć. "
+                :places [{:country "Polska"}]}
+               {:title "Nyiragongo"
+                :description "Milionowe miasto Goma leży u stóp aktywnego wulkanu, w rejonie pełnym plujących lawą szczelin, obok jeziora absorbującego toksyczne gazy. Życie w takim sąsiedztwie podnosi poziom adrenaliny."
+                :places [{:country "Demokratyczna Republika Konga" :city "Goma" :coords [-1.527546 29.249660]}]}
+               {:title "Krym"
+                :description "Półwysep wdzierający się w Morze Czarne z powodu swej tragicznej historii ma kłopoty z tożsamością. Na ile jest tatarski, na ile ukraiński, na ile rosyjski? Dziedzictwo Związku Radzieckiego nie daje tu o sobie zapomnieć."
+                :places [{:country "Ukraina" :region "Krym" :coords [45.3 34.4]}]}
+               {:title "Walenie"
+                :description "Wielkie morskie ssaki wywodzą się od... zwierząt kopytnych, które wchodziły do wody coraz dalej i dalej, aż straciły kontakt z lądem. Świetnie zachowane dowody  ich ewolucji odkopywane są dzisiaj w pustynnej egipskiej dolinie."}
+               {:title "Złoty czworokąt"
+                :description "Gigantyczny drogowy projekt łączący największe miasta dał Indiom rozwój i zmniejszenie nierówności. W przeludnionym kraju, w którym ziemia jest na wagę złota, oznaczał też jednak wiele krzywd i konfliktów."
+                :places [{:country "Indie"}]}]}])
