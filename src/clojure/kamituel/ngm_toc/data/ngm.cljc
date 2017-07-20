@@ -1594,4 +1594,67 @@
                 :description "Wielkie morskie ssaki wywodzą się od... zwierząt kopytnych, które wchodziły do wody coraz dalej i dalej, aż straciły kontakt z lądem. Świetnie zachowane dowody  ich ewolucji odkopywane są dzisiaj w pustynnej egipskiej dolinie."}
                {:title "Złoty czworokąt"
                 :description "Gigantyczny drogowy projekt łączący największe miasta dał Indiom rozwój i zmniejszenie nierówności. W przeludnionym kraju, w którym ziemia jest na wagę złota, oznaczał też jednak wiele krzywd i konfliktów."
-                :places [{:country "Indie"}]}]}])
+                :places [{:country "Indie"}]}]}
+   {:year 2011 :month 3 :vol 138
+    :articles [{:title "Wywiad"
+                :description "Wywiad z Jolantą Sierakowską-Dyndo o kobietach w świecie islamu. Na przykład o tym, dlaczego rozwód bywa dla nich dobrym interesem."}
+               {:title "Zawoalowany sprzeciw"
+                :description "Trzy dekady wojny, bieda, plemienne obyczaje. Rzeczywistość Afganistanu – trudna dla wszystkich – okrutna jest zwłaszcza dla kobiet."
+                :places [{:country "Afganistan"}]}
+               {:title "Mosuo"
+                :description "Małżeństwo się nie sprawdza. Tak przynajmniej twierdzi lud Mosuo, w którym to kobiety dzierżą władzę i wybierają sobie dowolną liczbę partnerów."
+                :places [{:country "Chiny" :region "Jezioro Lugu" :coords [27.7 100.8]}]}
+               {:title "Skłodowska-Curie"
+                :description "Uczona o niezwykłych: sile woli, umyśle, osobowości. Jej noblowskiego dubletu nie powtórzyła żadna kobieta w ponadstuletniej historii nagrody. "}
+               {:title "Różowy gang"
+                :description "Bambusowy kij i różowe sari i to strój członkiń tej armii. Sprawiedliwości szukają poza strukturami państwa – czasem tylko napiętnują winowajcę, czasem w ruch idą kije."
+                :tags ["Gulabi Gang`"]
+                :places [{:country "Indie" :region "Uttar Prades"}]}
+               {:title "Węgorze"
+                :description "Ryby inne niż wszystkie. Wystarczy powiedzieć, że potrafią wypełznąć na brzeg, żeby podjeść wyłożoną tam karmę dla psów."}
+               {:title "Tragarze pyłku"
+                :description "Ponad 200 tysięcy gatunków stworzeń zapyla ziemskie kwiaty. Od ich pracowitości zależy ogromna część żywności, jaką dysponujemy."}
+               {:title "Jiuzhaigou"
+                :description "Wizyta w miejscu, w którym Chińczycy z gigantycznych miast mogą poczuć mistyczne piękno dzikiej przyrody."
+                :places [{:country "Chiny" :region "Rezerwat Przyrody Jiuzhaigou" :coords [33.3 103.9]}]}]}
+   {:year 2011 :month 2 :vol 137
+    :articles [{:title "Wywiad"
+                :description "Wywiad z Assumptą Mugiranezą z Rwandy – o mechanizmach ludobójstwa, związaną z nim traumą i trudnym powrocie do wspólnego życia morderców i niedoszłych ofiar."}
+               {:title "Bahamy"
+                :description "Podwodne błękitne dziury niektórymi parametrami środowiska przypominają warunki w kosmosie. Dostępu do nich bronią potężne wiry i zasłony z trujących gazów."
+                :places [{:country "Bahamy" :coords [24.4,-78]}]}
+               {:title "Historia pióra"
+                :description "Po co były dinozaurom pióra? I jakie miały kolory? Powstały jako ewolucji pomysł na latanie, czy też odkryła je „przypadkiem”?"}
+               {:title "Polscy podróżnicy"
+                :description "Dwaj przyjaciele, słoik ogórków i marzenia o wyprawie dookoła świata. W latach 20. XX w. Tadeusz Perkitny i Leon Mroczkiewicz rzucili wyzwanie wielkiej przygodzie."}
+               {:title "Wojny opiumowe"
+                :description "Afganistan makiem stoi. Potrzebują go talibowie, potrzebują biedni rolnicy. Jak zwalczyć to narkotyczne uzależnienie?"
+                :places [{:country "Afganistan"}]}
+               {:title "Łabędzie"
+                :description "Podobno ładnym jest w życiu lepiej. Te wielkie ptaki – pełne dostojnej gracji na wodzie i majestatyczne w powietrzu – łatwego losu jednak nie mają."}
+               {:title "Paryż"
+                :description "Nietypowy spacer pod bulwarami francuskiej stolicy – wśród milionów kości, sztab złota, przez barwne azyle katafilów."
+                :places [{:country "Francja" :city "Paryż" :coords [48.866667 2.35]}]}
+               {:title "Z morza na talerze"
+                :description "Ludzkość łowi dziś wszystko i wszędzie, gdzie się da. A dla  równowagi ekologicznej ważne jest nie tylko ile, ale też jakie ryby jemy."}]}
+   {:year 2011 :month 1 :vol 136
+    :articles [{:title "Wywiad"
+                :description "Wywiad z dr. hab. Piotrem Gawrysiakiem o tym, jak ważna jest archiwizacja danych w erze cyfrowej, oraz o problemach dostępu do informacji."}
+               {:title "Muszelki"
+                :description "Przez kilka wieków zachodnia Afryka używała specyficznej wapiennej waluty. Niewolnicę można było kupić za 50 tys. muszli."
+                :places [{:region "Afryka"}]}
+               {:title "Wojny z zarazą"
+                :description "Przez pewien czas łudziliśmy się, że mamy je pod kontrolą. Szybko jednak dowiodły, że wciąż trzymają nas w śmiertelnym szachu."
+                :tags ["hantawirus" "grypa" "hiv" "aids" "gruźlica" "malaria" "odra"]}
+               {:title "Timbuktu"
+                :description "Poruszanie się po okolicy bez talizmanów kupionych u marabuta miejscowi nazwą lekkomyślnością. Cóż dopiero przejście żołnierza z Zachodu na islam z powodu miłości do dziewczyny. Czy ta historia mogła skończyć się dobrze?"
+                :places [{:country "Mali" :city "Timbuktu" :coords [16.77 -3.0]}]}
+               {:title "Bioko"
+                :description "Ta wyspa jest zdumiewająco bogatym siedliskiem wielu gatunków małp. Jak to się stało, że – inaczej niż w innych miejscach w Afryce – przetrwały w niezłej formie?"
+                :places [{:country "Gwinea Równikowa" :region "Bioko" :coords [3.5 8.7]}]}
+               {:title "Cahokia"
+                :description "Czerwonoskóre mieszczuchy na amerykańskich preriach na długo przed przybyciem białych? Ten obraz tak kłócił się z powszechnymi wyobrażeniami, że długo nie docierał do opinii publicznej."
+                :places [{:country "USA" :region "Illinois" :city "St. Louis" :coords [38.653604 -90.064525]}]}
+               {:title "Georgia Południowa"
+                :description "Wyspa zdołała się odrodzić mimo rzezi, jaką tutejszej faunie urządził człowiek. Dziś jej wielotysięczne kolonie przywodzą na myśl świat w stanie pierwotnym."
+                :places [{:country "Wielka Brytania" :region "Georgia Południowa" :coords [-54.3 -36.7]}]}]}])
