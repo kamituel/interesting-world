@@ -20,8 +20,9 @@
 (s/def :ngm-issue/month number?)
 (s/def :ngm-issue/vol number?)
 (s/def :ngm-issue/articles (s/coll-of ::ngm-article :min-count 1))
-(s/def ::ngm-issue (s/keys :req-un [:ngm-issue/year :ngm-issue/month :ngm-issue/vol
-                                    :ngm-issue/articles]))
+(s/def ::ngm-issue (s/keys :req-un [:ngm-issue/year :ngm-issue/month
+                                    :ngm-issue/articles]
+                           :opt-un [:ngm-issue/vol]))
 (s/def ::ngm-issues (s/coll-of ::ngm-issue :min-count 1))
 
 ;; Current search query.

@@ -8,7 +8,71 @@
 ;;       druga z 2-gim krajem, trzecia z lokalizacją.
 
 (def ngm
-  [{:year 2017 :month 5 :vol 212
+  [{:year 2018 :month 10
+    :articles [{:title "Kazimierz Wielki"
+                :description "Król Kazimierz był wielki. Dla Polaków to fakt tak domyślnie oczywisty, że nawet nie jesteśmy w stanie mówić o tym władcy w jakikolwiek inny sposób. Dlaczego jako jedyny władca Polski zyskał ten przydomek? I czy słusznie? Na okładce jest Andrzej Hausner, odtwórca roli Kazimierza III Wielkiego w drugim sezonie serialu Telewizji Polskiej pt. „Korona królów”."
+                :places [{:country "Polska"}
+                         {:country "Polska" :city "Bobolice" :coords [50.613264  19.493005] :tags ["zamek"]}
+                         {:country "Polska" :city "Będzin" :coords [50.327221 19.129121] :tags ["zamek"]}
+                         {:country "Polska" :city "Pieskowa Skała" :coords [50.244238 19.779446] :tags ["zamek"]}]}
+               {:title "Sokoły"
+                :description "Od stuleci ludzi łączyła wyjątkowa więź z sokołami, najszybszymi zwierzętami świata. Teraz pewien szejk i jego sokolnik hodują i szkolą te ptaki w sposób, który może być wzorcem dla ich ochrony. (\"Władcy nieba\", Peter Gwin) Artykuł powstał w ramach kampanii National Geographic „2018 ROK PTAKÓW” koncentrującej się na znaczeniu oraz ochronie tych niezwykłych stworzeń."
+                :places [{:country "Zjednoczone Emiraty Arabskie"}]}
+               {:title "Park narodowy Sarek"
+                :description "Niewiele jest w Europie krain tak dziewiczych jak Park Narodowy Sarek. W surowych, odludnych wspaniałościach Laponii turyści są pozostawieni sami sobie. („Dzikie serce Szwecji”, Don Belt)"
+                :places [{:country "Szwecja" :coords [67.3 17.7] :tags ["park narodowy sarek"]}]}
+               {:title "Irańscy nomadzi"
+                :description "Współczesny świat przyciąga młode pokolenie koczowników do miast. A wielu z tych, którzy wciąż jeszcze tego stylu życia nie porzucili, zastanawia się, ile jest warte takie życie."
+                :places [{:country "Iran" :tags ["nomadzi bakhtiari"] :coords [32.7 49.4]}]}
+               {:title "Gorsi Amerykanie"
+                :description "W czasie II wojny USA uwięziły bez sądu ponad 100 tys. obywateli z japońskimi korzeniami."
+                :places [{:country "USA" :city "Los Angeles" :coords [34.137757 -118.043938] :tags ["Santa Anita (detention facility)"]}
+                         {:country "USA" :tags ["Heart Mountain Relocation Center"] :coords [44.671667 -108.946389]}
+                         {:country "USA" :tags ["Puyallup Assembly Center" "Camp Harmony"] :coords [47.182879 -122.295397] :city "Puyallup"}
+                         {:country "USA" :city "Phoenix" :tags ["Gila River War Relocation Center"] :coords [33.065083 -111.830528]}]}
+               {:title "Meduzy"
+                :description "Może i są bezmózgie. Ale także piękne, a czasami nawet... nieśmiertelne."}
+               {:title "Szwedzka Laponia"
+                :description "Niewiele jest w Europie krain równie dziewiczych."
+                :places [{:country "Szwecja" :tags ["kraina laponii"] :coords [67.4 17.3]}]}]}
+   {:year 2018 :month 2 :vol 221
+    :articles [{:title "Tęgie głowy"
+                :description "Wyrażenie „ptasi móżdżek” na określenie intelektualnego deficytu ma niewiele wspólnego z prawdą. Niektóre ptaki dysponują bowiem możliwościami, o jakie nigdy byśmy ich nie podejrzewali. Artykuł powstał w ramach kampanii National Geographic „2018 ROK PTAKÓW” koncentrującej się na znaczeniu oraz ochronie ptaków."}
+               {:title "Jesteś pod obserwacją"
+                :description "Rozwój nowoczesnych technologii i mediów społecznościowych radykalnie zmienia społeczeństwo. Co wynika z faktu powszechnej inwigilacji i czy z tej drogi możemy jeszcze zawrócić?"}
+               {:title "Nakarmić Chiny"
+                :description "Chińczycy jeszcze nigdy nie jedli tak dobrze jak dziś, a ich potrzeby wciąż rosną. To ma swoje konsekwencje dla chińskiej wsi, stosunków społecznych i krajobrazu."
+                :places [{:country "Chiny"}]}
+               {:title "Urok Falklandów"
+                :description "Ten archipelag na południowym Atlantyku pokazuje, jak natura potrafi wspaniale się odrodzić, gdy tylko człowiek zostawi ją  w spokoju. Na dowód pokazujemy obrazy kojącej, nieskażonej dzikości. Autorem tekstu oraz zdjęć jest Paul Nicklen."
+                :places [{:country "Wielka Brytania" :coords [-51.752485 -60.003573]}]}
+               {:title "Rodzic w pułapce"
+                :description "Robotyczne niemowlęta pod opieką nastolatków w Kolumbii pozwalają im zrozumieć, co znaczyłoby dla nich zbyt wczesne rodzicielstwo."
+                :places [{:country "Kolumbia"}]}
+               {:title "Biegiem z dachu Afryki"
+                :description "Na Kilimandżaro, najwyższej górze Afryki, stanęło już mnóstwo osób. Jednak w rozgrywanym na jego stokach maratonie wystartowało tylko 10. Iwona El Tanbouli-Jabłońska, dyrektor artystyczna National Geographic Polska, relacjonuje przebieg najwyżej startującego maratonu na świecie."
+                :places [{:country "Tanzania" :coords [-3.067434 37.355611] :tags ["Kilimanjaro" "Kilimandżaro"]}]}]}
+   {:year 2018 :month 1 :vol 220
+    :articles [{:title "Świat do zaszczepienia"
+                :description "Szczepionki to jeden z kamieni milowych medycyny. Ocaliły życie milionom ludzi. I byłoby ich jeszcze więcej, gdyby świat nie był pełen ekonomicznych kontrastów."}
+               {:title "Ostatni lód"
+                :description "Już niedługo na biegunie północnym żadnej flagi zatknąć się nie da, bo będzie tam falował ocean. To zła wiadomość. Dobra jest taka, że trochę lodowej pokrywy przetrwa, tyle że – czego można by oczekiwać – akurat nie tam."
+                :tags ["Zatoka Hudsona" "Ziemia Baffina" "Wyspa Devon"]}
+               {:title "Kolumbia"
+                :description "Pół wieku wojny domowej zrodziło ogromne społeczne problemy. Bo jak dziś żyć w obok wczorajszych prześladowców?"
+                :places [{:country "Kolumbia"}]}
+               {:title "Kabul dla Bogatszych"
+                :description "Klasa średnia w zrujnowanej stolicy zrujnowanego kraju? Tak. Oczywiście na miarę afgańskich możliwości."
+                :places [{:country "Afganistan" :city "Kabul" :coords [34.53 69.18]}]}
+               {:title "Ile znaczą ptaki"
+                :description "Ciągle jeszcze są wszędzie. Stanowią nasz ostatni związek ze światem przyrody, który coraz bardziej znika. Dlatego przejrzyjmy im się uważniej."}
+               {:title "Odcisk lotu"
+                :description "Zwierzęta poruszające się po lądzie pozostawiają ślady swojej bytności – odciski ciał, łap, kopyt. A jak wyglądałoby niebo, gdyby po fruwających po nim ptakach też pozostawał ślad? Sami zobaczcie."}]}
+
+#_{:year 2017 :month 10 :vol 217
+    :articles [{:title "Dubaj gra w zielone"
+                :description ""}]}
+   {:year 2017 :month 5 :vol 212
     :articles [{:title "Geniusz"
                 :description "Co decyduje o ponadprzeciętnych zdolnościach? Jakie czynniki mają na to wpływ? Jednoznacznych odpowiedzi brak, ale badania trwają i pewne tropy już mamy."}
                {:title "Płonące serce Afryki"
@@ -1657,4 +1721,11 @@
                 :places [{:country "USA" :region "Illinois" :city "St. Louis" :coords [38.653604 -90.064525]}]}
                {:title "Georgia Południowa"
                 :description "Wyspa zdołała się odrodzić mimo rzezi, jaką tutejszej faunie urządził człowiek. Dziś jej wielotysięczne kolonie przywodzą na myśl świat w stanie pierwotnym."
-                :places [{:country "Wielka Brytania" :region "Georgia Południowa" :coords [-54.3 -36.7]}]}]}])
+                :places [{:country "Wielka Brytania" :region "Georgia Południowa" :coords [-54.3 -36.7]}]}]}
+    {:year 2010 :month 12 :vol 135
+     :articles [{:title "Wywiad"
+                 :description "Wywiad z archeologiem Andrzejem Pydynem, który opowiada o tym, jak szuka się skarbów kultury pod wodą, a także co można tam znaleźć."}
+                {:title "Aztekowie"
+                 :description " Ich imperium spływało krwią i opinia ta nie jest jedynie czarnym PR-em konkwistadorów. Azteckie bóstwa domagały się ofiar z ludzi, więc zdobywanie jeńców było w istocie nakazem religijnym. Do czego doprowadziło to okrucieństwo bogów?"
+                 :places [{:country "Meksyk" :city "Meksyk" :coords [19.4321 -99.1331]}]}
+                #_{:title "Kostka "}]}])
