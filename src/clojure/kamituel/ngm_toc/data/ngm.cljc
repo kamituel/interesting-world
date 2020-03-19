@@ -8,7 +8,20 @@
 ;;       druga z 2-gim krajem, trzecia z lokalizacją.
 
 (def ngm
-  [{:year 2018 :month 10
+  [{:year 2019 :month 6 :vol 237
+    :articles [{:title "Zooturystyka"
+                :description "Kontakt z dzikimi zwierzętami bywa dla ludzi źródłem euforycznych doznań. Ale za pięknymi fotografiami prezentowanymi w mediach społecznościowych kryje się przemysł pełen okrucieństwa i brutalnej eksploatacji zwierząt."
+                :places [{:country "Tajlandia"}
+                         {:country "Rosja"}]}
+               {:title "Strażniczki"
+                :description "W Zimbabwe kobiety, które same były ofiarami przemocy, sprawdzają się w roli strażniczek dzikiej natury w walce z kłusownictwem."
+                :places [{:country "Zimbabwe" :coords [-16.161136 29.500340]}]}
+               {:title "Morskie winogrona"
+                :description "Tajemnicze Morze Sargassowe to jedyna w swoim rodzaju, pełna życia \"oceaniczna sawanna\"."
+                :places [{:coords [28 -66] :tags ["Morze Sargassowe"]}]}
+               {:title "Łuskowce"
+                :description "Łuski, zbudowane ze zwykłej kreatyny, ale mające rzekomo cudowne właściwości, stały się dla tych ssaków przekleństwem."}]}
+   {:year 2018 :month 10 :vol 229
     :articles [{:title "Kazimierz Wielki"
                 :description "Król Kazimierz był wielki. Dla Polaków to fakt tak domyślnie oczywisty, że nawet nie jesteśmy w stanie mówić o tym władcy w jakikolwiek inny sposób. Dlaczego jako jedyny władca Polski zyskał ten przydomek? I czy słusznie? Na okładce jest Andrzej Hausner, odtwórca roli Kazimierza III Wielkiego w drugim sezonie serialu Telewizji Polskiej pt. „Korona królów”."
                 :places [{:country "Polska"}
@@ -35,6 +48,47 @@
                {:title "Szwedzka Laponia"
                 :description "Niewiele jest w Europie krain równie dziewiczych."
                 :places [{:country "Szwecja" :tags ["kraina laponii"] :coords [67.4 17.3]}]}]}
+   {:year 2018 :month 6 :vol 225
+    :articles [{:title "Plastik"
+                :description "Stworzyliśmy go. Jesteśmy od niego uzależnieni. Nieświadomie wypełniliśmy nim oceany. Miliardy ton plastikowych odpadów będą się rozkładać przez wieki, jeśli nie tysiąclecia. Aby ograniczyć ten potok musimy zwiększać wtórne wykorzystanie surowców i zużywać ich znacznie mniej. Czy możemy jednocześnie cieszyć się zaletami plastiku i mieć czyste środowisko?"}
+               {:title "Kaszmir"
+                :description "Śrutówki służb bezpieczeństwa oślepiają ludzi – i podgrzewają trwający od dekad indyjsko-pakistański konflikt. Władze stosują je, aby tłumić zamieszki, nie zabijając ludzi, jednak śrut okalecza przypadkowe ofiary."
+                :places [{:country "Indie" :coords [33.8 76.1]}
+                         {:country "Pakistan" :coords [33.8 76.1]}]}
+               {:title "Afryka"
+                :description "Nowe technologie i gospodarka naturalna - takie kontrasty tylko a Afryce."
+                :places [{:tags ["Afryka"]}]}
+               {:title "Papugi"
+                :description "Budzą wielkie zainteresowanie ludzi, bo bardziej niż inne ptaki przypominają nas samych."}
+               {:title "Dzika Alaska"
+                :description "Ostatniej prawdziwie dzikiej połaci Ameryki zagrażają znajdujące się pod nią złoża ropy."
+                :places [{:country "USA" :tags ["Alaska"] :coords [69.7  -143.6]}]}]}
+   {:year 2018 :month 5 :vol 224
+    :articles [{:title "Pablo Picasso"
+                :description "To nazwisko zna chyba każdy. Nie tylko ze względu na znaczenie tej postaci w sztukach plastycznych, ale też świadome budowanie przez nią \"marki\" . Wielka samoświadomość, siła woli, obsesyjne poświęcenie się pracy i spora doza bezwzględności - oto co stworzyło geniusza."}
+               {:title "Być muzułmaninem w Ameryce"
+                :description "Jest ich 3,45 mln. Są imigrantami z ponad 75 krajów. Choć często funkcjonują w otoczeniu im niechętnym, organizują się, budują meczety - i rosną w siłę."
+                :places [{:country "USA"}]}
+               {:title "Dinozaury, które nie wyginęły"
+                :description "Skąd się wzięły ptaki? W prostej linii od dinozaurów. Niedobitków, które przetrwały uderzenie asteroidy sprzed 66 mln lat."}
+               {:title "Śmierć dla życia"
+                :description "Atol Fakarava na Polinezji Francuskiej w czerwcu oferuje rzadki spektakl: amory populacji garników pod okiem bezwzględnego rekiniego stada."
+                :places [{:country "Francja" :coords [-16.3 -145.633333] :tags ["Atol Fakarava" "Polinezja Francuska"]}]}]}
+   {:year 2018 :month 4 :vol 223
+    :articles [{:title "Pozory mylą"
+                :description "Przez wiele lat koncepcja wyższości jednych ras nad innymi znajdowała sprzymierzeńców w środowiskach naukowych. Aktualne wyniki badań DNA potwierdzają, że nie ma stałych cech kojarzonych z określonymi lokalizacjami geograficznymi. Wbrew pozorom wszyscy jesteśmy bardzo do siebie podobni."}
+               {:title "Co nas dzieli"
+                :description "Człowiek ma niezwykłą zdolność do budowania swej tożsamości w opozycji do innych. Czy jesteśmy więc skazani na wieczny konflikt My kontra Oni?"}
+               {:title "Granica"
+                :description "500 kilometrową granicę pomiędzy Republiką Irlandii a Irlandią Północną nie oddziela żaden mur. Mimo to pamięć o trwającym 30 lat konflikcie pomiędzy republikanami a zwolennikami pozostania w granicach Wielkiej Brytanii jest wciąż żywa. Rozmowy toczące się wokół Brexitu zostały w Irlandii Północnej przyjęte ze strachem i gniewem – burzą one kruchą równowagę społeczną w regionie."
+                :places [{:country "Irlandia Północna"}]}
+               {:title "Jane i Szympansy"
+                :description "Jane Goodall ma status ikony National Geographic, a jej badania nad szympansami w rezerwacie Gombe Stream stanowiły przedmiot licznych filmów, reportaży oraz wystąpień. Niepublikowane dotąd zdjęcia autorstwa Hugo van Lawicka stały się pretekstem, aby tę historię opowiedzieć jeszcze raz: bardzo szczerze, intymnie i od początku."
+                :places [{:country "Tanzania" :tags ["Park narodowy Gombe"] :coords [-4.7 29.65]}]}
+               {:title "Komplikacje życia"
+                :description "Przez 3 mld lat życie na Ziemi miało formę prostych, jednokomórkowych organizmów. Aż w pewnym momencie zaczęło się mocno komplikować."}
+               {:title "Czarny opór"
+                :description "Jak pokazać światową historię walki czarnych o swoje prawa? Omar Victor Diop znalazł na to oryginalny fotograficzny sposób."}]}
    {:year 2018 :month 2 :vol 221
     :articles [{:title "Tęgie głowy"
                 :description "Wyrażenie „ptasi móżdżek” na określenie intelektualnego deficytu ma niewiele wspólnego z prawdą. Niektóre ptaki dysponują bowiem możliwościami, o jakie nigdy byśmy ich nie podejrzewali. Artykuł powstał w ramach kampanii National Geographic „2018 ROK PTAKÓW” koncentrującej się na znaczeniu oraz ochronie ptaków."}
@@ -1722,10 +1776,113 @@
                {:title "Georgia Południowa"
                 :description "Wyspa zdołała się odrodzić mimo rzezi, jaką tutejszej faunie urządził człowiek. Dziś jej wielotysięczne kolonie przywodzą na myśl świat w stanie pierwotnym."
                 :places [{:country "Wielka Brytania" :region "Georgia Południowa" :coords [-54.3 -36.7]}]}]}
-    {:year 2010 :month 12 :vol 135
+    #_{:year 2010 :month 12 :vol 135
      :articles [{:title "Wywiad"
                  :description "Wywiad z archeologiem Andrzejem Pydynem, który opowiada o tym, jak szuka się skarbów kultury pod wodą, a także co można tam znaleźć."}
                 {:title "Aztekowie"
                  :description " Ich imperium spływało krwią i opinia ta nie jest jedynie czarnym PR-em konkwistadorów. Azteckie bóstwa domagały się ofiar z ludzi, więc zdobywanie jeńców było w istocie nakazem religijnym. Do czego doprowadziło to okrucieństwo bogów?"
                  :places [{:country "Meksyk" :city "Meksyk" :coords [19.4321 -99.1331]}]}
-                #_{:title "Kostka "}]}])
+                #_{:title "Kostka "}]}
+   {:year 2010 :month 6 :vol 129
+    :articles [{:title "Bronisław Malinowski"
+                :description "Dzienniki nie pozostawiają wątpliwości: ten gigant antropologii, badacz tubylczego seksu, miał paskudny charakter. Mimo to zdołał wejść między „dzikich” i wykazać, że człowiek cywilizowany niewiele się od nich różni."
+                :places [{:tags ["melanezja"] :coords [-7 131]}]}
+               {:title "Las Foja"
+                :description "Nowogwinejskie góry wystające ponad porośnięte dżunglą równiny są jak dziewicze wyspy. Badacze, którzy tam dotarli jako pierwsi, mogli się poczuć niczym XIX-wieczni odkrywcy nowych ziem i gatunków zwierząt."
+                :places [{:country "Indonezja" :tags ["Góry Foja"] :coords [-2.6 139.083333]}]}
+               {:title "Sen"
+                :description "Człowiek bez snu żyć nie może, choć nauka wciąż nie potrafi wyjaśnić, do czego tak naprawdę jest mu potrzebny. Co więcej, bezsenność staje się cywilizacyjną plagą. Badania nad snem mają zatem kolosalną przyszłość."}
+               {:title "Grenlandia"
+                :description "Ogromna wyspa przykryta lądolodem długo była niegościnna i jałowa. Globalne ocieplenie zmienia jednak sytuację, a mieszkańcy patrzą na ten proces z nadzieją. Czy Grenlandia, zgodnie z nazwą, zazieleni się?"
+                :places [{:country "Grenlandia" :coords [72 -40]}]}
+               {:title "St. Helens"
+                :description "Wulkan, który eksplodował w 1980 r., zniszczył życie na 600 km2, ale zarazem stworzył ogromne laboratorium, gdzie naukowcy mogą obserwować procesy odbudowy zniszczonych ekosystemów."
+                :places [{:country "USA" :tags ["Washington"] :coords [46.1912 -122.1944]}]}
+               {:title "Energia słoneczna"
+                :description "Słońce wysyła na Ziemię miliony razy więcej energii, niż nam potrzeba. Opracowanie technologii skutecznego jej chwytania oznacza więc niewyczerpane, czyste źródło darmowego prądu."}]}
+   {:year 2010 :month 5 :vol 128
+    :articles [{:title "Bionika"
+                :description "Proteza ręki reagująca na sygnały płynące z mózgu całkiem jak prawdziwa? Tak, to już możliwe. Co zatem czeka nas w niedalekiej przyszłości? Jakie „techniczne zamienniki” naszych układów możemy wyprodukować?"}
+               {:title "Herbaciany szlak"
+                :description "Przez tysiąc lat herbata z Syczuanu wędrowała do Tybetu na grzbietach mułów i tragarzy. Setki kilometrów wąskim szlakiem wiodącym przez górskie przełęcze. Co dziś pozostało po starej handlowej drodze?"
+                :places [{:country "Chiny" :city "Lhasa" :tags ["Tybet"] :coords [29.621177 91.177558]}
+                         {:country "Chiny" :city "Ya'an" :coords [29.989022 103.012993]}]}
+               {:title "Zimorodki"
+                :description "Ten oszałamiającymi barwami ptak jest w naszym umiarkowanym klimacie niczym tchnienie tropików. Szybki jak błyskawica, żyje intensywnie. Skrzydlaty błękitny rybak na pewno was zachwyci."}
+               {:title "Meksyk"
+                :description "Rzeczywistość kraju wstrząsanego krwawymi ekscesami narkotykowych karteli bywa trudna do zniesienia. Ludzie pociechy szukają więc w osobliwych kultach – Świętej Śmierci lub bandytów-Robin Hoodów."
+                :places [{:country "Meksyk"}]}
+               {:title "Ptolemais"
+                :description "Polscy archeolodzy od lat odkopują starożytne miasto w Libii. Zachowane równie dobrze jak Pompeje, pozwala nam poznać codzienne życie w rzymskim imperium."
+                :places [{:country "Libia" :city "Ptolemais" :coords [32.705789 20.953973]}]}
+               {:title "Libia"
+                :description "Były okresy, gdy Sahara się zieleniła. Wraz z deszczami pojawiała się roślinność, a wraz z nią – zwierzęta i ludzie. Być może tym korytarzem człowiek kolonizował świat. Zajrzyjmy więc do kroniki pustyni."
+                :places [{:country "Libia"}]}]}
+   {:year 2010 :month 4 :vol 127
+    :articles [{:title "Woda życia"
+                :description "Zasoby H2O krążącej w ziemskich ekosystemach teoretycznie zawsze są takie same. Tyle że potrzeby ludzkości rosną, a dostęp do wody przestał być oczywisty. Żeby uporać się z tym problemem, musimy zacząć traktować wodę jak dobro wspólne."}
+               {:title "Topnienie Tybetu"
+                :description "Jangcy, Mekong, Ganges, Huang He – największe rzeki Azji, gaszące pragnienie setek milionów ludzi, biorą początek na Dachu Świata, a zasilają je wody z tamtejszych lodowców. Co się stanie, gdy tybetańskie wieczne lody stopnieją?"
+                :places [{:country "Chiny" :tags ["Tybet" "Wyżyna Tybetańska"]}]}
+               {:title "Święte wody"
+                :description "Rzeki, mające swój początek i rozpływające się w oceanie, symbolizują przemijanie, wędrówkę, życiową drogę. Woda przenika wszystko, co żyje. Nic zatem dziwnego, że w wielu kulturach wody rzek trafiły do sfery sacrum."
+                :places [{:country "Meksyk" :tags ["studnia xkeken" "jukatan"] :coords [20.660792 -88.242748]}
+                         {:country "Laos" :tags ["mekong"]}
+                         {:country "Indie" :city "Haridwar" :tags ["święto ganga dussehra" "hinduizm"] :coords [29.943021 78.163676]}
+                         {:country "Francja" :city "Lourdes" :coords [43.1 -0.05]}
+                         {:country "Turcja" :city "Istambuł" :tags ["meczet beyazit"] :coords [41.010207 28.965253]}]}
+               {:title "Etiopia"
+                :description "W wielu rejonach biednych, trapionych suszą krajów najbardziej pracochłonnym zajęciem kobiet i dziewcząt jest... zapewnienie rodzinie wody. Na inną aktywność nie mają już czasu. Dlatego wydajna studnia w takiej społeczności to rewolucja."
+                :places [{:country "Etiopia"}
+                         {:country "Kenia"}]}
+               {:title "Cisza strumieni"
+                :description "Słodkie wody są siedliskiem życia niewiarygodnej liczby gatunków żywych stworzeń. Człowiek, zanieczyszczając wody bez opamiętania, zabija w nich życie, eksterminując,  czasami bezwiednie, całe gatunki."}
+               {:title "Jordan"
+                :description "Z potężnej rzeki, w której wodach ochrzcił się Chrystus, pozostał ściek. Transgraniczny Jordan w suchym, skonfliktowanym regionie świata jest obiektem rywalizacji, narzędziem presji,  ale też symbolem konieczności porozumienia."
+                :places [{:country "Izrael" :tags ["jezioro galilejskie"] :coords [32.808655 35.586966]}
+                         {:country "Jordan"}]}]}
+   {:year 2010 :month 3 :vol 126
+    :articles [{:title "Nazca"
+                :description "Ogromne rysunki na peruwiańskiej pustyni długo były tak tajemnicze, że ich autorstwo chętnie przypisywano kosmitom. Okazuje się jednak, że pochodzenie rytów można racjonalnie wyjaśnić."
+                :places [{:country "Peru" :coords [-14.742139 -75.128758]}]}
+               {:title "Rośliny mięsożerne"
+                :description "Kwiat zastawiający pułapkę na owada, a potem rozkładający go na substancje pokarmowe, wydaje się zjawiskiem przeczącym porządkowi natury. I właśnie dlatego jest ono tak fascynujące."}
+               {:title "Szanghaj"
+                :description "Chiny przygotowują się do objęcia roli największego supermocarstwa. A Szanghaj zamierza być tej potęgi najważniejszą metropolią."
+                :places [{:country "Chiny" :city "Szanghaj" :coords [31.2 121.4]}]}
+               {:title "Szympansy"
+                :description "Są jeszcze na świecie (a przynajmniej były do niedawna) wielkie małpy, które nigdy nie widziały człowieka. Co odkryli prymatolodzy, którzy się na nie natknęli?"
+                :places [{:country "Kongo" :tags ["trójkąt goualougo" "park narodowy nouabale-ndoki"] :coords [2.16 16.51]}]}
+               {:title "Góra Waszyngtona"
+                :description "Nie jest przesadnie wysoka, ale wietrzna jak diabli. Średnio 120 dni w roku powyżej progowej prędkości huraganu – to robi wrażenie!"
+                :places [{:country "USA" :tags ["new hampshire"] :coords [44.270531 -71.303395]}]}
+               {:title "Dystrykt mody"
+                :description "Nowojorskie fabryki odzieży ubierały kiedyś całe Stany Zjednoczone, dając zatrudnienie milionom emigrantów. Dziś modowy przemysł, jeden z symboli miasta, usiłuje sprostać wyzwaniom globalizacji."
+                :places [{:country "USA" :city "Nowy Jork" :tags ["manhattan"] :coords [40.753617 -73.992429]}]}]}
+   {:year 2010 :month 2 :vol 125
+    :articles [{:title "Poligamia"
+;l zxcvbm
+                ';lmnbvcxz  micxikru8`       :description "Mormońska sekta na amerykańskim Zachodzie wciąż praktykuje – nielegalną w Stanach – poligamię. Co sprawia, że mimo nacisków otoczenia fundamentaliści utrzymują trwałość swoich ogromnych „niebiańskich rodzin”?"
+                 :tags ["Fundamentalistyczny Kościół Jezusa Chrystusa Świętych w Dniach Ostatnich" "FLDS"]
+≥i9so                 :places [{:country "USA" :city "Hildale" :tags ["Utah"] :coords [37.00 -112.97]}
+                         {:country "USA" :city "Colorado City" :tags ["Arizona"] :coords [36.99 -112.98]}
+                         {:country "USA" :city "Pony Springs" :tags ["Nevada"] :coords [39.981572 -115.169210]}]}
+               {:title "Pacyficzny łosoś"
+                :description "Te ryby pokonują tysiące kilometrów, by wrócić do znajomej rzeki, złożyć tam ikrę i... zginąć. Kłusownicy zabijają je, nim wypełnią tę misję."
+                :places [{:country "Rosja" :tags ["półwysep kamczacki" "kamczatka"] :coords [53.06 158.47]}]}
+               {:title "Wrak"
+                :description "Przed wiekami wyładowany złotem okręt w drodze po bogactwa Indii rozbił się o skały wybrzeża diamentów. Jakby dla ilustracji tezy, że życie bywa przewrotne."
+                :places [{:country "Nambia" :tags ["park narodowy sperrgebiet"] :coords [-28.37 16.1]}]}
+               {:title "Hubble"
+                :description "Zasłużony (i wysłużony) kosmiczny teleskop przeszedł gruntowny remont i teraz widzi ostrzej, niż kiedykolwiek przedtem."}
+               {:title "Licheń"
+                :description "Największa konkurencja dla Częstochowy jest sanktuarium nowego typu. To kombinat, w którym potrzeby religijne mieszają się z turystyczno-rozrywkowymi."
+                :places [{:country "Polska" :city "Licheń" :coords [52.321843 18.356509]}]}
+               {:title "Podziemia USA"
+                :description "Amerykańskie stany Tennessee, Alabama i Georgia są podziurawione jak sito. Kilkanaście tysięcy jaskiń tworzy raj dla speleologów."
+                :places [{:country "USA" :tags ["jaskinia rumblings falls" "tennessee"] :coords [35.73 -85.41]}
+                         {:country "USA" :tags ["jaskinia iron hoop" "alabama"] :coords [34.916940 -86.031670]}
+                         {:country "USA" :tags ["jaskinia stephens gap" "alabama"] :coords [34.670629 -86.217744]}
+                         {:country "USA" :tags ["jaskinia sub-solomon" "tennessee"] :coords [35.22750000 -85.95111111]}
+                         {:country "USA" :tags ["jaskinia thunder hole" "alabama"]}
+                         {:country "USA" :tags ["jaskinia ellison's" "georgia"] :coords [34.664927 -85.363722]}]}]}])
