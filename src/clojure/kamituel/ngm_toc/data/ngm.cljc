@@ -8,7 +8,29 @@
 ;;       druga z 2-gim krajem, trzecia z lokalizacją.
 
 (def ngm
-  [{:year 2019 :month 6 :vol 237
+  [{:year 2019 :month 8 :vol -1
+    :articles [{:title "Tokio"
+                :description "Największa metropolia świata siłą rzeczy musi być chaosem, ale jest to chaos zdumiewająco uporządkowany. Mimo starzejącej się populacji pozostaje kreatywna i witalna."
+                :places [{:country "Japonia" :city "Tokio" :coords [35.683333 139.683333]}]}
+               {:title "Drogi migrantów"
+                :description "Paul Salopek w swej podróży dookoła świata śladami pierwszych ludzi zasiedlających ziemię wszędzie spotyka migrantów, zmuszonych przez los do opuszczenia rodzinnych stron."
+                :places [{:country "Etiopia"}
+                         {:country "Dżibuti"}
+                         {:country "Jordania"}
+                         {:country "Turcja"}
+                         {:country "Uzbekistan"}
+                         {:country "Indie"}]}
+                {:title "Portrety z Tijuany"
+                 :description "Granica między USA i Meksykiem w mieście Tijuana jest miejscem węzłowym dla wielu ludzkich historii."
+                 :places [{:country "Meksyk" :city "Tijuana" :coords [32.5 -117.0]}]}
+                {:title "Dalajlama"
+                 :description "Żywy symbol tybetańskiego narodu i kultury, od 60 lat na wygnaniu, wciąż widzi świat w jasnych barwach."
+                 :places [{:country "Indie" :city "Dharamsala" :coords [32.231585 76.323638]}]}
+                {:title "Rosomak"
+                 :description "Niezbyt urodziwy ale szaleńczo odważny i wytrwały. Lubi śnieżne środowisko Północy,a z tym nie jest dobrze."
+                 :places [{:country "Kanada"}
+                          {:country "USA"}]}]}
+   {:year 2019 :month 6 :vol 237
     :articles [{:title "Zooturystyka"
                 :description "Kontakt z dzikimi zwierzętami bywa dla ludzi źródłem euforycznych doznań. Ale za pięknymi fotografiami prezentowanymi w mediach społecznościowych kryje się przemysł pełen okrucieństwa i brutalnej eksploatacji zwierząt."
                 :places [{:country "Tajlandia"}
@@ -999,7 +1021,7 @@
     :articles [{:title "Jedz z głową"
                 :description "Nasze ciało potrzebuje codziennej porcji kalorycznego paliwa. Sztuka polega na tym, by nauczyć się zasilać organizm racjonalnie."}
                {:title "Wywiad"
-                :description "Dlaczego Polska jest biedniejsza niż kraje Zachodu? Który władca był najlepszym gospodarzem, a kiedy  najbardziej traciliśmy dystans?"
+                :description "Dlaczego Polska jest biedniejsza niż kraje Zachodu? Który władca był najlepszym gospodarzem, a kiedy najbardziej traciliśmy dystans?"
                 :places [{:country "Polska"}]}
                {:title "Fotoreportaż"
                 :description "Połączenie dwóch pasji – do koni i do fotografii – przyniosło doskonałe rezultaty. Zresztą – oceńcie sami."}
@@ -1019,7 +1041,7 @@
                {:title "Macierzyństwo"
                 :description "Ile w nim natury, a ile kultury? Choć ludzkość wykształciła różne jego modele, jedno jest pewne: nasza cywilizacja ma z macierzyństwem coraz większy problem."}
                {:title "Tunele Gazy"
-                :description "Półoficjalny system kanałów przemytniczych to dla jednych śmiertelna pułapka, a dla innych źródło fortuny.  W trudnych warunkach ludzka pomysłowość owocuje czasem kuriozalnymi rozwiązaniami."
+                :description "Półoficjalny system kanałów przemytniczych to dla jednych śmiertelna pułapka, a dla innych źródło fortuny. W trudnych warunkach ludzka pomysłowość owocuje czasem kuriozalnymi rozwiązaniami."
                 :places [{:country "Izrael" :region "Strefa Gazy" :coords [31.42 34.37]}]}]}
    {:year 2013 :month 5 :vol 164
     :articles [{:title "Jedz z głową"
@@ -1050,7 +1072,7 @@
     :articles [{:title "Jedz z głową"
                 :description "Czy owoce to samo zdrowie? I czy egzotyczne są lepsze od rodzimych? A może przeciwnie?"}
                {:title "Fotoreportaż"
-                :description "Fotograf na Szlaku Orlich Gniazd szukał współpracy ze światłem – czasem słońca,  a czasem zwykłej latarki."
+                :description "Fotograf na Szlaku Orlich Gniazd szukał współpracy ze światłem – czasem słońca, a czasem zwykłej latarki."
                 :tags ["zamek" "zamki" "warownia"]
                 :places [{:country "Polska" :city "Bydlin" :coords [50.388768 19.64282]}
                          {:country "Polska" :city "Mirów" :coords [50.61461 19.475133]}
@@ -1059,7 +1081,7 @@
                          {:country "Polska" :city "Olsztyn" :coords [50.749664 19.27413]}
                          {:country "Polska" :city "Będzin" :coords [50.327222 19.129167]}]}
                {:title "Cywilizacje"
-                :description "Ludzkość zdobyła się na kilka takich „wielkich projektów”. Wszystkie były próbą  ujarzmienia przyrody i określenia miejsca człowieka w świecie. I każdej z nich nasza współczesność coś zawdzięcza."
+                :description "Ludzkość zdobyła się na kilka takich „wielkich projektów”. Wszystkie były próbą ujarzmienia przyrody i określenia miejsca człowieka w świecie. I każdej z nich nasza współczesność coś zawdzięcza."
                 :tags ["Majowie" "Rzymianie" "Hindusi" "Ludy Mezopotamii"]
                 :places [{:country "Indie"}
                          {:country "Włochy" :city "Rzyn"}
@@ -1073,10 +1095,10 @@
                 :places [{:country "Sudan" :city "Meroe" :coords [16.933333 33.726389]}
                          {:country "Gwatemala" :city "Tikal" :coords [17.222094 -89.623614]}]}
                {:title "Mamuty"
-                :description "Nasi przodkowie polowali na nie dla mięsa. Dziś możliwe są już tylko bezkrwawe łowy  w tundrze na imponujące mamucie ciosy, które oddaje wieczna zmarzlina. To zajęcie dla samotników – bywa niebezpieczne, ale szczęściarzom przynosi fortunę."
+                :description "Nasi przodkowie polowali na nie dla mięsa. Dziś możliwe są już tylko bezkrwawe łowy w tundrze na imponujące mamucie ciosy, które oddaje wieczna zmarzlina. To zajęcie dla samotników – bywa niebezpieczne, ale szczęściarzom przynosi fortunę."
                 :places [{:country "Rosja" :region "Syberia" :coords [70.7 140.3]}]}
                {:title "Mahoń"
-                :description "Strzelające pod niebo pnie mahoniowców były ozdobą amazońskich lasów.  No właśnie – były. Bo czy człowiek może przejść obojętnie obok złota, nawet jeśli jest to „czerwone złoto”?"
+                :description "Strzelające pod niebo pnie mahoniowców były ozdobą amazońskich lasów. No właśnie – były. Bo czy człowiek może przejść obojętnie obok złota, nawet jeśli jest to „czerwone złoto”?"
                 :places [{:country "Peru" :coords [-10.10 -72.97]}]}
                {:title "Manaty"
                 :description "Nie mają naturalnych wrogów. Nie mają też ochronnej warstwy tłuszczu, więc żeby przetrwać zimę, gromadzą się przy ciepłych źródłach. A że ludzie uwielbiają takie spektakle natury, też tam ściągają i... konflikt gotowy."
@@ -1197,11 +1219,11 @@
                {:title "Wywiad"
                 :description "Analizowanie zwykłej pajęczej sieci może nas zaprowadzić do nowej ery w historii inżynierii – materiałów o właściwościach krojonych na miarę. - Z Markusem Buehlerem z MIT rozmawia Wojciech Mikołuszko."}
                {:title "Da Vinci czy nie?"
-                :description "Wart 20 tys. czy 100 mln dol? Oto jest pytanie. Na rynku antykwarycznym pojawił  się portret, którego autorem może być wielki Leonardo."}
+                :description "Wart 20 tys. czy 100 mln dol? Oto jest pytanie. Na rynku antykwarycznym pojawił się portret, którego autorem może być wielki Leonardo."}
                {:title "Sztuka ukradziona"
                 :description "Zaskakujące historie najcenniejszych zabytków z polskich zbiorów."}
                {:title "Kuba"
-                :description "Po 50 latach w cieniu Fidela Castro przygnieceni kryzysem Kubańczycy zaczynają flirtować z kapitalizmem.  Planu na przyszłość najwyraźniej im jednak brakuje."
+                :description "Po 50 latach w cieniu Fidela Castro przygnieceni kryzysem Kubańczycy zaczynają flirtować z kapitalizmem. Planu na przyszłość najwyraźniej im jednak brakuje."
                 :places [{:country "Kuba" :coords [23.133333 -82.383333]}]}
                {:title "Gepard"
                 :description "Wielka popularność w świecie popkultury nie przełożyła się na poprawę losu tego kota. Najszybszy ssak świata musi szybko uciekać przed zagładą."}
@@ -1213,7 +1235,7 @@
                 :places [{:country "Chiny" :city "Wiosenna Dolina" :coords [40.9 115.8]}
                          {:country "Chiny" :city "Xi'an" :coords [34.383 109.278]}]}
                {:title "Marsylia"
-                :description "Gdy francuskimi miastami wstrząsały zamieszki, w Marsylii, zamieszkiwanej przez dziesiątki tysięcy  imigrantów, panował spokój. Skąd się wzięła ta sielanka i czy jest do utrzymania na dłuższą metę?"
+                :description "Gdy francuskimi miastami wstrząsały zamieszki, w Marsylii, zamieszkiwanej przez dziesiątki tysięcy imigrantów, panował spokój. Skąd się wzięła ta sielanka i czy jest do utrzymania na dłuższą metę?"
                 :places [{:country "Francja" :region "Marsylia" :coords [43.3 5.4]}]}]}
    {:year 2012 :month 10 :vol 157
     :articles [{:title "Jedz z głową"
@@ -1274,7 +1296,7 @@
                 :description "Zwierzątka o aparycji pluszowych przytulanek nie lubią przeprowadzek. Cóż więc robić, gdy obok ich eukaliptusa pewnego dnia wyrasta jednorodzinny dom?"
                 :places [{:country "Australia" :coords [-30.0 150.7]}]}
                {:title "Podwodne góry"
-                :description "Morskie dno, tak jak wystające nad wodę kontynenty, usiane jest górami. Tyle że w wodzie, inaczej niż na lądzie, im wyżej, tym  bogatsze życie. W dodatku życie bardzo mało zbadane."}
+                :description "Morskie dno, tak jak wystające nad wodę kontynenty, usiane jest górami. Tyle że w wodzie, inaczej niż na lądzie, im wyżej, tym bogatsze życie. W dodatku życie bardzo mało zbadane."}
                {:title "Portret błyskawicy"
                 :description "Aby sfotografować narodziny błyskawicy, trzeba mieć gigantyczną kamerę, wiele wytrwałości i jeszcze więcej szczęścia. Timowi Samarasowi tego ostatniego na razie brakuje, ale niczym błędny rycerz przemierza Wielkie Równiny, nie tracąc nadziei."}]}
    {:year 2012 :month 8 :vol 155
@@ -1284,7 +1306,7 @@
                 :description "O kobietach z Zanzibaru i praktykowanym na wyspie rytuale, który przygotowuje dziewczęta do zamążpójścia, oraz muzyce taarab."
                 :places [{:country "Zanzibar"}]}
                {:title "Rapa Nui"
-                :description "Według legendy posągi na Wyspie Wielkanocnej chodziły. Na pytanie „jak?” uczeni  i odkrywcy dawali różne odpowiedzi, podpierając swoje koncepcje eksperymentami."
+                :description "Według legendy posągi na Wyspie Wielkanocnej chodziły. Na pytanie „jak?” uczeni i odkrywcy dawali różne odpowiedzi, podpierając swoje koncepcje eksperymentami."
                 :places [{:country "Chile" :region "Wyspa Wielkanocna" :coords [-27.125833 -109.276944]}]}
                {:title "Londyn"
                 :description "Brytyjska metropolia przeżywa właśnie kolejne w swej historii igrzyska olimpijskie. Czym zaowocują one dla „gorszego”, Londynu, Londynu kategorii C?"
@@ -1298,18 +1320,18 @@
                {:title "Ptasia intymność"
                 :description "Jak one to robią? Niby wszystkie tak samo, a jednak inaczej. Weźmy poczciwe kaczki – czy podejrzewalibyście je o skłonności do brutalnego seksu, a nawet gwałtów?"}
                {:title "Yartsa gunbu"
-                :description "Niezwykle gąsienicowe grzybki z górskich łąk cieszą się opinią medycznego  panaceum. Nic dziwnego, że na Wyżynie Tybetańskiej wywołały prawdziwą  gorączkę złota."
+                :description "Niezwykle gąsienicowe grzybki z górskich łąk cieszą się opinią medycznego panaceum. Nic dziwnego, że na Wyżynie Tybetańskiej wywołały prawdziwą gorączkę złota."
                 :places [{:country "Chiny" :region "Tybet" :coords [31.1 92.7]}]}
                {:title "Islandia"
                 :description "Między wulkanami a lodowcami rosły kiedyś brzozowe zagajniki. Aż przyszedł człowiek... I choć krajobraz wyspy stał się od tamtego czasu jeszcze bardziej posępny, wciąż pozostaje piękny."
                 :places [{:country "Islandia" :coords [64 -18]}]}]}
    {:year 2012 :month 7 :vol 154
     :articles [{:title "Wywiad z Bogdanem Gałązką"
-                :description "Co i jak jedzono  przed wiekami, czy da się odtworzyć ówczesne przepisy oraz dlaczego na zamku w Malborku raczono się bobrzymi ogonami i deserem z fiołków."}
+                :description "Co i jak jedzono przed wiekami, czy da się odtworzyć ówczesne przepisy oraz dlaczego na zamku w Malborku raczono się bobrzymi ogonami i deserem z fiołków."}
                {:title "Kipiące Słońce"
-                :description "Świat widział już ogromną słoneczną burzę, która w XIX w. uszkodziła sieć telegraficzną. Czy podobne wydarzenie dzisiaj „wyłączyłoby” naszą cywilizację? I czy można  je przewidzieć?"}
+                :description "Świat widział już ogromną słoneczną burzę, która w XIX w. uszkodziła sieć telegraficzną. Czy podobne wydarzenie dzisiaj „wyłączyłoby” naszą cywilizację? I czy można je przewidzieć?"}
                {:title "Ginące języki"
-                :description "Języki niewielkich plemion i grup etnicznych zamierają. Młodzi uczą się języków  dominujących, by osiągnąć sukces. Co tracimy wraz ze śmiercią małych języków?"
+                :description "Języki niewielkich plemion i grup etnicznych zamierają. Młodzi uczą się języków dominujących, by osiągnąć sukces. Co tracimy wraz ze śmiercią małych języków?"
                 :tags ["język tuwiński" "język hrusyjski" "język seri"]
                 :places [{:country "Rosja" :region "Republika Tuwy" :coords [51.783333 94.75]}
                          {:country "Indie" :region "Arunacal Prades" :coords [27.27 92.79]}
@@ -1321,13 +1343,13 @@
                          {:country "Francja" :city "Amiens" :coords [49.894553 2.302104]}
                          {:country "Francja" :city "Paryż" :coords [48.852922 2.350295]}]}
                {:title "Flamingi"
-                :description "Czym zachwycają najbardziej? Chyba kolorystyczną konsekwencją. Wielotysięczne stado jest niczym ogromny różowy organizm. Ale potrafiły również skonsternować  naukowców zagadką swego upodobania do stania na jednej nodze."
+                :description "Czym zachwycają najbardziej? Chyba kolorystyczną konsekwencją. Wielotysięczne stado jest niczym ogromny różowy organizm. Ale potrafiły również skonsternować naukowców zagadką swego upodobania do stania na jednej nodze."
                 :places [{:country "Meksyk" :region "Jukatan" :coords [21.51 -87.89]}]}
                {:title "Tornada"
                 :description "Rodzą się co roku na Wielkich Równinach Ameryki – superkomórki burzowe. Łowcy burz polują na tornada niczym na grubego zwierza. Dla niektórych trofeum jest fotografia tej grozy i mocy."
                 :places [{:country "USA"}]}
                {:title "Dacza"
-                :description "Carski wynalazek twórczo rozwinięty przez władze komunistyczne był dla narodu źródłem aprowizacji, oazą wolności i intymności oraz sceną życia towarzyskiego.  Rosji bez daczy wyobrazić sobie nie sposób."
+                :description "Carski wynalazek twórczo rozwinięty przez władze komunistyczne był dla narodu źródłem aprowizacji, oazą wolności i intymności oraz sceną życia towarzyskiego. Rosji bez daczy wyobrazić sobie nie sposób."
                 :places [{:country "Rosja" :region "Wałdaj" :coords [56.99 33.49]}]}
                {:title "Wielkie zakole"
                 :description "Westernowa sceneria pustyni Chihuahua nad Rio Grande wciąż jest dzika. I może taką pozostanie, bo po obu stronach granicy meksykańsko-amerykańskiej powiększa się tereny objęte ochroną."
@@ -1345,7 +1367,7 @@
                {:title "Psy rasowe"
                 :description "Niezwykłą różnorodność psich ras człowiek stworzył w ciągu kilkuset lat. Zdumiewające, że odpowiada za nią garstka „genetycznych przełączników”. Jamnika od dobermana dzieli tylko kilka genów."}
                {:title "Maroni"
-                :description "Nie wszyscy czarni niewolnicy pędzeni do pracy na brazylijskich plantacjach godzili się z losem. Wielu uciekało do puszczy, gdzie zakładali odcięte od cywilizacji osady i kształtowali krajobraz Amazonii, prowadząc  naturalną gospodarkę. Świat o nich zapomniał. Do czasu, gdy ujawnili się, walcząc o prawo do swoich ziem."
+                :description "Nie wszyscy czarni niewolnicy pędzeni do pracy na brazylijskich plantacjach godzili się z losem. Wielu uciekało do puszczy, gdzie zakładali odcięte od cywilizacji osady i kształtowali krajobraz Amazonii, prowadząc naturalną gospodarkę. Świat o nich zapomniał. Do czasu, gdy ujawnili się, walcząc o prawo do swoich ziem."
                 :places [{:country "Brazylia" :coords [-0.9 -49.1]}]}
                {:title "Sokotra"
                 :description "Kadzidlana wyspa broniona przez mityczne węże, leżąca z dala od centrów cywilizacji, długo pozostawała na uboczu dziejów. Właśnie dlatego przetrwało na niej niezwykłe bogactwo endemitów – prawdziwych botanicznych dziwolągów."
@@ -1366,7 +1388,7 @@
                          {:country "Benin" :city "Agonlia" :coords [8.7 2.2]}
                          {:country "Nigeria" :region "Cross River" :coords [5.6 8.5]}]}
                {:title "Lucha libre"
-                :description "Meksykańska odmiana wrestlingu sama też wykształciła mnóstwo odmian – walki kobiet, karłów,  homoseksualistów. Więcej w tym cyrku niż konfrontacji, ale też mnóstwo emocji i uwielbienia dla zawodników."
+                :description "Meksykańska odmiana wrestlingu sama też wykształciła mnóstwo odmian – walki kobiet, karłów, homoseksualistów. Więcej w tym cyrku niż konfrontacji, ale też mnóstwo emocji i uwielbienia dla zawodników."
                 :places [{:country "Meksyk" :city "Chimalhuacan" :coords [19.40 -98.92]}]}
                {:title "Wspólnota pięciu palców"
                 :description "Co ma wspólnego nasza ręka ze skrzydłem nietoperza i nogą słonia? W zasadzie... wszystko. Ogromne z pozoru różnice z pewnego punktu widzenia są bowiem absolutnie drugorzędne."}
@@ -1461,16 +1483,16 @@
                 :description "Fawele pełne dzieci to już przeszłość. Brazylijki mówią, że pozamykały swoje „zakłady reprodukcyjne”. Wskaźnik dzietności w kraju spadł poniżej poziomu gwarantującego wymienialność pokoleń! Jak do tego doszło?"
                 :places [{:country "Brazylia"}]}
                {:title "Wyspy Feniks"
-                :description "„El Niño” mocno podgrzał wody wokół pacyficznych skrawków lądu, bieląc korale. Okazuje się jednak, że rafa odzyskuje siły, jeśli tylko przetrwają na niej ryby  pasące się na wodorostach."
+                :description "„El Niño” mocno podgrzał wody wokół pacyficznych skrawków lądu, bieląc korale. Okazuje się jednak, że rafa odzyskuje siły, jeśli tylko przetrwają na niej ryby pasące się na wodorostach."
                 :places [{:country "Kiribati" :region "Wyspy Feniks" :coords [-4.46 -171.25]}]}
                {:title "Ziemia Afarów"
-                :description "Afrykańska Kotlina Danakilska jest miejscem skrajnie  nieprzyjaznym – najgorętszym na ziemi, wulkanicznym, pełnym soli z odparowanych niegdyś mórz. Afarowie kochają jednak jej zabójcze piękno."
+                :description "Afrykańska Kotlina Danakilska jest miejscem skrajnie nieprzyjaznym – najgorętszym na ziemi, wulkanicznym, pełnym soli z odparowanych niegdyś mórz. Afarowie kochają jednak jej zabójcze piękno."
                 :places [{:country "Etiopia"}
                          {:country "Erytrea"}
                          {:country "Dżibuti"}
                          {:coords [12.7 42]}]}
                {:title "Biblia króla Jakuba"
-                :description "Przekład zamówiony przed 400 laty wpłynął na anglosaską kulturę za pośrednictwem setek milionów egzemplarzy.  Trafił do kowbojów, purytanów, a nawet rastafarian."}
+                :description "Przekład zamówiony przed 400 laty wpłynął na anglosaską kulturę za pośrednictwem setek milionów egzemplarzy. Trafił do kowbojów, purytanów, a nawet rastafarian."}
                {:title "Arktyka"
                 :description "Arktyka się ogrzewa, co stawia niedźwiedzie polarne przed poważnym wyzwaniem. Jak z lodowych drapieżników mają się stać wodnymi?"
                 :places [{:region "Arktyka" :coords [76 -119]}]}
@@ -1481,7 +1503,7 @@
                 :places [{:country "USA" :region "Montana" :coords [48.6 -109.3]}]}]}
    {:year 2011 :month 12 :vol 147
     :articles [{:title "Wywiad"
-                :description "Wywiad z entomologiem Markiem W. Kozłowskim m.in. o tym, czym jest instynkt, czy owady mają emocje i czy w ich  społecznościach możliwa jest rewolucja."}
+                :description "Wywiad z entomologiem Markiem W. Kozłowskim m.in. o tym, czym jest instynkt, czy owady mają emocje i czy w ich społecznościach możliwa jest rewolucja."}
                {:title "Laureaci WKE"
                 :description "Wielki Konkurs Fotograficzny NG cieszy się niesłabnącą popularnością. Jak co roku spośród dziesiątków tysięcy nadesłanych przez Czytelników zdjęć wybraliśmy najlepsze w czterech kategoriach. I oczywiście publikujemy je na naszych łamach."}
                {:title "Siedem miliardów"
@@ -1547,7 +1569,7 @@
                {:title "Przed lodowcem"
                 :description "Ziemia bez lodu – tropiki wokół biegunów, piekło na równiku, poziom morza 70 m wyżej niż dziś. Nasza planeta już to widziała. Czy zatem zaglądając w przeszłość, możemy zobaczyć naszą przyszłość?"}
                {:title "Ułan Bator"
-                :description "Metropolia, której mieszkańcy jeszcze przed chwilą byli  stepowymi koczownikami, musi być jedyna w swoim rodzaju. I faktycznie – znane z innych stolic reguły zurbanizowanego życia tutaj nie obowiązują."
+                :description "Metropolia, której mieszkańcy jeszcze przed chwilą byli stepowymi koczownikami, musi być jedyna w swoim rodzaju. I faktycznie – znane z innych stolic reguły zurbanizowanego życia tutaj nie obowiązują."
                 :places [{:country "Mongolia" :city "Ułan Bator" :coords [47.90 106.90]}]}
                {:title "Żurawie"
                 :description "Choć krzykliwe z nazwy – znaleźć je trudno. I nic dziwnego, skoro zostało ich kilkaset. Migrować musi je uczyć człowiek – w ultralekkim samolociku."
@@ -1585,10 +1607,10 @@
                 :description "Nowy Jork zamienił starą linię kolejową na zieloną promenadę. Parkowy wąż na stalowych podporach przeskakuje ulice metropolii."
                 :places [{:country "USA" :city "Nowy Jork" :coords [40.747814 -74.004872]}]}
                {:title "Misie duchy"
-                :description "Niedźwiedzie Kermode są białe, choć rodziców często mają czarnych.  W deszczowej puszczy przemykają jak duchy. I tak traktowali je Indianie."
+                :description "Niedźwiedzie Kermode są białe, choć rodziców często mają czarnych. W deszczowej puszczy przemykają jak duchy. I tak traktowali je Indianie."
                 :places [{:country "Kanada" :region "Kolumbia Brytyjska" :coords [52.9 -128.9]}]}
                {:title "Androidy"
-                :description "Roboty łudząco podobne do człowieka to już rzeczywistość. Zapewne wkrótce znajdą się w naszym otoczeniu. Jak zmienią relacje między ludźmi? Jakie zadania będziemy skłonni im powierzyć? A przede wszystkim – jak odnieść do nich  kwestie moralności?"}
+                :description "Roboty łudząco podobne do człowieka to już rzeczywistość. Zapewne wkrótce znajdą się w naszym otoczeniu. Jak zmienią relacje między ludźmi? Jakie zadania będziemy skłonni im powierzyć? A przede wszystkim – jak odnieść do nich kwestie moralności?"}
                {:title "Balsa"
                 :description "Rośnie szybko, ostro, ryzykownie i w ogóle nie przejmuje się wagą. A jej kwiaty produkują nocą beczkę nektaru, który przyciąga licznych dwu-, cztero- i więcej- nożnych amatorów."
                 :places [{:region "Ameryka Południowa"}
@@ -1601,7 +1623,7 @@
                 :places [{:country "Namibia" :region "Pustynia Namib" :coords [-24 15]}]}]}
    {:year 2011 :month 7 :vol 142
     :articles [{:title "Medyczne koło"
-                :description "Rozmowa z Jerzym Woy-Wojciechowskim m.in. o znaczeniu przypadku w rozwoju medycyny. "}
+                :description "Rozmowa z Jerzym Woy-Wojciechowskim m.in. o znaczeniu przypadku w rozwoju medycyny."}
                {:title "Goryle"
                 :description "W kongijskiej puszczy buszują zbrojni rebelianci, żołnierze, uchodźcy, smolarze. Potężne małpy muszą przetrwać ten zalew ludzkich nieszczęść. Czasem padają od kul. "
                 :places [{:country "Rwanda"}
@@ -1624,7 +1646,7 @@
                          {:country "Wielka Brytania" :city "Manchester" :region "Imperial War Museum" :coords [53.469765 -2.298957]}
                          {:country "Polsla" :city "Warszawa" :region "Złota 44" :coords [52.231130 21.002264]}]}
                {:title "Bagdad"
-                :description "Raport z miasta przeoranego wojną. Świecka w czasach dyktatury metropolia po  amerykańskiej inwazji podzieliła się na religijne dzielnice-getta pogrodzone murami."
+                :description "Raport z miasta przeoranego wojną. Świecka w czasach dyktatury metropolia po amerykańskiej inwazji podzieliła się na religijne dzielnice-getta pogrodzone murami."
                 :places [{:country "Irak" :city "Bagdad" :coords [33.3 44.4]}]}
                {:title "Strefa wpływów"
                 :description "W wąskim pasie lądu zalewanym przypływami oceanu bogactwo i konkurencja małych stworzeń przypominają stosunki panujące w dżungli."
@@ -1674,9 +1696,9 @@
     :articles [{:title "Wywiad"
                 :description "Wywiad z dendrologiem Jackiem Oleksynem – o tym, jak drzewa ze sobą rozmawiają i dlaczego ekonomiczne teorie najlepiej testować na roślinach."}
                {:title "Papiestwo"
-                :description "Święci i szubrawcy, asceci i hedoniści, mistycy i ludzie władzy. Galeria ludzkich typów wśród blisko trzech setek papieży jest wyjątkowo barwna, podobnie jak historia instytucji, której przewodzili. "}
+                :description "Święci i szubrawcy, asceci i hedoniści, mistycy i ludzie władzy. Galeria ludzkich typów wśród blisko trzech setek papieży jest wyjątkowo barwna, podobnie jak historia instytucji, której przewodzili."}
                {:title "Piękno destrukcji"
-                :description "Czy można zachwycić się wyrobiskiem, rzeką szlamu, hałdami odpadów? Okazuje się, że widziane z powietrza zyskują paradoksalnie estetyczny wymiar. "
+                :description "Czy można zachwycić się wyrobiskiem, rzeką szlamu, hałdami odpadów? Okazuje się, że widziane z powietrza zyskują paradoksalnie estetyczny wymiar."
                 :places [{:country "Polska" :city "Konin" :tags ["Odkrywka Gosławice"] :coords [52.28 18.26]}
                          {:country "Polska" :city "Krokowa" :tags ["Bielawskie Błota"] :coords [54.80 18.22]}
                          {:country "Polska" :city "Turawa" :tags ["Jezioro Turawskie"] :coords [50.72 18.12]}
@@ -1684,9 +1706,9 @@
                          {:country "Polska" :city "Police" :coords [53.575214 14.551096]}
                          {:country "Polska" :city "Polkowice" :coords [51.513276 16.209036]}]}
                {:title "Mrówki prządki"
-                :description "Uwierzycie, że wszystkie ziemskie mrówki ważą tyle co ludzie? Albo że organizują swoje społeczności, posługując się chemiczno-migowym „językiem”? Tak, mrówki potrafią dać do myślenia. "}
+                :description "Uwierzycie, że wszystkie ziemskie mrówki ważą tyle co ludzie? Albo że organizują swoje społeczności, posługując się chemiczno-migowym „językiem”? Tak, mrówki potrafią dać do myślenia."}
                {:title "Jane Goodall"
-                :description "To ona odkryła, że szympansy nie są wegetarianami, ale organizują polowania. Że potrafią być okrutne  i podłe. Że przypominają nas dużo bardziej, niż moglibyśmy przypuszczać. Rewolucja w prymatologii to jej wyłączna zasługa. "
+                :description "To ona odkryła, że szympansy nie są wegetarianami, ale organizują polowania. Że potrafią być okrutne i podłe. Że przypominają nas dużo bardziej, niż moglibyśmy przypuszczać. Rewolucja w prymatologii to jej wyłączna zasługa."
                 :places [{:country "Tanzania" :region "Park Narodowy Gombe" :coords [-4.67 29.63]}]}
                {:title "Żywy towar"
                 :description "Pantery śnieżne, tygrysy, ginące ptaki i gady. Rzadkie okazy dzikich zwierząt mogą kosztować nawet 100 tys. dolarów. Nic dziwnego, że taka kryjąca się w lesie fortuna kusi."}
@@ -1709,7 +1731,7 @@
                 :description "Półwysep wdzierający się w Morze Czarne z powodu swej tragicznej historii ma kłopoty z tożsamością. Na ile jest tatarski, na ile ukraiński, na ile rosyjski? Dziedzictwo Związku Radzieckiego nie daje tu o sobie zapomnieć."
                 :places [{:country "Ukraina" :region "Krym" :coords [45.3 34.4]}]}
                {:title "Walenie"
-                :description "Wielkie morskie ssaki wywodzą się od... zwierząt kopytnych, które wchodziły do wody coraz dalej i dalej, aż straciły kontakt z lądem. Świetnie zachowane dowody  ich ewolucji odkopywane są dzisiaj w pustynnej egipskiej dolinie."}
+                :description "Wielkie morskie ssaki wywodzą się od... zwierząt kopytnych, które wchodziły do wody coraz dalej i dalej, aż straciły kontakt z lądem. Świetnie zachowane dowody ich ewolucji odkopywane są dzisiaj w pustynnej egipskiej dolinie."}
                {:title "Złoty czworokąt"
                 :description "Gigantyczny drogowy projekt łączący największe miasta dał Indiom rozwój i zmniejszenie nierówności. W przeludnionym kraju, w którym ziemia jest na wagę złota, oznaczał też jednak wiele krzywd i konfliktów."
                 :places [{:country "Indie"}]}]}
@@ -1754,7 +1776,7 @@
                 :description "Nietypowy spacer pod bulwarami francuskiej stolicy – wśród milionów kości, sztab złota, przez barwne azyle katafilów."
                 :places [{:country "Francja" :city "Paryż" :coords [48.866667 2.35]}]}
                {:title "Z morza na talerze"
-                :description "Ludzkość łowi dziś wszystko i wszędzie, gdzie się da. A dla  równowagi ekologicznej ważne jest nie tylko ile, ale też jakie ryby jemy."}]}
+                :description "Ludzkość łowi dziś wszystko i wszędzie, gdzie się da. A dla równowagi ekologicznej ważne jest nie tylko ile, ale też jakie ryby jemy."}]}
    {:year 2011 :month 1 :vol 136
     :articles [{:title "Wywiad"
                 :description "Wywiad z dr. hab. Piotrem Gawrysiakiem o tym, jak ważna jest archiwizacja danych w erze cyfrowej, oraz o problemach dostępu do informacji."}
@@ -1796,7 +1818,7 @@
                 :description "Ogromna wyspa przykryta lądolodem długo była niegościnna i jałowa. Globalne ocieplenie zmienia jednak sytuację, a mieszkańcy patrzą na ten proces z nadzieją. Czy Grenlandia, zgodnie z nazwą, zazieleni się?"
                 :places [{:country "Grenlandia" :coords [72 -40]}]}
                {:title "St. Helens"
-                :description "Wulkan, który eksplodował w 1980 r., zniszczył życie na 600 km2, ale zarazem stworzył ogromne laboratorium, gdzie naukowcy mogą obserwować procesy odbudowy zniszczonych ekosystemów."
+                :description "Wulkan, który eksplodował w 1980 r., zniszczył życie na 600 km2, ale zarazemstworzył ogromne laboratorium, gdzie naukowcy mogą obserwować procesy odbudowy zniszczonych ekosystemów."
                 :places [{:country "USA" :tags ["Washington"] :coords [46.1912 -122.1944]}]}
                {:title "Energia słoneczna"
                 :description "Słońce wysyła na Ziemię miliony razy więcej energii, niż nam potrzeba. Opracowanie technologii skutecznego jej chwytania oznacza więc niewyczerpane, czyste źródło darmowego prądu."}]}
@@ -1836,9 +1858,9 @@
                 :places [{:country "Etiopia"}
                          {:country "Kenia"}]}
                {:title "Cisza strumieni"
-                :description "Słodkie wody są siedliskiem życia niewiarygodnej liczby gatunków żywych stworzeń. Człowiek, zanieczyszczając wody bez opamiętania, zabija w nich życie, eksterminując,  czasami bezwiednie, całe gatunki."}
+                :description "Słodkie wody są siedliskiem życia niewiarygodnej liczby gatunków żywych stworzeń. Człowiek, zanieczyszczając wody bez opamiętania, zabija w nich życie, eksterminując, czasami bezwiednie, całe gatunki."}
                {:title "Jordan"
-                :description "Z potężnej rzeki, w której wodach ochrzcił się Chrystus, pozostał ściek. Transgraniczny Jordan w suchym, skonfliktowanym regionie świata jest obiektem rywalizacji, narzędziem presji,  ale też symbolem konieczności porozumienia."
+                :description "Z potężnej rzeki, w której wodach ochrzcił się Chrystus, pozostał ściek. Transgraniczny Jordan w suchym, skonfliktowanym regionie świata jest obiektem rywalizacji, narzędziem presji, ale też symbolem konieczności porozumienia."
                 :places [{:country "Izrael" :tags ["jezioro galilejskie"] :coords [32.808655 35.586966]}
                          {:country "Jordan"}]}]}
    {:year 2010 :month 3 :vol 126
@@ -1861,10 +1883,9 @@
                 :places [{:country "USA" :city "Nowy Jork" :tags ["manhattan"] :coords [40.753617 -73.992429]}]}]}
    {:year 2010 :month 2 :vol 125
     :articles [{:title "Poligamia"
-;l zxcvbm
-                ';lmnbvcxz  micxikru8`       :description "Mormońska sekta na amerykańskim Zachodzie wciąż praktykuje – nielegalną w Stanach – poligamię. Co sprawia, że mimo nacisków otoczenia fundamentaliści utrzymują trwałość swoich ogromnych „niebiańskich rodzin”?"
+                :description "Mormońska sekta na amerykańskim Zachodzie wciąż praktykuje – nielegalną w Stanach – poligamię. Co sprawia, że mimo nacisków otoczenia fundamentaliści utrzymują trwałość swoich ogromnych „niebiańskich rodzin”?"
                  :tags ["Fundamentalistyczny Kościół Jezusa Chrystusa Świętych w Dniach Ostatnich" "FLDS"]
-≥i9so                 :places [{:country "USA" :city "Hildale" :tags ["Utah"] :coords [37.00 -112.97]}
+                 :places [{:country "USA" :city "Hildale" :tags ["Utah"] :coords [37.00 -112.97]}
                          {:country "USA" :city "Colorado City" :tags ["Arizona"] :coords [36.99 -112.98]}
                          {:country "USA" :city "Pony Springs" :tags ["Nevada"] :coords [39.981572 -115.169210]}]}
                {:title "Pacyficzny łosoś"
