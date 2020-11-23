@@ -1,0 +1,34 @@
+{:year     2019
+ :month    8
+ :vol      -1
+ :articles [{:title       "Tokio"
+             :description "Największa metropolia świata siłą rzeczy musi być chaosem, ale jest to chaos zdumiewająco uporządkowany. Mimo starzejącej się populacji pozostaje kreatywna i witalna."
+             :places      [{:country "Japonia"
+                            :city    "Tokio"
+                            :coords  [35.683333 139.683333]}]}
+
+            {:title       "Drogi migrantów"
+             :description "Paul Salopek w swej podróży dookoła świata śladami pierwszych ludzi zasiedlających ziemię wszędzie spotyka migrantów, zmuszonych przez los do opuszczenia rodzinnych stron."
+             :places      [{:country "Etiopia"}
+                           {:country "Dżibuti"}
+                           {:country "Jordania"}
+                           {:country "Turcja"}
+                           {:country "Uzbekistan"}
+                           {:country "Indie"}]}
+
+            {:title       "Portrety z Tijuany"
+             :description "Granica między USA i Meksykiem w mieście Tijuana jest miejscem węzłowym dla wielu ludzkich historii."
+             :places      [{:country "Meksyk"
+                            :city    "Tijuana"
+                            :coords  [32.5 -117.0]}]}
+
+            {:title       "Dalajlama"
+             :description "Żywy symbol tybetańskiego narodu i kultury, od 60 lat na wygnaniu, wciąż widzi świat w jasnych barwach."
+             :places      [{:country "Indie"
+                            :city    "Dharamsala"
+                            :coords  [32.231585 76.323638]}]}
+
+            {:title       "Rosomak"
+             :description "Niezbyt urodziwy ale szaleńczo odważny i wytrwały. Lubi śnieżne środowisko Północy,a z tym nie jest dobrze."
+             :places      [{:country "Kanada"}
+                           {:country "USA"}]}]}

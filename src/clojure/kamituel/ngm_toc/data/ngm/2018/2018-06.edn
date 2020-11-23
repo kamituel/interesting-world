@@ -1,0 +1,25 @@
+{:year     2018
+ :month    6
+ :vol      225
+ :articles [{:title       "Plastik"
+             :description "Stworzyliśmy go. Jesteśmy od niego uzależnieni. Nieświadomie wypełniliśmy nim oceany. Miliardy ton plastikowych odpadów będą się rozkładać przez wieki, jeśli nie tysiąclecia. Aby ograniczyć ten potok musimy zwiększać wtórne wykorzystanie surowców i zużywać ich znacznie mniej. Czy możemy jednocześnie cieszyć się zaletami plastiku i mieć czyste środowisko?"}
+
+            {:title       "Kaszmir"
+             :description "Śrutówki służb bezpieczeństwa oślepiają ludzi – i podgrzewają trwający od dekad indyjsko-pakistański konflikt. Władze stosują je, aby tłumić zamieszki, nie zabijając ludzi, jednak śrut okalecza przypadkowe ofiary."
+             :places      [{:country "Indie"
+                            :coords  [33.8 76.1]}
+                           {:country "Pakistan"
+                            :coords  [33.8 76.1]}]}
+
+            {:title       "Afryka"
+             :description "Nowe technologie i gospodarka naturalna - takie kontrasty tylko a Afryce."
+             :places      [{:tags ["Afryka"]}]}
+
+            {:title       "Papugi"
+             :description "Budzą wielkie zainteresowanie ludzi, bo bardziej niż inne ptaki przypominają nas samych."}
+
+            {:title       "Dzika Alaska"
+             :description "Ostatniej prawdziwie dzikiej połaci Ameryki zagrażają znajdujące się pod nią złoża ropy."
+             :places      [{:country "USA"
+                            :tags    ["Alaska"]
+                            :coords  [69.7  -143.6]}]}]}

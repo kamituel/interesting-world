@@ -1,0 +1,36 @@
+{:year     2017
+ :month    8
+ :vol      215
+ :articles [{:title       "Wycieczka na Księżyc"
+             :description "Podbój kosmosu powoli staje się polem biznesowej eksploracji i eksploatacji, na którym fortuny chcą zbijać prywatne firmy. A pierwszym realnym źródłem dochodów wydaje się kosmiczna turystyka."
+             :tags        ["Google Lunar XPrize"]}
+            {:title       "Śmierdzący temat"
+             :description "Miliard ludzi na świecie swoje potrzeby fizjologiczne załatwia w plenerze. To wielki problem globalnego zdrowia publicznego. A jednym z powodów takiego stanu rzeczy jest... kultura."
+             :places      [{:country "Indie"}
+                           {:country "Wietnam"}
+                           {:country "Haiti"}]}
+            {:title       "Zew ciemności"
+             :description "W odległych górach Uzbekistanu dla prawdziwych eksploratorów od szczytów bardziej fascynujące są... jaskinie. Bo być może właśnie tam uda się odkryć Everest podziemi."
+             :places      [{:country "Uzbekistan"
+                            :tags    ["Góry Bajsuntau"]
+                            :coords  [38.396389 67.286944]}]}
+            {:title       "Zębata torpeda"
+             :description "Ostronos atlantycki jest najszybszym rekinem na świecie. Jego pech polega na tym, że także smacznym bardziej niż inne."}
+            {:title       "Kompleks mesjasza"
+             :description "Z pewnością wielu ludzi uważa się za wyjątkowych, ale niektórzy w ym mniemaniu idą jeszcze dalej, twierdząc, że są mesjaszami. I znajdują uczniów, którzy podzielają ich przekonania."
+             :places      [{:country "RPA"
+                            :tags    ["Moses Hlongwane"]
+                            :city    "Eshowe"
+                            :coords  [-28.89 31.46]}
+                           {:country "Brazylia"
+                            :tags    ["INRI"]}
+                           {:country "Rosja"
+                            :tags    ["Wissarion" "Siergiej Torop"]
+                            :city    "Obitel Rasswieta"
+                            :coords  [53.868791 94.086307]}
+                           {:country "Zambia"
+                            :tags    ["Jezus z Kitwe" "Bupete Chibwe Chishimba"]
+                            :city    "Kitwe"
+                            :coords  [-12.8 28.2]}
+                           {:country "Japonia"
+                            :tags    ["Jezus Matayoshi" "Mitsuo Matayoshi"]}]}]}

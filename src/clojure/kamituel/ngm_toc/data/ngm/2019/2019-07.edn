@@ -1,0 +1,28 @@
+{:year     2019
+ :month    7
+ :vol      -1
+ :articles [{:title       "Jak dostaliśmy się na Księżyc..."
+             :description "Dzięki ludzkiej determinacji, dzielności i ogromnym pieniądzom 66 lat po locie braci Wright dokonaliśmy rzeczy niebywałej."
+             :places      [{:country "USA"
+                            :tags    ["NASA"]}]}
+
+            {:title       "... i co dalej"
+             :description "Dziś kosmiczny wyścig jest bardziej międzynarodowy, sprywatyzowany, nastawiony na zyski i tłoczny. Na co liczą jego zwycięzcy?"
+             :places      [{:country "USA"
+                            :tags    ["Virgin Galactic" "Boeing" "NASA"]}]}
+
+            {:title       "Niger"
+             :description "Ten biedny zachodnioafrykański kraj otoczony przez niestabilnych sąsiadów usiłuje bronić się przed osunięciem w społeczno-polityczny chaos."
+             :places      [{:country "Niger"}]}
+
+            {:title       "Namorzynowy wał"
+             :description "Kiedyś przybrzeżny las mangrowców chronił ląd przed wodami oceanu. Teraz ta bariera pada."
+             :places      [{:country "Indie"
+                            :coords  [21.840236 88.989891]}
+                           {:country "Bangladesz"}]}
+
+            {:title       "Morski koniec świata"
+             :description "Argentyna właśnie postanowiła chronić ogromny morski obszar u swoich południowych krańców, pełen cudów podwodnego życia."
+             :places      [{:country "Argentyna"
+                            :tags    ["Zatoka Thetis"]
+                            :coords  [-53.854038 -66.426958]}]}]}

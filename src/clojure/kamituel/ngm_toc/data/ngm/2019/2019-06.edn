@@ -1,0 +1,20 @@
+{:year     2019
+ :month    6
+ :vol      237
+ :articles [{:title       "Zooturystyka"
+             :description "Kontakt z dzikimi zwierzętami bywa dla ludzi źródłem euforycznych doznań. Ale za pięknymi fotografiami prezentowanymi w mediach społecznościowych kryje się przemysł pełen okrucieństwa i brutalnej eksploatacji zwierząt."
+             :places      [{:country "Tajlandia"}
+                           {:country "Rosja"}]}
+
+            {:title       "Strażniczki"
+             :description "W Zimbabwe kobiety, które same były ofiarami przemocy, sprawdzają się w roli strażniczek dzikiej natury w walce z kłusownictwem."
+             :places      [{:country "Zimbabwe"
+                            :coords  [-16.161136 29.500340]}]}
+
+            {:title       "Morskie winogrona"
+             :description "Tajemnicze Morze Sargassowe to jedyna w swoim rodzaju, pełna życia \"oceaniczna sawanna\"."
+             :places      [{:coords [28 -66]
+                            :tags   ["Morze Sargassowe"]}]}
+
+            {:title       "Łuskowce"
+             :description "Łuski, zbudowane ze zwykłej kreatyny, ale mające rzekomo cudowne właściwości, stały się dla tych ssaków przekleństwem."}]}

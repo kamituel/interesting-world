@@ -1,0 +1,52 @@
+{:year     2009
+ :month    9
+ :vol      120
+ :articles [{:title       "Orchidee"
+             :description "Uroda może być zwodnicza, a posługujące się nią storczyki świetnie manipulują owadami, aby osiągnąć prokreacyjny sukces."}
+
+            {:title       "Terakotowa armia"
+             :description "Pierwszy cesarz Chin był okrutnym tyranem, jednak spuścizna, jaką po sobie pozostawił, zdumiewa zamysłem i rozmachem."
+             :places      [{:country "Chiny"
+                            :city    "Xi'an"
+                            :coords  [34.385 109.273056]}]}
+
+            {:title       "Nowy Jork"
+             :description "Oblicze dzisiejszego Nowego Jorku znają wszyscy - z kina lub telewizji. A jaki Manhattan zobaczyli pierwsi europejscy osadnicy?"
+             :places [{:country "USA"
+                       :city    "Nowy Jork"
+                       :coords  [40.77 -73.98]}]}
+
+            {:title       "Tarahumara"
+             :description "Ci meksykańscy Indianie dopiero dziś stanęli przed walcem cywilizacji. Szanse, że uchronią przed nim swoją kulurę, nie są duże."
+             :tags        ["Rarámuri"]
+             :places      [{:country "Meksyk"
+                            :region  "Chihuahua"
+                            :coords  [28.0 -107.1]}]}
+
+            {:title       "Teleskopy"
+             :description "Urządzenia do podglądania Wszechświata przez wieki zmieniały się i potężniały. Tylko nasza ciekawość pozostała taka sama."
+             :tags        ["LSST"]
+             :places      [{:country "USA"
+                            :region  "Arizona"
+                            :tags    ["LBT" "Large Binocular Telescope"]
+                            :coords  [32.701308 -109.889064]}
+                           {:country "Chile"
+                            :tags    ["ELT" "Extremely Large Telescope"]
+                            :regions ["Atakama" "Atacama"]
+                            :coords  [-24.589300 -70.191600]}]}
+
+            {:title       "Płaszczki"
+             :description "Manty, czyli budzące niegdyś strach, imponujące rozmiarami i kszxtałtem \"diabły morskie\" w istocie są przyjazne i żywią się planktonem."
+             :places      [{:country "Malediwy"
+                            :region  "Wyspa Hanifaru"
+                            :coords  [5.172516 73.151257]}]}
+
+            {:title       "Puchalski"
+             :description "Pasjami podglądał rodzinną naturę, choć pociągały go też regiony polarne. Na jego zdjęciach wychowały się pokolenia polskich przyrodników."
+             :tags        ["Włodzimierz Puchalski"]}
+
+            {:title       "Murray-Darling"
+             :description "Sucha Australia była spichlerzem świata - do czasu, aż w rzekach zabrakło wody. Na to dumni Australijczycy nie byli przygotowani."
+             :places      [{:country "Australia"
+                            :tags    ["Dorzecze Murray-Darling"]
+                            :coords  [-35.583333 138.883333]}]}]}

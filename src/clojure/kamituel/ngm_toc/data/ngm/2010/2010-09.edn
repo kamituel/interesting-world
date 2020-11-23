@@ -1,0 +1,54 @@
+{:year     2010
+ :month    9
+ :vol      132
+ :articles [{:title       "Wywiad"
+             :description "Wywiad z archeologiem Dariuszem Grabowskim - o tym, dlaczego domy na południu Polski zaczęły wędrować."}
+
+            {:title       "Tutanchamon"
+             :description "Imię tego farona, owocu kazirodczego związku brata i siostry, miało zniknać z kart historii. Ale, paradoksalnie, próby unicestwienia pamięci o nim utrwaliły ją na wieki."
+             :places      [{:country "Egipt"
+                            :tags    ["Dolina Królów"]
+                            :coords  [25.741 32.603]}]}
+
+            {:title       "Kazirodcy na tronie"
+             :description "Małżeństwa z krewnymi, zakazane dla maluczkich, panującym nadawały niemal boski status."
+             :places      [{:country "USA"
+                            :region  "Hawaje"
+                            :tags    ["Kamehameha III"]}
+                           {:country "Tajlandia"
+                            :tags    ["Rama V"]}]}
+
+            {:title       "Płetwale Bryde'a"
+             :description "Te szybkie jak torpedy walenie pozbawione sa grubych warstw tłuszczu, dlatego nie interesowały wielorybników. Ale mimo że nie zostały zdziesiątkowane, wiemy o nich zaskakująco mało."}
+
+            {:title       "Madagaskar"
+             :description "Drzewa różane idą pod topór, lemury lądują w gulaszu, ziemię kaleczą wielkie kopalniane wyrobiska. Odwieczne tabu przestały obowiązywać. Wyjątkowa w skali świata endemiczna przyroda wyspy z trudem opiera się rosnącej presji."
+             :places      [{:country "Madagaskar"
+                            :coords  [-20 46]}]}
+
+            {:title       "Jaja owadów"
+             :description "Choć pełno ich dookoła, nieuzbrojonym okiem trudno dostrzec strukturę i piękno mikroświata. No, chyba że na naszych łamach..."}
+
+            {:title       "Huculi"
+             :description "Górale ze wschodnich karpat słynęli z dzikości i przywiązania do swobody, w tym także obyczajowej. Do dziś wielu z nich żyje \"daleko od szosy\"."
+             :places      [{:country "Ukraina"
+                            :tags    ["Huculszczyzna"]
+                            :city    "Wierchowina"
+                            :coords  [48.152 24.824]}
+                           {:country "Ukraina"
+                            :tags    ["Huculszczyzna"]
+                            :city    "Kosmacz"
+                            :coords  [48.333 24.817]}
+                           {:country "Ukraina"
+                            :tags    ["Huculszczyzna"]
+                            :city    "Jaremcza"
+                            :coords  [48.479 24.584]}
+                           {:country "Ukraina"
+                            :tags    ["Huculszczyzna"]
+                            :city    "Czarna Tysa"
+                            :coords  [48.312, 24.324]}]}
+
+            {:title       "Rajska kosa piasku"
+             :description "Wielka Wyspa Piaszczysta jest fascynującym tworem oceanicznych prądów. I mimo sypkiego budulca - niewiarygodnie różnorodnym. Przyroda dała tutaj popis swoich kreacyjnych możliwości."
+             :places      [{:country "Australia"
+                            :coords  [-25.2 153.1]}]}]}

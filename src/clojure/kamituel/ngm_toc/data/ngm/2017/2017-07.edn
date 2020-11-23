@@ -1,0 +1,50 @@
+{:year     2017
+ :month    7
+ :vol      214
+ :articles [{:title       "Echnaton"
+             :description "Faraon, który nie wahał się zadrzeć z licznymi bogami Egiptu, uznając tylko jednego z nich."
+             :tags        [""]
+             :places      [{:country "Egipt"
+                            :city    "Memfis"}
+                           {:country "Egipt"
+                            :city    "Teby"}
+                           {:country "Egipt"
+                            :city    "Amarna"
+                            :coords  [27.645278 30.896389]}]}
+            {:title       "Galapagos"
+             :description "Ewolucja klimatu coraz bardziej daje się we znaki wyspom, które są symbolem teorii ewolucji."
+             :places      [{:country "Ekwador"
+                            :region  "Wyspy Galapagos"
+                            :coords  [-0.228143 -90.367764]}]}
+            {:title       "Wyrzeźbione przez lawę"
+             :description "Stulecia erupcji stworzyły pod hawajskimi wulkanami imponujący labirynt lawowych jaskiń i korytarzy - w przytłaczającej większości wciąż niespenetrowanych."
+             :places      [{:country "USA"
+                            :region  "Hawaje"
+                            :coords  [19.57 -155.61]}]}
+            {:title       "Tana Toradża"
+             :description "W tej indonezyjskiej grupie etnicznej zmarli mieszkają z żywymi przez miesiące, a nawet lata."
+             :places      [{:country "Indonezja"
+                            :region  "Wyspa Celebes"
+                            :coords  [-1.94 120.21]}]}
+            {:title       "Pakistan"
+             :description "W zapadłym regionie Pakistanu największe zmiany społeczne przynosi najnowsza technologia."
+             :places      [{:country "Pakistan"
+                            :region  "Gojal"
+                            :tags    ["Góry Karakorum"]
+                            :coords  [36.826818 74.421739]}]}
+            {:title       "Nodozaur"
+             :description "W kanadyjskiej kopalni odkryty został niezwykły dinozaur - \"jak żywy\", choć skamieniały."
+             :places      [{:country "Kanada"
+                            :region  "Alberta"
+                            :tags    ["Kopalnia Millennium"]
+                            :coords  [56.975550 -111.488824]}
+                           {:country "Kanada"
+                            :region  "Alberta"
+                            :tags    ["Royal Tyrrell Museum"]
+                            :coords  [51.478956 -112.790018]}]}
+            {:title       "Mamma mia!"
+             :description "W teatrze Roma setki spektakli musicalu Mamma Mia! pokazały, że muzyka zespołu Abba wciąż ma moc."
+             :places      [{:country "Polska"
+                            :region  "Mazowieckie"
+                            :tags    ["Teatr Roma"]
+                            :coords  [52.227584 21.007629]}]}]}

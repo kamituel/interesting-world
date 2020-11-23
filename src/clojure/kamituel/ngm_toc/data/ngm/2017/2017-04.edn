@@ -1,0 +1,19 @@
+{:year     2017
+ :month    4
+ :vol      211
+ :articles [{:title       "Rewolucja w DNA"
+             :description "Władzę nad światem natury, dzięki metodzie szybkiego wprowadzania zaprojektowanych zmian w genomie do całej populacji gatunku, mamy na wyciągnięcie ręki. Rzecz w tym, że prób niebywałego postępu w leczeniu chorób może też przynieść skutki, których nawet nie jesteśmy w stanie przewidzieć."}
+            {:title       "Zmiany klimatu"
+             :description "Na Ziemi jest już 7 mld ludzi i wszyscy chcą korzystać z dobrodziejstw cywilizacji. Dlatego potrzebujemy ogromnych ilości energii, a jej pozyskiwanie najbardziej zmienia nasz klimat. Wielu ludzi wątpi w realność tego problemu, ale to nie jest żaden naukowy spisek. Czy tego chce, czy nie, ludzkość czeka radykalne przeorganizowanie sposobu życia."}
+            {:title       "Życie po ISIS"
+             :description "Państwo Islamskie, które opanowało znaczne obszary pogrążonego w powojennym chaosie Iraku, teraz cofa się pod naporem międzynarodowej koalicji. Pozostawia po sobie obrazy szalonej, brutalnej destrukcji, która - co najdziwniejsze - dotyka nie tylko przeciwników ISIS, ale także jego zwolenników."
+             :places      [{:country "Syria"
+                            :coords  [36.34 43.13]}
+                           {:country "Irak"
+                            :coords  [35.95 39.0167]}]}
+            {:title       "Łąki krwiawiących serc"
+             :description "Dżelady - jedyne na świecie trawożerne małpy - mają się nieźle na sawannach regionu Menz-Guassa w Etopii. Jak ten bogaty ekosystem przetrwał w drugim pod względem populacji kraju w Afryce, zaorującym wciąż nowe grunty? Dzięki niezwykłej wielowiekowej umowie społecznej."
+             :places      [{:country "Etiopia"
+                            :coords  [10.342222 39.762778]}]}
+            {:title       "Modele chaosu"
+             :description "Jak wyglądałyby nasze miasta po kataklizmie, który unicestwiłby ludzkość? Jak natura brałaby je we władanie? Lori Nix i Kathleen Gerber próbują to pokazać w swoich zminiaturyzowanych dioramach będących połączeniem poglądowych makiet i dzieł sztuki."}]}

@@ -1,0 +1,38 @@
+{:year     2017
+ :month    3
+ :vol      210
+ :articles [{:title       "Wikingowie"
+             :description "Wojownicy, grabieżcy, kupcy, odkrywcy, dandysi. Nie ma jednej prawdy o wikingach, a co pewien czas dowiadujemy się o nich czegoś nowego. I może dlatego ci nieustraszeni mieszkańcy północnych krain Europy tak dobrze zadomowili się w zbiorowej wyobraźni."}
+            {:title       "Świat dziewcząt"
+             :description "Są kraje, w których bycie dziewczynką oznacza konieczność poddania się okrutnym tradycjom i nie mniej okrutnej społecznej rzeczywistości. W Sierra Leone dziewczęce marzenia są skromniejsze niż gdzie indziej."
+             :places      [{:country "Sierra Leone"
+                            :coords  [8.5 -11.5]}
+                           {:country "Indie"
+                            :coords  [21 77]}]}
+            {:title       "Mam 9 lat"
+             :description "Dzieci z różnych części świata opowiadają, jak widzą swoją przyszłość – szczerze, bo nie ulegają jeszcze, jak nastolatki, autocenzurze, żeby dostosować się do innych."}
+            {:title       "Morze sporów"
+             :description "Azjatyckie morze, wokół którego leży wiele ludnych krajów, w tym potężne Chiny, jest źródłem cennych zasobów, ale też konfliktów. Każdy chciałby wyszarpnąć jak najwięcej dla siebie.Środowiskiem nie przejmuje się nikt."
+             :places      [{:region "Morze Południowochińskie"
+                            :coords [12 113]}]}
+            {:title       "Puszcza dla irokeza"
+             :description "Dzięki zaskakującej internetowej sławie pewnego makaka czubatego imieniem Naruto cały gatunek na chwilę skupił na sobie uwagę. Być może dzięki takiemu rozwojowi wypadków widoki na ocalenie tych małp są nieco lepsze."
+             :places      [{:country "Indonezja"
+                            :coords  [1.516667 125.183333]}]}
+            {:title       "Metropolis"
+             :description "Świat urbanizuje się w oszałamiającym tempie i Martin Roemers postanowił pokazać ten proces, a raczej jego skutek. Zrobił więc portrety megamiast – takich, w których żyje ponad 10 mln ludzi. Zobaczcie, jak mogą być różne."
+             :places      [{:country "Pakistan"
+                            :city    "Karaczi"
+                            :coords  [24.86 67.01]}
+                           {:country "Francja"
+                            :city    "Paryż"
+                            :coords  [48.866667 2.35]}
+                           {:country "Japonia"
+                            :city    "Tokio"
+                            :coords  [35.683333 139.683333]}
+                           {:country "Nigeria"
+                            :city    "Lagos"
+                            :coords  [6.455027 3.384082]}
+                           {:country "Indie"
+                            :city    "Kalkuta"
+                            :coords  [22.566667 88.366667]}]}]}

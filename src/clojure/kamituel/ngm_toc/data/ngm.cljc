@@ -30,6 +30,23 @@
                  :description "Niezbyt urodziwy ale szaleńczo odważny i wytrwały. Lubi śnieżne środowisko Północy,a z tym nie jest dobrze."
                  :places [{:country "Kanada"}
                           {:country "USA"}]}]}
+   {:year 2019 :month 7 :vol -1
+    :articles [{:title "Jak dostaliśmy się na Księżyc..."
+                :description "Dzięki ludzkiej determinacji, dzielności i ogromnym pieniądzom 66 lat po locie braci Wright dokonaliśmy rzeczy niebywałej."
+                :places [{:country "USA" :tags ["NASA"]}]}
+               {:title "... i co dalej"
+                :description "Dziś kosmiczny wyścig jest bardziej międzynarodowy, sprywatyzowany, nastawiony na zyski i tłoczny. Na co liczą jego zwycięzcy?"
+                :places [{:country "USA" :tags ["Virgin Galactic" "Boeing" "NASA"]}]}
+               {:title "Niger"
+                :description "Ten biedny zachodnioafrykański kraj otoczony przez niestabilnych sąsiadów usiłuje bronić się przed osunięciem w społeczno-polityczny chaos."
+                :places [{:country "Niger"}]}
+               {:title "Namorzynowy wał"
+                :description "Kiedyś przybrzeżny las mangrowców chronił ląd przed wodami oceanu. Teraz ta bariera pada."
+                :places [{:country "Indie" :coords [21.840236 88.989891]}
+                         {:country "Bangladesz"}]}
+               {:title "Morski koniec świata"
+                :description "Argentyna właśnie postanowiła chronić ogromny morski obszar u swoich południowych krańców, pełen cudów podwodnego życia."
+                :places [{:country "Argentyna" :tags ["Zatoka Thetis"] :coords [-53.854038 -66.426958]}]}]}
    {:year 2019 :month 6 :vol 237
     :articles [{:title "Zooturystyka"
                 :description "Kontakt z dzikimi zwierzętami bywa dla ludzi źródłem euforycznych doznań. Ale za pięknymi fotografiami prezentowanymi w mediach społecznościowych kryje się przemysł pełen okrucieństwa i brutalnej eksploatacji zwierząt."
@@ -165,42 +182,7 @@
                {:title "Pelikany"
                 :description "Mimo swych imponujących rozmiarów pelikany wielkich emocji nie budzą. A chyba powinny, czego postaramy się dowieść."
                 :places [{:country "Grecja" :region "Jezioro Kerkini" :coords [41.209750 23.129979]}]}]}
-   {:year 2017 :month 4 :vol 211
-   :articles [{:title "Rewolucja w DNA"
-               :description "Władzę nad światem natury, dzięki metodzie szybkiego wprowadzania zaprojektowanych zmian w genomie do całej populacji gatunku, mamy na wyciągnięcie ręki. Rzecz w tym, że prób niebywałego postępu w leczeniu chorób może też przynieść skutki, których nawet nie jesteśmy w stanie przewidzieć."}
-              {:title "Zmiany klimatu"
-               :description "Na Ziemi jest już 7 mld ludzi i wszyscy chcą korzystać z dobrodziejstw cywilizacji. Dlatego potrzebujemy ogromnych ilości energii, a jej pozyskiwanie najbardziej zmienia nasz klimat. Wielu ludzi wątpi w realność tego problemu, ale to nie jest żaden naukowy spisek. Czy tego chce, czy nie, ludzkość czeka radykalne przeorganizowanie sposobu życia."}
-              {:title "Życie po ISIS"
-               :description "Państwo Islamskie, które opanowało znaczne obszary pogrążonego w powojennym chaosie Iraku, teraz cofa się pod naporem międzynarodowej koalicji. Pozostawia po sobie obrazy szalonej, brutalnej destrukcji, która - co najdziwniejsze - dotyka nie tylko przeciwników ISIS, ale także jego zwolenników."
-               :places [{:country "Syria" :coords [36.34 43.13]}
-                        {:country "Irak" :coords [35.95 39.0167]}]}
-              {:title "Łąki krwiawiących serc"
-               :description "Dżelady - jedyne na świecie trawożerne małpy - mają się nieźle na sawannach regionu Menz-Guassa w Etopii. Jak ten bogaty ekosystem przetrwał w drugim pod względem populacji kraju w Afryce, zaorującym wciąż nowe grunty? Dzięki niezwykłej wielowiekowej umowie społecznej."
-               :places [{:country "Etiopia" :coords [10.342222 39.762778]}]}
-              {:title "Modele chaosu"
-               :description "Jak wyglądałyby nasze miasta po kataklizmie, który unicestwiłby ludzkość? Jak natura brałaby je we władanie? Lori Nix i Kathleen Gerber próbują to pokazać w swoich zminiaturyzowanych dioramach będących połączeniem poglądowych makiet i dzieł sztuki."}]}
-   {:year 2017 :month 3 :vol 210
-   :articles [{:title "Wikingowie"
-               :description "Wojownicy, grabieżcy, kupcy, odkrywcy, dandysi. Nie ma jednej prawdy o wikingach, a co pewien czas dowiadujemy się o nich czegoś nowego. I może dlatego ci nieustraszeni mieszkańcy północnych krain Europy tak dobrze zadomowili się w zbiorowej wyobraźni."}
-              {:title "Świat dziewcząt"
-               :description "Są kraje, w których bycie dziewczynką oznacza konieczność poddania się okrutnym tradycjom i nie mniej okrutnej społecznej rzeczywistości. W Sierra Leone dziewczęce marzenia są skromniejsze niż gdzie indziej."
-               :places [{:country "Sierra Leone" :coords [8.5 -11.5]}
-                        {:country "Indie" :coords [21 77]}]}
-              {:title "Mam 9 lat"
-               :description "Dzieci z różnych części świata opowiadają, jak widzą swoją przyszłość – szczerze, bo nie ulegają jeszcze, jak nastolatki, autocenzurze, żeby dostosować się do innych."}
-              {:title "Morze sporów"
-               :description "Azjatyckie morze, wokół którego leży wiele ludnych krajów, w tym potężne Chiny, jest źródłem cennych zasobów, ale też konfliktów. Każdy chciałby wyszarpnąć jak najwięcej dla siebie.Środowiskiem nie przejmuje się nikt."
-               :places [{:region "Morze Południowochińskie" :coords [12 113]}]}
-              {:title "Puszcza dla irokeza"
-               :description "Dzięki zaskakującej internetowej sławie pewnego makaka czubatego imieniem Naruto cały gatunek na chwilę skupił na sobie uwagę. Być może dzięki takiemu rozwojowi wypadków widoki na ocalenie tych małp są nieco lepsze."
-               :places [{:country "Indonezja" :coords [1.516667 125.183333]}]}
-              {:title "Metropolis"
-               :description "Świat urbanizuje się w oszałamiającym tempie i Martin Roemers postanowił pokazać ten proces, a raczej jego skutek. Zrobił więc portrety megamiast – takich, w których żyje ponad 10 mln ludzi. Zobaczcie, jak mogą być różne."
-               :places [{:country "Pakistan" :city "Karaczi" :coords [24.86 67.01]}
-                        {:country "Francja" :city "Paryż" :coords [48.866667 2.35]}
-                        {:country "Japonia" :city "Tokio" :coords [35.683333 139.683333]}
-                        {:country "Nigeria" :city "Lagos" :coords [6.455027 3.384082]}
-                        {:country "Indie" :city "Kalkuta" :coords [22.566667 88.366667]}]}]}
+
    {:year 2017 :month 2 :vol 209
    :articles [{:title "Pił sobie człowiek"
                :description "Alkohol jest jednym z najbardziej uniwersalnych produktów w całej historii człowieka. I jakkolwiek kontrowersyjnie by to zabrzmiało - w pewnym sensie nas uformował."}

@@ -1,0 +1,32 @@
+{:year     2017
+ :month    11
+ :vol      218
+ :articles [{:title       "Sekrety tronu Piastów"
+             :description "W jakimś sensie Polska powstała \"z niczego\". Władzctwo Piastów wyrosło ni stąd, ni zowąd wśród puszcz między Wisłą a Odrą jako polityczny byt z wielkimi ambicjami. Badacze próbują jednak odtworzyć ten fascynujący proces, zaś wiele z ich ustaleń wywraca wyniesioną przez nas ze szkoły historyczną wiedzę do góry nogami."
+             :tags        ["Piastowie" "Polanie"]
+             :places      [{:country "Polska"
+                            :city    "Poznań"
+                            :tags    ["Ostrów Tumski"]
+                            :coords  [52.413002 16.947660]}
+                           {:country "Polska"
+                            :city    "Gniezno"
+                            :tags    ["Wzgórze Lecha"]
+                            :coords  [52.536897 17.591826]}]}
+
+            {:title       "Człowiek 2.0"
+             :description "Przez tysiąclecia lat człowieka kształtowała ewolucja. Teraz jednak górę bierze nauka i technologia. W niedalekiej przyszłości będziemy już inni."}
+
+            {:title       "Skrzydlate dziwadła"
+             :description "Imponujące skrzydła, ogromne głowy i maleńkie tłowie - anatomia pterozaurów budzi zdumienie. A jeszcze bardziej - ich rozmiary i sposób, w jaki wzbijały się w powietrze."}
+
+            {:title       "Oko na reżim"
+             :description "Korea Północna to najbardziej zamknięte państwo świata. Mimo to co roku wpuszczało około tysiąca turystów z USA. Co tam zobaczyli?"
+             :places      [{:country "Korea Północna"
+                            :coords  [39.04 125.76]}]}
+
+            {:title       "Okawango"
+             :description "Ta niezwykła rzeka nie uchodzi do morza, tylko na pustynię. Jak sprawić, żeby jej delta - cud natury - przetrwała?"
+             :places      [{:country "Angola"}
+                           {:country "Namibia"}
+                           {:country "Botswana"
+                            :coords  [-19.02 22.48]}]}]}

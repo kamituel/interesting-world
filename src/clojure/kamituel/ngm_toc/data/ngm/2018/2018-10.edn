@@ -1,0 +1,61 @@
+{:year     2018
+ :month    10
+ :vol      229
+ :articles [{:title       "Kazimierz Wielki"
+             :description "Król Kazimierz był wielki. Dla Polaków to fakt tak domyślnie oczywisty, że nawet nie jesteśmy w stanie mówić o tym władcy w jakikolwiek inny sposób. Dlaczego jako jedyny władca Polski zyskał ten przydomek? I czy słusznie? Na okładce jest Andrzej Hausner, odtwórca roli Kazimierza III Wielkiego w drugim sezonie serialu Telewizji Polskiej pt. „Korona królów”."
+             :places      [{:country "Polska"}
+                           {:country "Polska"
+                            :city    "Bobolice"
+                            :coords  [50.613264  19.493005]
+                            :tags    ["zamek"]}
+                           {:country "Polska"
+                            :city    "Będzin"
+                            :coords  [50.327221 19.129121]
+                            :tags    ["zamek"]}
+                           {:country "Polska"
+                            :city    "Pieskowa Skała"
+                            :coords  [50.244238 19.779446]
+                            :tags    ["zamek"]}]}
+
+            {:title       "Sokoły"
+             :description "Od stuleci ludzi łączyła wyjątkowa więź z sokołami, najszybszymi zwierzętami świata. Teraz pewien szejk i jego sokolnik hodują i szkolą te ptaki w sposób, który może być wzorcem dla ich ochrony. (\"Władcy nieba\", Peter Gwin) Artykuł powstał w ramach kampanii National Geographic „2018 ROK PTAKÓW” koncentrującej się na znaczeniu oraz ochronie tych niezwykłych stworzeń."
+             :places      [{:country "Zjednoczone Emiraty Arabskie"}]}
+
+            {:title       "Park narodowy Sarek"
+             :description "Niewiele jest w Europie krain tak dziewiczych jak Park Narodowy Sarek. W surowych, odludnych wspaniałościach Laponii turyści są pozostawieni sami sobie. („Dzikie serce Szwecji”, Don Belt)"
+             :places      [{:country "Szwecja"
+                            :coords  [67.3 17.7]
+                            :tags    ["park narodowy sarek"]}]}
+
+            {:title       "Irańscy nomadzi"
+             :description "Współczesny świat przyciąga młode pokolenie koczowników do miast. A wielu z tych, którzy wciąż jeszcze tego stylu życia nie porzucili, zastanawia się, ile jest warte takie życie."
+             :places      [{:country "Iran"
+                            :tags    ["nomadzi bakhtiari"]
+                            :coords  [32.7 49.4]}]}
+
+            {:title       "Gorsi Amerykanie"
+             :description "W czasie II wojny USA uwięziły bez sądu ponad 100 tys. obywateli z japońskimi korzeniami."
+             :places      [{:country "USA"
+                            :city    "Los Angeles"
+                            :coords  [34.137757 -118.043938]
+                            :tags    ["Santa Anita (detention facility)"]}
+                           {:country "USA"
+                            :tags    ["Heart Mountain Relocation Center"]
+                            :coords  [44.671667 -108.946389]}
+                           {:country "USA"
+                            :tags    ["Puyallup Assembly Center" "Camp Harmony"]
+                            :coords  [47.182879 -122.295397]
+                            :city    "Puyallup"}
+                           {:country "USA"
+                            :city    "Phoenix"
+                            :tags    ["Gila River War Relocation Center"]
+                            :coords  [33.065083 -111.830528]}]}
+
+            {:title       "Meduzy"
+             :description "Może i są bezmózgie. Ale także piękne, a czasami nawet... nieśmiertelne."}
+
+            {:title       "Szwedzka Laponia"
+             :description "Niewiele jest w Europie krain równie dziewiczych."
+             :places      [{:country "Szwecja"
+                            :tags    ["kraina laponii"]
+                            :coords  [67.4 17.3]}]}]}

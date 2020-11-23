@@ -1,0 +1,18 @@
+{:year     2018
+ :month    5
+ :vol      224
+ :articles [{:title       "Pablo Picasso"
+             :description "To nazwisko zna chyba każdy. Nie tylko ze względu na znaczenie tej postaci w sztukach plastycznych, ale też świadome budowanie przez nią \"marki\" . Wielka samoświadomość, siła woli, obsesyjne poświęcenie się pracy i spora doza bezwzględności - oto co stworzyło geniusza."}
+
+            {:title       "Być muzułmaninem w Ameryce"
+             :description "Jest ich 3,45 mln. Są imigrantami z ponad 75 krajów. Choć często funkcjonują w otoczeniu im niechętnym, organizują się, budują meczety - i rosną w siłę."
+             :places      [{:country "USA"}]}
+
+            {:title       "Dinozaury, które nie wyginęły"
+             :description "Skąd się wzięły ptaki? W prostej linii od dinozaurów. Niedobitków, które przetrwały uderzenie asteroidy sprzed 66 mln lat."}
+
+            {:title       "Śmierć dla życia"
+             :description "Atol Fakarava na Polinezji Francuskiej w czerwcu oferuje rzadki spektakl: amory populacji garników pod okiem bezwzględnego rekiniego stada."
+             :places      [{:country "Francja"
+                            :coords  [-16.3 -145.633333]
+                            :tags    ["Atol Fakarava" "Polinezja Francuska"]}]}]}
